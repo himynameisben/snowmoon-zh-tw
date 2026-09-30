@@ -326,8 +326,13 @@ def cmd_terms(args) -> int:
     problems = 0
     for ent in entries:
         rx = en_regex(ent["en"])
+        # 較長的詞條若包含本詞（例如 Min 與 Hun Min），先從原文遮掉，避免誤判
+        longer = [en_regex(o["en"]) for o in entries
+                  if o["en"] != ent["en"] and rx.search(o["en"])]
         missing, avoided = [], []
         for n, (en, zh) in texts.items():
+            for lr in longer:
+                en = lr.sub(" ", en)
             if ent["avoid"]:
                 for a in ent["avoid"]:
                     c = zh.count(a)
