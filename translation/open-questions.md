@@ -5,13 +5,14 @@
 
 ## Q1：書名與月名 Snowmoon 怎麼譯？
 - 狀態：待決
-- 相關詞條：Snowmoon（glossary.md）
+- 相關詞條：Snowmoon（glossary.md）、Rainmoon、Windmoon、Bloomtime、Grasstime（worldbuilding.md）
 - 背景：Snowmoon 是書名，也是曆法中的月名，每章 dateline 都有「3724 Snowmoon N」。ch01–04 全發生在這個月。月名與書名最好同一譯法。
 - 選項：
   1. 雪月（建議）— 簡潔、像月名，dateline「3724 年雪月 3 日」讀起來自然；書名《雪月》有詩意。
   2. 雪之月 — 更像書名，但放在日期裡太長、太日式。
   3. 書名保留《Snowmoon》，月名譯「雪月」— 保留原書辨識度，但書名與月名的呼應會消失。
-- 目前暫用：雪月
+- 補充（ch10–12）：後續月名有兩種字尾：Rainmoon、Windmoon（-moon），Bloomtime、Grasstime（-time）。建議 -moon 一律「X月」、-time 一律「X季」（花季、草季），保留原文的區分。另外 Windmoon 直譯「風月」在中文有「風花雪月／風月場所」的聯想；dateline 裡讀者應能看懂是月名，建議照用，若介意可改「颳風月」或全部改「X之月」（雪之月、雨之月、風之月）。
+- 目前暫用：雪月；雨月、風月、花季、草季
 
 ## Q2：Veridia 系人名的音譯風格與字數
 - 狀態：待決
@@ -25,12 +26,13 @@
 
 ## Q3：Dzego 系人名、地名與專有名詞的譯法
 - 狀態：待決
-- 相關詞條：Dzego、Dzegoban、Pafogai Du、Zei、Fin、Bai、Mu、Minpentai、Bansunpei、Hun Min 等（characters.md / worldbuilding.md / glossary.md）
+- 相關詞條：Dzego、Dzegoban、Pafogai Du、Sadzu Du、Zei、Fin、Bai、Mu、Min、Den、Su、Minpentai、Bansunpei、Kungaupei、Hun Min 等（characters.md / worldbuilding.md / glossary.md）
 - 背景：Dzego 是有東亞氛圍的國家（可愛卡通美學、分散式製造、百年前戰敗），其語言 Dzegoban 是單音節人造語言，原文以羅馬拼音呈現。人名多為單音節（Zei、Fin、Bai、Mu），全名如 Zei Leimin、Bai Jahen。首見 ch01（Dzego）、ch02（人名）。
 - 選項：
   1. 一音節一漢字、選用人名／地名常用字（建議）：哲戈、帕佛蓋都、澤、汾、白、穆、澤・雷明、明盤台、班順派 — 讀起來有東亞感、短而好記，與 Veridia 的西式音譯形成對比，呼應原作的文化差異。
   2. 西式音譯：澤伊、芬恩、拜、穆、澤伊・雷明、明潘泰 — 中性，但讀起來像西方人名，失去東亞感。
   3. 人名保留原文拼音（Zei、Fin）— 最忠實，但中文敘事中夾大量英文字母，閱讀感差。
+- 補充（ch09–12）：組織名 Bansunpei、Kungaupei 同以 -pei 收尾，建議一律譯「派」（班順派、昆高派）；首都 Sadzu Du 的拼音意為「主城」，原文特別說明「helpfully-named」，音譯「薩祖都」後照譯原文的英文釋義即可。ch12 有紅郡選手 Deluin 被哲戈人叫成「De lu hin」，說明「不像哲戈名字」——哲戈人名與外國人名的譯法必須看得出差異，這也支持選項 1。
 - 補充：無論選哪個，Dzegoban 的句子、口號、招牌、倒數（gie fe kiu kai ci bin hu、MU GU GEI FA）都建議保留羅馬拼音，只翻原文附的英文釋義。
 - 目前暫用：選項 1
 

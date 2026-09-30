@@ -24,7 +24,7 @@
 | Fin | 汾 | 男／他 | Zei 的好友，高中生，上過 DU 語言學課 | ch02 | 芬 | 【待決】Q3。「芬」太女性化 |
 | Bai | 白 | 女／她 | 明盤台選手，Zei 的宿敵，與 Zei 同齡 | ch04 | 拜 | 【待決】Q3。全名 Bai Jahen→白・嘉恆 |
 | Bai Jahen | 白・嘉恆 | 女／她 | Bai 的全名 | ch04 | - | |
-| Mu | 穆 | 女／她 | 年長女性，明盤台圈內人，與祭司有往來，和 Zei 熟識 | ch04 | - | 關係待後文確認（她抱怨 Zei 沒記得她生日） |
+| Mu | 穆 | 女／她 | 年長女性，明盤台圈內人，昆高派相關人物（ch10 與鄧同席），和 Zei 熟識 | ch04 | - | ⚠ ch10 揭露她與昆高派的關係；她抱怨 Zei 沒記得她生日，親屬關係仍未明 |
 | Pan Munbau | 潘・孟寶 | 男／他 | 明盤台選手（Ja 隊） | ch04 | - | 敘事中簡稱 Pan→潘 |
 | Pan | 潘 | 男／他 | 見 Pan Munbau | ch04 | - | |
 | Dza Dzingo | 札・津戈 | 男／他 | 明盤台選手（Ja 隊） | ch04 | - | 敘事中簡稱 Dza→札 |
@@ -36,6 +36,19 @@
 | Verdow | 韋爾多 | 男／他 | 參議員，遴選聽證委員 | ch08 | - | Senator Verdow→韋爾多參議員 |
 | Papli | 帕普利 | 男／他 | 參議員，對 Gladias 最有敵意的民粹派 | ch08 | - | 稱呼時原文不加頭銜（"Next question! Papli."） |
 | Ancus | 安庫斯 | 男／他 | 參議員，替 Gladias 說話 | ch08 | - | Senator Ancus→安庫斯參議員 |
+| Den | 鄧 | 男／他 | 昆高派最高議會成員，招募澤進入國防密碼學工作 | ch09 | - | 【待決】Q3。穿明盤台祭司的斗篷；Kungaupei councilor→昆高派議員 |
+| Su | 蘇 | 女／她 | 明盤台祭司，全國賽主辦人之一，年紀與穆相仿 | ch12 | - | 【待決】Q3 |
+| Jin | 金 | 未明（暫用他） | 全國賽總主辦，頭銜 Taskmaster | ch12 | - | Taskmaster Jin→金總督導；原文無代名詞 |
+| Deluin | 德盧因 | 男／他 | 來自紅郡的外國參賽者，年長少年 | ch12 | - | 哲戈人叫他「De lu hin」（保留拼音，意為「有……外表的叉子」），譯文照原文附釋義 |
+| Bo Zume | 柏・祖美 | 未明（暫用他） | 薩祖都在地選手，澤的第一場全國賽對手 | ch12 | - | 簡稱 Bo→柏；原文未給性別 |
+| Bo | 柏 | 未明（暫用他） | 見 Bo Zume | ch12 | - | |
+| Utaku | 烏塔庫 | 女／她 | 來自貝爾帕基、在自由城經濟研究所讀博士 | ch10 | - | |
+| Dommus | 多穆斯 | 未明 | 旋翼球比賽的紫隊孩子 | ch11 | - | 只在播報中出現 |
+| Gale | 蓋爾 | 男／他 | 旋翼球紫隊孩子，最後差一點得分 | ch11 | - | |
+| Dela | 黛拉 | 未明（暫用她） | 旋翼球黃隊孩子 | ch11 | - | 只在播報中出現 |
+| Plat | 普拉特 | 未明 | 旋翼球黃隊孩子 | ch11 | - | 只在播報中出現 |
+| Meny | 梅妮 | 未明 | 旋翼球紫隊孩子 | ch11 | - | 只在播報中出現 |
+| Egardo | 艾加多 | 未明 | 旋翼球紫隊孩子 | ch11 | - | 只在播報中出現 |
 
 - **代名詞**：他／她／祂／它，全書一致。AI、群體、非人角色的代名詞在這裡定案。
 - 人名音譯原則見 `worldbuilding.md`〈命名原則〉。
@@ -59,6 +72,7 @@
 - 說話風格：理性、溫和、愛用數學想事情，內心獨白帶自嘲的冷幽默（"Oh great. Actual responsibility." ch01）；對話簡短、講理（"It has its flaws like any system, but in general it feels fine?" ch03）。被逼急時會變成頑皮、有點狡猾的一面（ch01 "Wait, is that a new screed from the Arctic Emperor?"）。
 - 中文口吻：平實、口語但不油；內心獨白可用短句營造冷面笑點（「太好了。真正的責任。」）；不用台語詞。
 - 補充（ch05–08）：39 歲；當了四年見習生，預測分數在第 94 百分位；年輕時參加程式競賽、業餘讀法律。ch06 提交路線選擇「守律者」（部分出於德爾瓦特的遊說，並瞞著賽菈真正原因）；ch08 議會委員會遴選聽證以 10 比 10、主席投下決定票通過，正式入會。緊張時會結巴（"Well", Gladias stammered. ch08）；對莉莉溫柔安慰（"Scores aren't everything." ch08）；在儀式上會開不合時宜的玩笑（"Then I guess you can call me by whatever the digits of the nullifier in my proof are." ch06）。
+- 補充（ch10–11）：以守律者身分參加三個小組（公開活動與演出文化價值規準：四號；硬體開放性規準：六號；空氣品質規準：二號）。在小組中想推動「別讓規準把藝術變得平淡」，會發表較長的論述（"But violence is part of life." ch10）；對家人保密德爾瓦特的事。心算分貝、CO₂ 等數字是他一貫的思考方式。
 - 首見：ch01
 
 ### 賽菈（Seila）
@@ -67,12 +81,14 @@
 - 說話風格：溫暖、輕快（"It's okay to not be good at everything" ch01；"Was just writing up my blog post" ch01）。
 - 中文口吻：自然口語，母親的溫柔語氣，不過度撒嬌。
 - 補充（ch05–08）：部落格主題是經濟與文化。在自由城與楊恩同行，介紹他時頓了一下（"And this is my ... friend, Jahn." ch05），暗示關係不只是朋友——譯文保留停頓，不要替讀者下結論。熱心支持 Gladias 當守律者、去幫哲戈（"As they say, Dze go ba fau gie!" ch05）。ch08 人在伊普塔克。
+- 補充（ch10–11）：已回到梅爾丹。愛開玩笑但會弄錯哲戈語（"Veridia ba 'fun' gie!" ch10）；引用維瑞迪亞古作家的句子稱讚茲文（"He took the path less traveled...and that blazed a trail for all." ch11）；叫 Gladias「Glad」。
 - 首見：ch01
 
 ### 茲文（Zven）
 - 身分：Gladias 與 Seila 的小兒子。
 - 說話風格：活潑、大聲、好勝（"Number five, I win!" ch01；"Yay, I love Uncle Vil!" ch01）。
 - 中文口吻：小孩子的直白與興奮，可用「耶」「我贏了」。
+- 補充（ch11）：約十到十二歲，第一次正式旋翼球比賽，以「撿起地上摔壞的第四顆紅球」這種出奇招讓黃隊獲勝；Daia 覺得他的算術作業比費布里克當年簡單。
 - 首見：ch01
 
 ### 莉莉（Lily）
@@ -124,6 +140,7 @@
 - 說話風格：數理腦、講解清楚，會在緊張時開冷笑話（"I think we know much less about this wall than we knew two minutes ago" ch02）；對白嘴硬（"Come on, you gotta give me something more substantive than that." ch04）。
 - 中文口吻：青少年口語，講道理時條理分明；不用台語詞。
 - 補充（ch05–07）：準決賽輕鬆獲勝，與白、媽媽敏同遊自由城；對賽局理論朗朗上口（囚犯困境、剩餘）；提到被炸斷手臂時一派輕鬆（"Oh yeah, my arm broke when our classroom got bombed a while back." ch05）；考慮讀物理或密碼學。ch07 在帕佛蓋都決賽擊敗白，另外收到一封深紫色、「僅限澤親閱」的信。
+- 補充（ch09–12）：收到信後被昆高派的鄧招募，轉讀密碼學（一個月內讀完三分之一課程、前兩次考試滿分）；得知明盤台其實是軍事訓練，答應保密（連汾也不說），對媽媽也不能說實話。ch12 到首都薩祖都參加全國賽，第一場在六角格新規則下，用「時間反向」推導出產生印記的方法獲勝。口吻仍帶學生氣但更沉穩（"It's all entropy, isn't it" ch12）。
 - 首見：ch02
 
 ### 汾（Fin）
@@ -131,6 +148,7 @@
 - 說話風格：輕鬆、愛調侃（"You mean this year is your last chance to impress Bai?" ch04），講義氣（"I'll take you" ch02），講起新知很興奮（"Go visual." ch04）。
 - 中文口吻：朋友間的輕鬆吐槽；說明語言學時可以有點得意。
 - 補充（ch07）：在班順派接受語言學訓練，被認為適合加入；會替澤回嗆白（"You know if you were nicer to Zei..." ch07）；對政府的失敗冷笑（"Heh"）。
+- 補充（ch09–12）：在白哭訴時安慰她，興致勃勃地講解哲戈語文法（"Dzegoban is a masterpiece" ch09）；越來越忙於班順派的事，和澤、白都少聯絡。
 - 首見：ch02
 
 ### 白（Bai）
@@ -139,6 +157,7 @@
 - 說話風格：挑釁、得意、刻意刺人（"So, you afraid of me, Zei? You know I enjoy making you feel afraid." ch04）；道歉只有一句（"I'm sorry." ch04）。
 - 中文口吻：嘲諷、自信，句尾可帶笑意；道歉要短、不補情緒。
 - 補充（ch05–07）：兩人和解後一起去自由城，她對澤半開玩笑地示好（"Though for me what you call the surplus is spending time with you." ch05），嘴上仍愛損澤；決賽敗給澤後大方認輸（"Congratulations, Zei. You only had to wait until our last season to beat me." ch07）。
+- 補充（ch09–12）：⚠ ch09 揭露她父母在她小時候死於北極帝國造成的實驗室爆炸，由冷淡的姑姨（aunt）收養，從小靠自己打工賺錢；所以澤與汾「帶上你媽」的玩笑刺痛她。情緒爆發時大吼（"My mom is DEAD! My dad too." ch09），之後又能坦率欣賞澤的戰術。ch10 與澤練習對戰並贏他；ch12 受鄧的人委派到薩祖都記錄參賽者戰術。
 - 首見：ch04（ch04 前半汾先提到她）
 
 ### 穆（Mu）
@@ -147,6 +166,7 @@
 - 說話風格：溫和、帶點長輩的叮嚀與神祕（"Well be careful. Remember, you're going to be part of a team now." ch04；"The priests will be pleased." ch04）。
 - 中文口吻：長輩式關心；澤對她用「你」（兩人熟，原文隨意）。
 - 補充（ch07）：舉杯說「Dze go ba fau gie」讓澤覺得不太對勁；對維瑞迪亞制度（掌舵、法院、議會）瞭若指掌，講起「隱藏思考」的道理像導師（"In the real world, it's not just thinking well that matters, it's also hiding your thoughts" ch07）。身分似乎不只是賽事工作人員，後文可能揭露。
+- 補充（ch10）：⚠ 與昆高派的鄧同席，親口揭露明盤台是軍事訓練（"It's military training." ch10），說話節奏是一連串排比（"People who can..."），譯文要保留排比。
 - 首見：ch04
 
 ### DU 物理講師（instructor, ch02）
@@ -171,6 +191,7 @@
 - 身分：共養家庭的父親，費布里克與赫蕾妲的爸爸；現在照顧四個孩子。
 - 說話風格：禮貌、直接（"Sorry to bother you, but it's about Lily." ch08），會用獎勵激勵孩子（帶去北林旅行）。
 - 中文口吻：平實的家長口吻。
+- 補充（ch11）：半年前任職的 Jump 公司破產，發現是避險基金「分歧」的操作，正與同事提集體訴訟；說話客氣、怕麻煩別人（"I've been trying not to burden you guys with the details" ch11）。
 - 首見：ch01（名字）、ch08（訊息與對話）
 
 ### 佩萊（Pelae）
@@ -208,6 +229,42 @@
 - 說話風格：程序性、簡短（"Order!"、"Time for the vote!" ch08）。
 - 中文口吻：主持議事的口吻；"Order!"→「肅靜！」／「請遵守秩序！」。
 - 首見：ch08
+
+### 黛亞（Daia）
+- 身分：共養家庭的母親，費布里克與赫蕾妲的媽媽。
+- 說話風格：熱情、細心（"Happy to see you here!" ch11），會留意孩子的課業程度。
+- 中文口吻：親切的家長口吻。
+- 首見：ch01（名字）、ch11（對話）
+
+### 鄧（Den）
+- 身分：昆高派最高議會成員，招募澤；穿明盤台祭司的斗篷。
+- 說話風格：像嚴格的老師，連續追問考學生（"How do I know it's not just forwarding responses from a different device somewhere else?" ch09），很快就假設對方會答應（"when you're ready, I will start suggesting some tasks for you." ch09）。
+- 中文口吻：沉穩、權威但不兇；講解密碼學清楚俐落。
+- 首見：ch09
+
+### 蘇（Su）
+- 身分：明盤台祭司，全國賽主辦人之一。
+- 說話風格：有禮、事務性（"Check in to the hotel, then orientation tomorrow morning." ch12）。
+- 中文口吻：接待人員式的親切。
+- 首見：ch12
+
+### 金總督導（Taskmaster Jin）
+- 身分：全國賽總主辦。
+- 說話風格：典禮致詞，冗長的規則說明（tie-break 公式）後以「Dze go ba fau gie」作結。
+- 中文口吻：正式致詞；規則說明要精確。
+- 首見：ch12
+
+### 德盧因（Deluin）
+- 身分：紅郡來的外國參賽者，第一次到哲戈。
+- 說話風格：開朗自嘲（"My name gave me away, didn't it?" ch12）。
+- 中文口吻：輕快的少年口吻。
+- 首見：ch12
+
+### 烏塔庫（Utaku）
+- 身分：貝爾帕基出身，在自由城經濟研究所讀博士；向楊恩說明各城國防預算的新聞。
+- 說話風格：消息靈通、講話直接（"Haven't you been following the news?" ch10）。
+- 中文口吻：研究生間的平輩口吻。
+- 首見：ch10
 
 ## 稱謂表
 
@@ -257,3 +314,18 @@
 | Vil | Lily | - | - | 你 | |
 | Mu | Zei、Bai | you two | 你們兩個 | 你們 | |
 | Fin | Bai | - | - | 你 | 替澤回嘴 |
+| Den | Zei | Zei | 澤 | 你 | 導師式 |
+| Zei | Den | - | - | 您 | 初見面時敬重（"I am honored to be here"），之後熟了可省略代名詞 |
+| Mu | Zei（ch10 昆高派場合） | - | - | 你 | |
+| Bai | Fin | - | - | 你 | |
+| Fin | Bai | - | - | 你 | |
+| Su | Zei | Zei | 澤 | 你 | |
+| Zei | Su | Su | 蘇 | 您 | 初次見面的長輩主辦人；原文直呼名字，中文可寫「蘇」並用「您」 |
+| Deluin | Zei | - | - | 你 | 同輩 |
+| Keeper 小組成員 | 彼此 | number Four 等 | 四號等 | 你 | 匿名，用編號互稱 |
+| Seila | Gladias | Glad | 格拉德 | 你 | |
+| Daia | Gladias | - | - | 你 | |
+| Gladias | Vil、Daia | Vil | 維爾 | 你 | |
+| 旋翼球教練 | 孩子們 | - | - | 你們 | |
+| Jahn | Utaku | - | - | 你 | 初識的平輩 |
+| 司機 | Zei | - | - | 你 | |

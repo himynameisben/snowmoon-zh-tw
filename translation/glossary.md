@@ -73,6 +73,46 @@
 | thought transcript | 思考紀錄 | 技術 | ch07 | 思維轉錄 | 明盤台決賽中 AI 的推理過程，雙方可互相讀取 |
 | fab | 晶圓廠 | 技術 | ch07 | - | distributed underground fabs→分散式地下晶圓廠 |
 | trie | 字典樹 | 技術 | ch06 | - | hash-based trie→雜湊字典樹；bounded-depth trees→有限深度樹 |
+| factoring | 因數分解 | 技術 | ch09 | 因式分解 | 「cube modulo n」→「對 n 取模的立方」；p times q→p 乘以 q |
+| elliptic curves | 橢圓曲線 | 技術 | ch09 | - | |
+| quantum computer | 量子電腦 | 技術 | ch09 | 量子計算機 | |
+| obfuscation | 混淆 | 技術 | ch09 | - | obfuscation protocols→混淆協定；指程式混淆 |
+| meta-program | 元程式 | 技術 | ch09 | 元程序 | |
+| linear transformations | 線性變換 | 技術 | ch09 | - | 「adding errors on top」→再加上誤差 |
+| physical unclonable function | 物理不可複製函數 | 技術 | ch09 | - | PUF |
+| public key | 公鑰 | 技術 | ch09 | 公共密鑰 | secret key→私鑰／秘密金鑰（依語境） |
+| signature | 簽章 | 技術 | ch09 | 簽名 | 動詞 sign→簽署；hash-based signatures→雜湊式簽章；stateless tree-of-tree-based→無狀態、以樹中樹為基礎的 |
+| public inspectors | 公共檢驗員 | 技術 | ch09 | - | destructively inspect→破壞性檢驗 |
+| supply chain | 供應鏈 | 技術 | ch09 | - | |
+| mixnet | 混合網路 | 技術 | ch09 | 混合網絡 | 三層加密、隨機節點轉送；ch09 延伸為實體物流的「混合網路」 |
+| node | 節點 | 技術 | ch09 | - | |
+| payload | 酬載 | 技術 | ch09 | 有效載荷 | 台灣資訊圈用法 |
+| collude | 共謀 | 技術 | ch09 | - | counter-colluding（ch10）→反制共謀 |
+| tamper-proof | 防竄改 | 技術 | ch09 | 防篡改 | |
+| latency | 延遲 | 技術 | ch09 | - | |
+| lightfoot | 光呎 | 自創詞 | ch09 | 光腳 | 光在一拍內走十億光呎；1 光呎 ≈ 259.02 公釐，接近英格沃爾舊單位；「呎」點出它接近英尺 |
+| formal verification | 形式驗證 | 技術 | ch10 | - | |
+| nonlinear junction detector | 非線性節點探測器 | 技術 | ch10 | - | 偵測竊聽器的真實工具 |
+| thermal | 熱像 | 技術 | ch10 | - | 「picking up any powered electronics with thermal」→用熱像偵測通電中的電子裝置 |
+| game tree | 賽局樹 | 技術 | ch10 | 博弈樹 | |
+| negative-sum game | 負和賽局 | 技術 | ch10 | 負和博弈 | |
+| war of attrition | 消耗戰 | 技術 | ch10 | - | |
+| deterrence | 嚇阻 | 技術 | ch10 | 威懾 | |
+| derivative | 衍生性商品 | 技術 | ch11 | 衍生品 | 金融語境 |
+| slippage | 滑價 | 技術 | ch11 | 滑點 | |
+| hedge fund | 避險基金 | 技術 | ch11 | 對沖基金 | |
+| free option | 免費選擇權 | 技術 | ch11 | 免費期權 | |
+| class action | 集體訴訟 | 制度 | ch11 | - | |
+| severance | 資遣費 | 制度 | ch11 | 遣散費 | |
+| tail risk | 尾部風險 | 技術 | ch11 | - | |
+| wastewater scanning | 汙水監測 | 技術 | ch11 | 污水掃描 | |
+| cleartext | 明文 | 技術 | ch11 | - | |
+| hash function | 雜湊函數 | 技術 | ch12 | 哈希函數 | hash algorithm→雜湊演算法 |
+| permutation | 置換 | 技術 | ch12 | 排列 | 密碼學語境 |
+| xor | XOR | 技術 | ch12 | 異或 | 保留英文；truncate-and-xor→截斷再 XOR |
+| round function | 輪函數 | 技術 | ch12 | - | |
+| hex grid | 六角格 | 自創詞 | ch12 | - | 明盤台全國賽的新規則；hexgrid 同 |
+| deuterium | 氘 | 技術 | ch11 | - | heavy water→重水；parts per million→ppm |
 
 ## 制度與治理
 
@@ -119,6 +159,16 @@
 | Openness in hardware | 硬體開放性 | 制度 | ch06 | - | 規準名稱（UI）；right to repair→維修權 |
 | Clean indoor air | 室內空氣潔淨 | 制度 | ch06 | - | 規準名稱（UI） |
 | academic and intellectual reputation score | 學術與知識信譽分數 | 制度 | ch05 | - | 大小寫不一，比對時不分大小寫 |
+| High Council | 最高議會 | 制度 | ch09 | - | 昆高派的領導機構；High Council member→最高議會成員；councilor（ch10）→議員 |
+| circle (Keeper group) | 小組 | 制度 | ch10 | 圈子 | 僅指守律者討論小組（"in this circle"、"third circle of Keepers"）；一般的 green circle 仍譯「圓圈」。third circle→第三個小組 |
+| third-year | 第三年 | 制度 | ch10 | - | 守律者的年資；second-year、first-year 同理 |
+| number Four | 四號 | 制度 | ch10 | - | 守律者在小組內以編號互稱（One、Four、Six、Nine、Eleven、Eighteen、Twenty、Zero、Two），一律譯「X 號」或直接「X 號」當稱呼；Zero→零號 |
+| defense budgets | 國防預算 | 制度 | ch10 | - | |
+| bounded matching | 有上限的配對補助 | 制度 | ch11 | - | 平方募資的配對資金 |
+| education committee | 教育委員會 | 制度 | ch11 | - | 由議會任命，管理公立學校 |
+| funding organs | 資助機構 | 制度 | ch11 | - | |
+| Taskmaster | 總督導 | 制度 | ch12 | - | 明盤台全國賽主辦的頭銜 |
+| qualifying games | 資格賽 | 制度 | ch12 | - | 全國賽：32 人、六輪資格賽、每輪間隔八天，勝場最多的四人進準決賽 |
 
 ## 物品、裝置與 AI
 
@@ -143,6 +193,10 @@
 | scratch-off one-time-scannable code | 刮開式一次性掃描碼 | 物品 | ch07 | - | 明盤台獎品，內含密碼學代幣與憑證 |
 | cryptographic tokens | 密碼學代幣 | 物品 | ch07 | 加密貨幣 | |
 | ozone-based electric water disinfection pen | 臭氧電解淨水筆 | 物品 | ch07 | - | 獎品之一 |
+| personal copter | 個人旋翼機 | 物品 | ch11 | - | 旋翼球用的座椅式飛行器，有防護罩，AI 會自動緩衝墜落 |
+| longevity package | 長壽套組 | 物品 | ch12 | - | 哲戈招牌「Get your longevity package here」 |
+| harness | 訓練框架 | 技術 | ch12 | - | 指微調 AI 的程式框架 |
+| green circle | 綠色圓圈 | 物品 | ch01 | - | 全書常見的感應點（閘門、桌面、門邊），手錶或手持裝置貼上去即可驗證、付款；glowing green outline→發綠光的外框 |
 
 ## 自創詞與其他
 
@@ -183,3 +237,8 @@
 | re-spec | 轉換專長 | 一般詞 | ch05 | - | 電玩用語，指重新分配技能點；Bai 用來說澤轉讀密碼學 |
 | DU chapter | DU 分部 | 一般詞 | ch05 | 章節 | chapter 此處是分部，不是書的章節 |
 | Order, please | 請遵守秩序 | 一般詞 | ch08 | - | 辯論主持人在希爾卡剛說出「The Order members」時打斷，Order（掌舵會／秩序）是巧合雙關，中文難以保留，照「秩序」譯並在譯者筆記說明；ch08 主席的 "Order!"→「肅靜！」 |
+| redball | 紅球 | 自創詞 | ch11 | - | 旋翼球的球：會飛的紅色小型無人機球 |
+| Veridia ba 'fun' gie | Veridia ba 'fun' gie | 自創詞 | ch10 | - | 賽菈把「Dze go ba fau gie」改成玩笑，想用英文 fun 取代，卻換錯字（fau 只是「再」）。保留拼音與引號；Gladias 的解釋照譯，「Veridia will be fun again」→「維瑞迪亞必將再次好玩」 |
+| jia dzu lie | jia dzu lie | 自創詞 | ch09 | - | 哲戈語「黑心果」＝酪梨（avocado）；汾以此解釋文法。例句 giu jan li mo fe jia dzu lie（那個人吃酪梨）等全保留拼音；li、fe、lo、zo、ji 等虛詞說明照譯 |
+| Great Book | 經典名著 | 一般詞 | ch10 | - | 維瑞迪亞學校必讀的經典；epic poems→史詩 |
+| path less traveled | 人跡較少的那條路 | 一般詞 | ch11 | - | 賽菈引用「維瑞迪亞古作家」；呼應佛洛斯特〈未行之路〉的台灣常見譯法 |
