@@ -46,6 +46,33 @@
 | compression | 壓縮 | 技術 | ch02 | - | data compression→資料壓縮 |
 | air quality monitor | 空氣品質監測器 | 技術 | ch02 | 空氣質量 | |
 | PM2.5 | PM2.5 | 技術 | ch03 | - | 裝置畫面保留 |
+| nullifier | 作廢碼 | 技術 | ch06 | 空值器、無效器 | 由信譽評價以確定性但不可連結的方式產生的偽隨機雜湊值，公開後可防止同一份信譽被重複使用。UI「Nullifier:」→「作廢碼：」。ch06 掌舵會成員以作廢碼開頭「372f」稱呼 Gladias（three-seven-two-eff→「三七二 F」） |
+| social recovery | 社交恢復 | 技術 | ch06 | 社會恢復 | 加密錢包術語：由事先指定的親友持有金鑰，湊足門檻（六取四）即可找回資產 |
+| combined signatures | 聯合簽章 | 技術 | ch06 | 聯合簽名 | |
+| hash | 雜湊值 | 技術 | ch05 | 哈希 | 動詞 hash→雜湊；hash-based trie→雜湊字典樹 |
+| pseudorandom | 偽隨機 | 技術 | ch06 | 偽任意 | |
+| unlinkable | 不可連結 | 技術 | ch06 | - | |
+| collateralize | 抵押 | 技術 | ch05 | - | zero-knowledge-collateralize→以零知識方式抵押；loan collateralized by his reputation→以信譽抵押借款 |
+| wallet | 錢包 | 技術 | ch06 | - | |
+| transaction | 交易 | 技術 | ch06 | - | |
+| hardware attestation | 硬體認證 | 技術 | ch05 | - | |
+| counter-surveillance network | 反監控網路 | 技術 | ch05 | 反監視網絡 | |
+| infrared scanning | 紅外線掃描 | 技術 | ch05 | - | randomized infrared scanning→隨機紅外線掃描 |
+| subvocalization | 默唸 | 技術 | ch06 | 亞發聲 | subvocalization neck band→默唸頸帶（只動喉部肌肉、不出聲說話） |
+| earpiece | 耳機 | 物品 | ch06 | - | |
+| far-UVC | 遠紫外線 C | 技術 | ch06 | - | far-UVC disinfection lights→遠紫外線 C 消毒燈；敘事中也可只寫「紫光燈」當 Gladias 猜測時 |
+| elastomeric respirator | 彈性體呼吸防護具 | 技術 | ch06 | - | |
+| prisoner's dilemma | 囚犯困境 | 技術 | ch05 | 囚徒困境 | 台灣通行譯名 |
+| surplus | 剩餘 | 技術 | ch05 | - | 經濟學的 surplus；Bai 回嘴時的「surplus」是同一詞，雙關要保留 |
+| geometric average | 幾何平均 | 技術 | ch05 | - | |
+| superlinearly | 超線性 | 技術 | ch05 | - | |
+| eigenvector | 特徵向量 | 技術 | ch08 | 本徵向量 | largest eigenvector→最大特徵向量 |
+| self-play | 自我對弈 | 技術 | ch07 | 自我博弈 | self-play finetune→自我對弈微調 |
+| finetune | 微調 | 技術 | ch07 | - | |
+| pipeline | 流程 | 技術 | ch07 | 管道 | |
+| thought transcript | 思考紀錄 | 技術 | ch07 | 思維轉錄 | 明盤台決賽中 AI 的推理過程，雙方可互相讀取 |
+| fab | 晶圓廠 | 技術 | ch07 | - | distributed underground fabs→分散式地下晶圓廠 |
+| trie | 字典樹 | 技術 | ch06 | - | hash-based trie→雜湊字典樹；bounded-depth trees→有限深度樹 |
 
 ## 制度與治理
 
@@ -78,6 +105,20 @@
 | reputation | 信譽 | 制度 | ch01 | 聲譽、名聲 | Rep score→信譽分數；UI「Rep score ≥ 200 Verified」→「信譽分數 ≥ 200 已驗證」；「200 rep anon」→信譽 200 的匿名者；reputation points（ch04 哲戈）→信譽點數 |
 | visa | 簽證 | 制度 | ch03 | - | 進入大梅港需要簽證 |
 | sortition | 抽籤 | 制度 | ch01 | - | 見 cryptographic sortition |
+| Herald | 傳令官 | 制度 | ch06 | 使者、傳令員 | 【待決】Q6。從守律者、哨兵中隨機抽出退任、負責對大眾說明的前成員 |
+| selection hearing | 遴選聽證會 | 制度 | ch08 | - | acceptance hearing→入會聽證會；admissions test→入會考核 |
+| Acceptance voting | 認可投票 | 制度 | ch08 | - | UI「Acceptance vote: Gladias」→「認可投票：格拉迪亞斯」 |
+| Senator | 參議員 | 制度 | ch08 | - | Senator Verdow→韋爾多參議員；the Chairman→主席 |
+| Chairman | 主席 | 制度 | ch08 | - | 議會委員會主席 |
+| Court judges | 法官 | 制度 | ch07 | - | |
+| broad listen reports | 廣聽報告 | 制度 | ch08 | 廣泛聆聽報告 | 取自「廣聽」（Broad Listening）的台灣用法 |
+| co-parents | 共養父母 | 制度 | ch05 | - | 見 co-family |
+| sales tax payments | 營業稅繳納 | 制度 | ch06 | - | 零知識營業稅，見 worldbuilding |
+| ground-floor active use | 一樓活化使用 | 制度 | ch06 | - | 規準名稱 |
+| Emergency preparedness in physical spaces | 實體空間緊急應變準備 | 制度 | ch06 | - | 規準名稱（UI） |
+| Openness in hardware | 硬體開放性 | 制度 | ch06 | - | 規準名稱（UI）；right to repair→維修權 |
+| Clean indoor air | 室內空氣潔淨 | 制度 | ch06 | - | 規準名稱（UI） |
+| academic and intellectual reputation score | 學術與知識信譽分數 | 制度 | ch05 | - | 大小寫不一，比對時不分大小寫 |
 
 ## 物品、裝置與 AI
 
@@ -97,6 +138,11 @@
 | air filter | 空氣清淨機 | 物品 | ch03 | - | 桌邊白盒；air filters（教室設備）→空氣過濾系統 |
 | sensor | 感測器 | 物品 | ch02 | 傳感器 | sensors designed to detect sensors→偵測感測器的感測器 |
 | hieroglyphics | 象形文字 | 一般詞 | ch04 | - | |
+| surveillance bat | 監視蝙蝠 | 物品 | ch06 | - | 莫夫用的小型偵察裝置，可丟在角落監聽或發出聲響 |
+| copter | 小型旋翼機 | 物品 | ch05 | 直升機 | 自由城上空載人載貨的小型飛行器 |
+| scratch-off one-time-scannable code | 刮開式一次性掃描碼 | 物品 | ch07 | - | 明盤台獎品，內含密碼學代幣與憑證 |
+| cryptographic tokens | 密碼學代幣 | 物品 | ch07 | 加密貨幣 | |
+| ozone-based electric water disinfection pen | 臭氧電解淨水筆 | 物品 | ch07 | - | 獎品之一 |
 
 ## 自創詞與其他
 
@@ -132,3 +178,8 @@
 | Dzegoban romanization | 保留原文 | 自創詞 | ch02 | - | 哲戈語的羅馬拼音（如 gie fe kiu kai ci bin hu、MU GU GEI FA、dz-card 內文字、裝置畫面的 zan／tie／tei、MUN GUI、TEI）一律保留原樣、大小寫不改，只翻原文附的英文解釋。本列只作說明，check.py 不比對 |
 | gie fe kiu kai ci bin hu | gie fe kiu kai ci bin hu | 自創詞 | ch02 | - | 保留拼音；英文釋義 Grow roots, no head →「扎根，無首」。哲戈的分散式自強戰略口號 |
 | Dze go ba fau gie | Dze go ba fau gie | 自創詞 | ch02 | - | 保留拼音；英文釋義 Dzego will rise again →「哲戈必將再起」 |
+| zipcoin | 吉普幣 | 自創詞 | ch06 | 拉鍊幣 | 【待決】Q11。貨幣；UI 縮寫 zc 保留原樣 |
+| Colorball | 彩球 | 自創詞 | ch08 | - | 學校遊戲，旋翼球（Helisport）的前身。ch11 出現的 redball 建議譯「紅球」以成套 |
+| re-spec | 轉換專長 | 一般詞 | ch05 | - | 電玩用語，指重新分配技能點；Bai 用來說澤轉讀密碼學 |
+| DU chapter | DU 分部 | 一般詞 | ch05 | 章節 | chapter 此處是分部，不是書的章節 |
+| Order, please | 請遵守秩序 | 一般詞 | ch08 | - | 辯論主持人在希爾卡剛說出「The Order members」時打斷，Order（掌舵會／秩序）是巧合雙關，中文難以保留，照「秩序」譯並在譯者筆記說明；ch08 主席的 "Order!"→「肅靜！」 |
