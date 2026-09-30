@@ -113,6 +113,34 @@
 | round function | 輪函數 | 技術 | ch12 | - | |
 | hex grid | 六角格 | 自創詞 | ch12 | - | 明盤台全國賽的新規則；hexgrid 同 |
 | deuterium | 氘 | 技術 | ch11 | - | heavy water→重水；parts per million→ppm |
+| anonymity set | 匿名集合 | 技術 | ch13 | 匿名集 | 十三號說透露性別「only cuts down my anonymity set by a factor of two」→只讓匿名集合縮小一半 |
+| zero-sum game | 零和賽局 | 技術 | ch13 | 零和博弈 | 與負和賽局成套 |
+| re-randomized AI-generated voice | 重新隨機化的 AI 合成語音 | 技術 | ch13 | - | 守律者小組以頸帶傳聲時的變聲處理 |
+| mass conservation | 質量守恆 | 技術 | ch14 | - | 明盤台語境：神壇是唯一違反質量守恆的物件 |
+| weight-preserving | 保持權重 | 技術 | ch14 | 保重 | 此處 weight 指格子中活細胞的數量（漢明權重）；「XOR is not weight-preserving, but it is reversible」→XOR 不保持權重，但可逆 |
+| Key Allocation Group | 金鑰分配小組 | 制度 | ch15 | 密鑰分配組 | 守律者產生投票金鑰時要當面見的五人小組（五取三）。縮寫 KAG 譯文不保留，改寫「金鑰小組」或「金鑰分配小組」 |
+| KAG | 金鑰小組／金鑰分配小組 | 制度 | ch15 | - | 見 Key Allocation Group |
+| voting key | 投票金鑰 | 技術 | ch15 | 投票密鑰 | 「Only votes signed with a valid key count」→只有用有效金鑰簽署的票才算數 |
+| blinded share | 盲化份額 | 技術 | ch15 | 盲分享 | 秘密分享的一份，經盲化處理；「each blinded share of the voting key」→投票金鑰的每一份盲化份額 |
+| obfuscated circuit | 經混淆的電路 | 技術 | ch15 | - | 程式混淆（obfuscation）產物；**不要**寫成「混淆電路」，那是 garbled circuit 的譯名（ch03） |
+| trusted hardware | 可信硬體 | 技術 | ch15 | 受信任硬件 | 莫夫的妙語「Humans - the ultimate trusted hardware.」→「人類——最終極的可信硬體。」 |
+| steganographic encoding | 隱寫編碼 | 技術 | ch15 | 隱寫術編碼方式 | steganography→隱寫術 |
+| least-significant bit | 最低有效位元 | 技術 | ch15 | 最低有效位 | higher-order bits→高位元；lowest-order binary digit→最低位的二進位數字。bit→位元（flip a bit→翻轉位元），不收成獨立詞條以免誤比對「a little bit」。澤後文加引號的「least significant」是雙關（LLM 判定「最不重要」的位元），照「最不重要」或「最低有效」皆可，要保留引號 |
+| language model | 語言模型 | 技術 | ch15 | - | LLM 保留英文 |
+| LLM | LLM | 技術 | ch15 | 大模型 | 保留英文 |
+| bucket | 桶 | 技術 | ch15 | 存儲桶 | 雜湊／分組演算法的 bucket；「the i'th bucket」→第 i 個桶 |
+| ciphertext | 密文 | 技術 | ch15 | - | 與 cleartext（明文）成對 |
+| decryption key | 解密金鑰 | 技術 | ch15 | 解密密鑰 | |
+| pseudorandom permutation | 偽隨機置換 | 技術 | ch15 | 偽隨機排列 | |
+| happy-path algorithm | 一切順利時的演算法 | 技術 | ch15 | 快樂路徑演算法 | 程式設計俚語 happy path，指沒遇到例外的流程；台灣工程師口語常直接說 happy path，但正文用中文描述較好讀 |
+| bandwidth | 頻寬 | 技術 | ch15 | 帶寬 | limited-bandwidth information channel→頻寬有限的資訊通道；higher-bandwidth channels→頻寬更高的通道 |
+| cover traffic | 掩護流量 | 技術 | ch15 | - | |
+| packet | 封包 | 技術 | ch15 | 數據包 | |
+| jamming equipment | 干擾設備 | 技術 | ch15 | - | |
+| receiving address | 收款地址 | 技術 | ch16 | 接收地址 | 加密錢包語境 |
+| transaction data field | 交易資料欄位 | 技術 | ch16 | 交易數據字段 | |
+| recovery procedure | 恢復程序 | 技術 | ch16 | - | 指社交恢復；「test my recovery procedure」→測試恢復程序 |
+| security question | 安全提問 | 技術 | ch15 | 密保問題 | ch15 澤說還沒問德盧因 security question；ch16 賽菈的訊息開頭「Security question:」→「安全提問：」。用於確認對方身分 |
 
 ## 制度與治理
 
@@ -169,6 +197,14 @@
 | funding organs | 資助機構 | 制度 | ch11 | - | |
 | Taskmaster | 總督導 | 制度 | ch12 | - | 明盤台全國賽主辦的頭銜 |
 | qualifying games | 資格賽 | 制度 | ch12 | - | 全國賽：32 人、六輪資格賽、每輪間隔八天，勝場最多的四人進準決賽 |
+| best-two-out-of-three | 三戰兩勝 | 制度 | ch14 | - | 全國賽決賽賽制 |
+| national champion | 全國冠軍 | 制度 | ch14 | - | national Minpentai champion→明盤台全國冠軍 |
+| conditional surrender | 有條件投降 | 制度 | ch15 | - | |
+| garrison | 駐軍 | 制度 | ch15 | - | Redshire garrisons→紅郡各地駐軍；garrison staff→駐軍人員 |
+| President | 總統 | 制度 | ch15 | - | 紅郡總統 Albor→阿爾博總統 |
+| Prime Minister | 總理 | 制度 | ch15 | 首相 | 紅郡總理 Celedil→塞勒迪爾總理 |
+| interventionism | 干預主義 | 制度 | ch16 | - | 德爾瓦特用語 |
+| shadow government | 影子政府 | 制度 | ch15 | - | 鄧：「The shadow society has to become the society. The shadow government has to become the government.」→影子社會必須成為社會本身，影子政府必須成為政府本身；排比要保留 |
 
 ## 物品、裝置與 AI
 
@@ -196,6 +232,13 @@
 | personal copter | 個人旋翼機 | 物品 | ch11 | - | 旋翼球用的座椅式飛行器，有防護罩，AI 會自動緩衝墜落 |
 | longevity package | 長壽套組 | 物品 | ch12 | - | 哲戈招牌「Get your longevity package here」 |
 | harness | 訓練框架 | 技術 | ch12 | - | 指微調 AI 的程式框架 |
+| nutrition bar | 營養棒 | 物品 | ch13 | 營養條 | rectangular nutrition bar→長方形營養棒；德爾瓦特固定點的餐點 |
+| preserved food | 保存食品 | 物品 | ch16 | - | 紅郡淪陷後梅爾丹商家推出「三十天份」的長效保存食品組合 |
+| vault | 保險庫 | 物品 | ch16 | 金庫 | Gladias 把第二把金鑰放在保險庫 |
+| life savings wallet | 存畢生積蓄的錢包 | 物品 | ch16 | - | Gladias 驚呼「Straight out of a life savings wallet?」→「直接從存畢生積蓄的錢包扣？」 |
+| blueball | 藍球 | 自創詞 | ch16 | 籃球 | 旋翼球的球：用來擊倒球瓶。注意別被輸入法換成「籃球」 |
+| greenball | 綠球 | 自創詞 | ch16 | - | 旋翼球的球：擊中對方球員會爆出顏料（splatted its paint） |
+| pin | 球瓶 | 自創詞 | ch16 | 針、別針 | 旋翼球：高處圓盤上排成三角形的十支黃色球瓶；pin knockdowns→擊倒球瓶 |
 | green circle | 綠色圓圈 | 物品 | ch01 | - | 全書常見的感應點（閘門、桌面、門邊），手錶或手持裝置貼上去即可驗證、付款；glowing green outline→發綠光的外框 |
 
 ## 自創詞與其他
@@ -242,3 +285,17 @@
 | jia dzu lie | jia dzu lie | 自創詞 | ch09 | - | 哲戈語「黑心果」＝酪梨（avocado）；汾以此解釋文法。例句 giu jan li mo fe jia dzu lie（那個人吃酪梨）等全保留拼音；li、fe、lo、zo、ji 等虛詞說明照譯 |
 | Great Book | 經典名著 | 一般詞 | ch10 | - | 維瑞迪亞學校必讀的經典；epic poems→史詩 |
 | path less traveled | 人跡較少的那條路 | 一般詞 | ch11 | - | 賽菈引用「維瑞迪亞古作家」；呼應佛洛斯特〈未行之路〉的台灣常見譯法 |
+| shrine | 神壇 | 自創詞 | ch14 | 神社、神龕 | 明盤台準決賽新規則：棋盤上五座神壇（四邊中央各一、中心一座），每一千回合把神壇內容的變化以 XOR 套用到四角附近區域，然後恢復成預設岩塊。northern rock shrine→北方的岩石神壇 |
+| eternal glider factory | 永恆滑翔機工廠 | 自創詞 | ch14 | - | 滑翔機在兩座神壇間來回反彈、不斷噴出新滑翔機的結構 |
+| symbol-carrying spaceship | 載印記太空船 | 自創詞 | ch14 | 攜帶符號的太空船 | 承載玩家印記的太空船；symbol-carrying ship→載印記船；steerable→可轉向 |
+| steering (Minpentai) | 掌舵 | 自創詞 | ch14 | 操縱 | 「the intervention turns were not for building - they were for *steering*」→干預回合不是用來建造，而是用來*掌舵*。刻意呼應維瑞迪亞的 Steering（掌舵），保留斜體；steering instruction→轉向指令 |
+| glider storm | 滑翔機風暴 | 自創詞 | ch14 | - | barrage of gliders→滑翔機齊射 |
+| debris | 殘骸 | 自創詞 | ch14 | 碎片垃圾 | 明盤台中被摧毀結構留下的殘渣；wreck→殘骸 |
+| sitting duck | 活靶 | 一般詞 | ch14 | 坐著的鴨子 | ch14、ch16 都出現 |
+| hieroglyphs | 象形文字 | 一般詞 | ch14 | - | 同 hieroglyphics；glyph→字形；pronunciation markers→發音標記；veins（葉脈）→葉脈 |
+| Special broadcast | 特別報導 | 一般詞 | ch15 | - | 新聞快報標題；「JUST IN:」→「最新消息：」 |
+| Dead Hand of Egalitarianism | 平等主義的死亡之手 | 一般詞 | ch13 | - | 艾費里昂宣傳文標題〈The Dead Hand of Egalitarianism, and the Path of Strength〉→〈平等主義的死亡之手，與強者之路〉。dead hand 原指「死人之手（對後世的僵化控制）」 |
+| Hope is not a strategy | 希望不是策略 | 一般詞 | ch15 | - | 莫夫語；Gladias 回「Indeed it's not.」→「確實不是。」 |
+| dun | dun | 自創詞 | ch15 | - | 哲戈語裝置畫面欄位（澤手持裝置的「收件人」欄），保留拼音；同理 be（送出按鈕）保留。參見 Dzegoban romanization |
+| jie mo kai tu jie hei ja ma | jie mo kai tu jie hei ja ma | 自創詞 | ch14 | - | 哲戈餐廳機器人的招呼語，保留拼音（小寫、問號照原文）；白用裝可愛的聲音模仿它 |
+| FI LE GEI TAU FA | FI LE GEI TAU FA | 自創詞 | ch14 | - | 明盤台開局倒數（全大寫哲戈語），連同 MU GU GEI TAU FA、PA GU、TAU FA 全部保留原文 |
