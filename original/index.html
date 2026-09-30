@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowmoon</title>
+    <style>
+/* docs_app core styles — neutral (story-specific styles live in the plugin stylesheets) */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Theme variables */
+        :root {
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --header-bg: rgba(255,255,255,0.1);
+            --editor-bg: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+            --preview-bg: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+            --text-light: white;
+            --text-dark: #333;
+        }
+
+        html.dark {
+            --bg-gradient: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            --header-bg: rgba(0,0,0,0.3);
+            --editor-bg: linear-gradient(135deg, rgba(15, 12, 41, 0.6) 0%, rgba(48, 43, 99, 0.6) 100%);
+            --preview-bg: linear-gradient(135deg, rgba(15, 12, 41, 0.3) 0%, rgba(48, 43, 99, 0.3) 100%);
+        }
+
+        /* Editor Header */
+        .editor-header {
+            background: var(--header-bg);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .editor-header h1 {
+            color: var(--text-light);
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        /* Dark mode toggle */
+        .dark-toggle {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 12px 16px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .dark-toggle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .dark-toggle .icon {
+            font-size: 1.2rem;
+        }
+
+        html.dark .dark-toggle {
+            background: #1a1a2e;
+            color: #f0e68c;
+        }
+
+        html.dark .print-btn, html.dark .save-btn, html.dark .load-btn {
+            background: #1a1a2e;
+            color: #f0e68c;
+        }
+
+        html.dark .editor-section {
+            background: var(--editor-bg);
+        }
+
+        html.dark #markdown-input {
+            background: rgba(30, 30, 60, 0.95);
+            color: #e0e0e0;
+        }
+
+        html.dark .preview-section h2 {
+            color: #aaa;
+        }
+
+        html.dark .document-page {
+            background: #1a1a2e;
+            color: #e0e0e0;
+        }
+
+        html.dark .document-page h1 {
+            color: #f0f0f0;
+            border-bottom-color: #8b83c3;
+        }
+
+        html.dark .document-page h2 {
+            color: #d0d0d0;
+        }
+
+        html.dark .document-page h3 {
+            color: #c0c0c0;
+        }
+
+        html.dark .document-page p,
+        html.dark .document-page ul,
+        html.dark .document-page ol {
+            color: #d0d0d0;
+        }
+
+        html.dark .document-page li {
+            color: #d0d0d0;
+        }
+
+        html.dark .document-page blockquote {
+            color: #b0b0b0;
+            background: rgba(255,255,255,0.05);
+            border-left-color: #8b83c3;
+        }
+
+        html.dark .document-page code {
+            background: rgba(255,255,255,0.1);
+            color: #f08dcd;
+        }
+
+        html.dark .document-page table {
+            border-color: #444;
+        }
+
+        html.dark .document-page th, html.dark .document-page td {
+            border-color: #444;
+            color: #d0d0d0;
+        }
+
+        html.dark .document-page th {
+            background: #4a4580;
+            color: white;
+        }
+
+        html.dark .document-page tr:nth-child(even) {
+            background: rgba(255,255,255,0.03);
+        }
+
+        html.dark .document-page hr {
+            background: linear-gradient(to right, #8b83c3, #6b5ba0);
+        }
+        html.dark .empty-state {
+            color: #666;
+        }
+        .print-btn, .save-btn, .load-btn {
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .print-btn:hover, .save-btn:hover, .load-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Main layout wrapper */
+        .layout-wrapper {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+            height: calc(100vh - 70px);
+            align-items: flex-start;
+        }
+
+        /* Proportional squeeze: x goes 40px→5px as viewport 1600→900px */
+        :root {
+            --squeeze-x: clamp(5px, calc(5vw - 40px), 40px);
+            --squeeze-half: clamp(2.5px, calc(2.5vw - 20px), 20px);
+        }
+
+        /* Main layout */
+        .main-container {
+            display: flex;
+            height: 100%;
+            gap: var(--squeeze-blue);
+            width: 100%;
+        }
+
+        /* Editor section */
+        .editor-section {
+            max-width: clamp(470px, calc(36vw + 149px), 720px);
+            flex: 0 1 600px;
+            min-width: 250px;
+            padding: var(--squeeze-blue);
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.3) 0%, rgba(118, 75, 162, 0.3) 100%);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .editor-section h2 {
+            color: white;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        #markdown-input {
+            flex: 1;
+            width: 100%;
+            max-width: clamp(465px, calc(31vw + 189px), 680px);
+            padding: 25px;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            border: none;
+            border-radius: 12px;
+            background: rgba(255,255,255,0.95);
+            color: #333;
+            resize: none;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        #markdown-input:focus {
+            outline: none;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        /* Preview section - gradient background container */
+        .preview-section {
+            width: auto;
+            flex: 1 1 auto;
+            min-width: calc(650px + var(--squeeze-half) * 2);
+            padding: 0 var(--squeeze-half) var(--squeeze-half) calc(var(--squeeze-half) * 2);
+            overflow-y: auto;
+            overflow-x: hidden;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+        }
+
+        /* Inner wrapper - snug to document-page */
+        #document-preview {
+            display: block;
+            padding: 0;
+            margin: 0;
+            min-height: auto;
+            max-width: 620px;
+        }
+
+        .preview-section h2 {
+            color: white;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        /* Document styling */
+        .document-page {
+            box-sizing: content-box;
+            background: #fff;
+            border-radius: 12px;
+            padding: 60px var(--squeeze-half);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            width: 635px;
+            max-width: 100%;
+            min-height: 1000px;
+            margin: 0 auto 10px;
+        }
+
+        .document-page h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 15px;
+        }
+
+        .document-page h2 {
+            font-size: 2rem;
+            color: #444;
+            margin-bottom: 15px;
+            margin-top: 30px;
+        }
+
+        .document-page h3 {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 12px;
+            margin-top: 25px;
+        }
+
+        .document-page p {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .document-page ul {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 2;
+            margin-bottom: 20px;
+            padding-left: 30px;
+            list-style-type: disc;
+        }
+
+        .document-page ol {
+            font-size: 1.1rem;
+            color: #333;
+            line-height: 2;
+            margin-bottom: 20px;
+            padding-left: 30px;
+            list-style-type: decimal;
+        }
+
+        .document-page li {
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        /* Nested lists styling */
+        .document-page ul ul,
+        .document-page ul ol,
+        .document-page ol ul,
+        .document-page ol ol {
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .document-page blockquote {
+            border-left: 5px solid #667eea;
+            padding-left: 25px;
+            margin: 25px 0;
+            font-size: 1.1rem;
+            color: #555;
+            font-style: italic;
+            background: #f8f9fa;
+            padding: 20px 25px;
+            border-radius: 4px;
+        }
+
+        .document-page pre {
+            background: #282c34;
+            color: #abb2bf;
+            padding: 25px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 25px 0;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .document-page code {
+            font-family: 'Monaco', 'Menlo', monospace;
+            background: #f5f5f5;
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: #e83e8c;
+        }
+
+        .document-page pre code {
+            background: none;
+            color: inherit;
+            padding: 0;
+        }
+
+        .document-page table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+
+        .document-page th, .document-page td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+            color: #333;
+        }
+
+        .document-page img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .document-page svg {
+            display: block;
+            margin: 0 !important;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .document-page th {
+            background: #667eea;
+            color: white;
+        }
+
+        .document-page tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .document-page hr {
+            border: none;
+            height: 3px;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            margin: 30px 0;
+            border-radius: 2px;
+        }
+
+
+        /* Tablet / small desktop responsive */
+        @media (max-width: 1025px) {
+            .editor-section {
+                min-width: 220px;
+            }
+        }
+
+        @media (max-width: 950px) {
+            .editor-section {
+                min-width: 200px;
+            }
+        }
+
+        /* Back button - hidden by default */
+        .back-btn {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: white;
+            color: #667eea;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            z-index: 2000;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            display: none;
+        }
+
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Print styles - single page */
+        @media print {
+            body {
+                background: white !important;
+                min-height: auto;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+
+            /* Hide editor and UI elements */
+            .editor-header,
+            .editor-section,
+            .preview-section h2,
+            .print-btn,
+            .back-btn {
+                display: none !important;
+            }
+
+            /* Show preview-section and document container */
+            .preview-section {
+                display: block !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                width: 100% !important;
+                background: white !important;
+                overflow: visible !important;
+            }
+
+            /* Show only the document container */
+            #document-preview {
+                display: block !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                width: 100% !important;
+                background: white !important;
+            }
+
+            .document-page {
+                box-sizing: content-box;
+                width: 100% !important;
+                min-height: auto !important;
+                padding: 40px 40px !important;
+                background: white !important;
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                box-shadow: none !important;
+                border: none !important;
+                margin: 0 !important;
+            }
+
+            .document-page h1 {
+                font-size: 2rem;
+                color: #333 !important;
+                border-bottom: 2px solid #667eea !important;
+            }
+
+            .document-page h2 {
+                font-size: 1.5rem;
+                color: #444 !important;
+            }
+
+            .document-page h3 {
+                font-size: 1.2rem;
+                color: #555 !important;
+            }
+
+            .document-page p {
+                font-size: 1rem;
+                color: #333 !important;
+            }
+
+            .document-page ul {
+                font-size: 1rem;
+                color: #333 !important;
+                list-style-type: disc !important;
+            }
+
+            .document-page ol {
+                font-size: 1rem;
+                color: #333 !important;
+                list-style-type: decimal !important;
+            }
+
+            .document-page li {
+                margin-bottom: 6px;
+                color: #333 !important;
+            }
+
+            /* Nested lists styling for print */
+            .document-page ul ul,
+            .document-page ul ol,
+            .document-page ol ul,
+            .document-page ol ol {
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+
+            .document-page blockquote {
+                font-size: 1rem;
+                color: #555 !important;
+            }
+
+            .document-page pre {
+                font-size: 0.85rem;
+                padding: 20px;
+            }
+
+            .document-page code {
+                font-size: 0.9rem;
+                color: #e83e8c !important;
+            }
+
+            .document-page table {
+                font-size: 0.85rem;
+                max-width: 100%;
+            }
+
+            .document-page th, .document-page td {
+                padding: 10px;
+                color: inherit !important;
+            }
+
+            .document-page th {
+                background: #667eea !important;
+                color: white !important;
+            }
+
+            .document-page tr:nth-child(even) {
+                background: #f9f9f9 !important;
+            }
+
+            .document-page img {
+                display: block;
+                margin: 20px auto;
+                max-width: 100%;
+                height: auto;
+            }
+
+            .document-page svg {
+                display: block;
+                margin: 0 !important;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        /* Blinker animation for inline elements (e.g. <b style="animation: blinker 1s linear infinite">) */
+        @keyframes blinker {
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
+        }
+
+        /* Animation for rendering */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .document-page {
+            animation: fadeIn 0.3s ease forwards;
+        }
+
+        /* Loading state */
+        .empty-state {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 500px;
+            color: #999;
+            font-size: 1.2rem;
+        }
+/* ============================================================
+ * veridia plugin styles — device views + datelines + dzegoban
+ * (story-specific; neutral styles live in core/styles.css)
+ * ============================================================ */
+
+/* ---- Datelines (light) ---- */
+        /* Dateline banners (chapter_open / scene_break) */
+        .document-page .dateline .rule {
+            margin: 0;
+        }
+
+        /* When a chapter_open dateline immediately follows an h1, the dateline's
+           own gradient rule replaces the h1's border-bottom (avoids a double rule). */
+        .document-page h1:has(+ .dateline.chapter-open) {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 8px;
+        }
+
+        .document-page .dateline.chapter-open {
+            margin: 2px 0 26px 0;
+        }
+        .document-page .dateline.chapter-open .rule {
+            margin-bottom: 10px;
+        }
+        .document-page .dateline.chapter-open .txt {
+            font-size: 0.9rem;
+            letter-spacing: 0.05em;
+            color: #5a5480;
+        }
+        .document-page .dateline.chapter-open .place {
+            font-weight: 600;
+        }
+        .document-page .dateline.chapter-open .sep {
+            margin: 0 0.5em;
+            color: #c3bed6;
+        }
+        .document-page .dateline.chapter-open .date {
+            letter-spacing: 0.18em;
+            text-transform: uppercase;
+            font-size: 0.76rem;
+            color: #8a83a8;
+        }
+
+        .document-page .dateline.scene-break {
+            margin: 26px 0;
+        }
+        .document-page .dateline.scene-break .rule {
+            margin-bottom: 8px;
+        }
+        .document-page .dateline.scene-break .txt {
+            font-size: 0.72rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+            color: #a49dc4;
+        }
+        .document-page .dateline.scene-break .place {
+            font-weight: 600;
+            color: #8a83a8;
+        }
+        .document-page .dateline.scene-break .sep {
+            margin: 0 0.55em;
+            color: #c3bed6;
+        }
+
+/* ---- Chapter navigation (chapter_nav, light) ---- */
+        /* Pure-icon prev/next: hairline circled chevrons in the muted
+           dateline mauve. UI chrome, not prose (wc-exclude). */
+        .document-page .chapter-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 18px 0;
+            font-size: 0.72rem;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+        /* flush with the page's own padding when the bar is at an edge */
+        .document-page .chapter-nav:first-child { margin-top: 0; }
+        .document-page .chapter-nav:last-child { margin-bottom: 0; }
+        .document-page .chapter-nav a {
+            color: #a49dc4;
+            text-decoration: none;
+            transition: color 0.2s, border-color 0.2s;
+        }
+        .document-page .chapter-nav a:hover {
+            color: #5a5480;
+        }
+        .document-page .chapter-nav .nav-empty {
+            flex: 0 0 auto;
+        }
+        /* the icon button: hairline ring + svg chevron */
+        .document-page .chapter-nav a.nav-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border: 1px solid #e3def0;
+            border-radius: 50%;
+        }
+        .document-page .chapter-nav a.nav-icon:hover {
+            border-color: #b7b0d4;
+        }
+        .document-page .chapter-nav a.nav-icon svg {
+            width: 15px;
+            height: 15px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2.2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+        /* text-label mode (prev-label / next-label given): chevron inline */
+        .document-page .chapter-nav a:not(.nav-icon) svg {
+            width: 9px;
+            height: 9px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2.6;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            vertical-align: baseline;
+        }
+
+/* ---- Device views (light) ---- */
+
+        /* Base device view styles (shared by wide and narrow) */
+        .device-view {
+            background-color: #0a0e27;
+            color: #7fbcff;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            margin: 0;
+            border-radius: 15px;
+            font-size: 75%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .wide-device-view {
+            max-width: 900px;
+        }
+
+        .narrow-device-view {
+            max-width: 50%;
+        }
+
+        .device-view h3 {
+            color: #7fbcff;
+            border-bottom: 2px solid #3d70c3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .device-view table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .device-view thead tr {
+            background-color: #1a2a4a;
+            border: 1px solid #3d70c3;
+        }
+
+        .device-view th {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #3d70c3;
+            color: #cef;
+            font-weight: bold;
+        }
+
+        .device-view tbody tr:nth-child(odd) {
+            background-color: #0f1a3a !important;
+            border: 1px solid #2a4a7a;
+        }
+
+        .device-view tbody tr:nth-child(even) {
+            background-color: #12204a !important;
+            border: 1px solid #2a4a7a;
+        }
+
+        .device-view td {
+            padding: 10px;
+            border: 1px solid #2a4a7a;
+            color: #b8d8ff;
+            font-weight: bold;
+        }
+
+        .device-view button {
+            background-color: #1a3a6a;
+            border: 1px solid #3d70c3;
+            padding: 10px 25px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 3px;
+            transition: all 0.2s;
+            color: #cef;
+        }
+
+        .device-view button:hover {
+            background-color: #2a4a7a;
+            border-color: #7fbcff;
+        }
+
+        .device-view ul,
+        .device-view ol {
+            padding-left: 10px !important;
+            margin-left: 0 !important;
+            margin-bottom: 0 !important;
+            list-style-position: outside !important;
+            font-size: inherit !important;
+            color: #9cc2ff !important;
+            line-height: inherit !important;
+            font-family: inherit !important;
+        }
+
+        .device-view li {
+            padding-left: 0 !important;
+            list-style-position: outside !important;
+            margin-bottom: 0 !important;
+            font-size: inherit !important;
+            color: #9cc2ff !important;
+            font-family: inherit !important;
+        }
+
+/* ---- Datelines (dark) ---- */
+
+        /* Dateline banners (chapter_open / scene_break) - dark */
+        html.dark .document-page h1:has(+ .dateline.chapter-open) {
+            border-bottom: none;
+        }
+        html.dark .document-page .dateline.chapter-open .txt {
+            color: #b3aed0;
+        }
+        html.dark .document-page .dateline.chapter-open .sep {
+            color: #5f5a80;
+        }
+        html.dark .document-page .dateline.chapter-open .date {
+            color: #6f6a90;
+        }
+        html.dark .document-page .dateline.scene-break .txt {
+            color: #5f5a80;
+        }
+        html.dark .document-page .dateline.scene-break .place {
+            color: #7a74a0;
+        }
+        html.dark .document-page .dateline.scene-break .sep {
+            color: #4a4568;
+        }
+
+/* ---- Chapter navigation (dark) ---- */
+        html.dark .document-page .chapter-nav a {
+            color: #5f5a80;
+        }
+        html.dark .document-page .chapter-nav a:hover {
+            color: #b3aed0;
+        }
+        html.dark .document-page .chapter-nav a.nav-icon {
+            border-color: #3a3656;
+        }
+        html.dark .document-page .chapter-nav a.nav-icon:hover {
+            border-color: #6f6a90;
+        }
+
+/* ---- Print: nav chrome is meaningless on paper ---- */
+        @media print {
+            .document-page .chapter-nav { display: none; }
+        }
+
+
+/* ---- Device views (dark) ---- */
+
+        html.dark .device-view {
+            background-color: #050510;
+            border-color: #1a1a40;
+        }
+
+        html.dark .device-view h3 {
+            color: #5588cc;
+            border-bottom-color: #1a3a6a;
+        }
+
+        html.dark .device-view th {
+            color: #88bbee;
+            border-color: #1a3a6a;
+        }
+
+        html.dark .device-view td {
+            color: #88bbee;
+            border-color: #1a3a6a;
+        }
+
+        html.dark .device-view tbody tr:nth-child(odd) {
+            background-color: #080820;
+            border-color: #0f1a3a;
+        }
+
+        html.dark .device-view tbody tr:nth-child(even) {
+            background-color: #0a0a2a;
+            border-color: #0f1a3a;
+        }
+
+        html.dark .device-view button {
+            background-color: #0a1a3a;
+            border-color: #1a3a6a;
+            color: #88bbee;
+        }
+
+        html.dark .device-view button:hover {
+            background-color: #1a2a4a;
+            border-color: #4488cc;
+        }
+
+        html.dark .device-view ul,
+        html.dark .device-view ol,
+        html.dark .device-view li {
+            color: #6699bb;
+        }
+
+
+        /* ---- Dzegoban text-as-object ----
+           The .dz-card is a placard/book-page/poem object. It carries the dark
+           page background so bracket chips (which lighten it) read correctly.
+           .dz-mono = color="off": no structure colors / chips, plain monospace. */
+        .dz-card {
+            background: #1b2b36;
+            color: #e6f4ff;
+            border-radius: 10px;
+            padding: 20px 24px;
+            margin: 12px 0;
+            box-sizing: border-box;
+        }
+        .dz-card .dz-title {
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .dz-card.dz-mono {
+            font-family: 'Courier New','Liberation Mono',monospace;
+        }
+
+
+body { padding-top: 40px; }
+body > .dark-toggle { position: fixed; top: 20px; right: 20px; z-index: 1000; }
+
+@media (min-width: 700px) { .document-page { padding-left: calc(var(--squeeze-half) + 25px); padding-right: calc(var(--squeeze-half) + 25px); } }
+    
+        /* index-specific: chapter links — single-file table of contents */
+        .chapter-grid {
+            margin-top: 26px;
+        }
+
+        .chapter-grid a {
+            display: block;
+            padding: 10px 2px;
+            text-decoration: none;
+            border-bottom: 1px solid #eceaf4;
+            font-size: 0.95rem;
+            letter-spacing: 0.04em;
+            color: #667eea;
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .chapter-grid a:hover {
+            color: #4a5fd0;
+            border-bottom-color: #667eea;
+        }
+
+        html.dark .chapter-grid a {
+            color: #93a5f5;
+            border-bottom-color: #2c2848;
+        }
+
+        html.dark .chapter-grid a:hover {
+            color: #b9c4ff;
+            border-bottom-color: #667eea;
+        }
+
+        /* index-specific: declarations — outlined rounded rectangles, single file */
+        .declarations {
+            margin-top: 40px;
+        }
+
+        .declaration {
+            border: 1px solid #e6e3f2;
+            border-radius: 10px;
+            padding: 18px 22px;
+        }
+
+        .declaration + .declaration {
+            margin-top: 18px;
+        }
+
+        .declaration .decl-label {
+            display: block;
+            font-size: 0.85rem;
+            letter-spacing: 0.05em;
+            color: #8b83c3;
+            margin-bottom: 10px;
+        }
+
+        .declaration p {
+            font-size: 0.92rem;
+            color: #6a6580;
+            line-height: 1.7;
+            margin-bottom: 0;
+        }
+
+        .declaration p + p {
+            margin-top: 8px;
+        }
+
+        html.dark .declaration {
+            border-color: #2c2848;
+        }
+
+        html.dark .declaration .decl-label {
+            color: #8b83c3;
+        }
+
+        html.dark .declaration p {
+            color: #a09ac0;
+        }
+    </style>
+</head>
+<body>
+        <button class="dark-toggle" onclick="toggleDarkMode()">☀️</button>
+    <div class="document-page">
+<h1 style="color:#058">Snowmoon</h1>
+                    <nav class="chapter-grid">
+<a href="./html/chapter-1.html" target="_blank">Chapter 1</a>
+<a href="./html/chapter-2.html" target="_blank">Chapter 2</a>
+<a href="./html/chapter-3.html" target="_blank">Chapter 3</a>
+<a href="./html/chapter-4.html" target="_blank">Chapter 4</a>
+<a href="./html/chapter-5.html" target="_blank">Chapter 5</a>
+<a href="./html/chapter-6.html" target="_blank">Chapter 6</a>
+<a href="./html/chapter-7.html" target="_blank">Chapter 7</a>
+<a href="./html/chapter-8.html" target="_blank">Chapter 8</a>
+<a href="./html/chapter-9.html" target="_blank">Chapter 9</a>
+<a href="./html/chapter-10.html" target="_blank">Chapter 10</a>
+<a href="./html/chapter-11.html" target="_blank">Chapter 11</a>
+<a href="./html/chapter-12.html" target="_blank">Chapter 12</a>
+<a href="./html/chapter-13.html" target="_blank">Chapter 13</a>
+<a href="./html/chapter-14.html" target="_blank">Chapter 14</a>
+<a href="./html/chapter-15.html" target="_blank">Chapter 15</a>
+<a href="./html/chapter-16.html" target="_blank">Chapter 16</a>
+<a href="./html/chapter-17.html" target="_blank">Chapter 17</a>
+<a href="./html/chapter-18.html" target="_blank">Chapter 18</a>
+<a href="./html/chapter-19.html" target="_blank">Chapter 19</a>
+<a href="./html/chapter-20.html" target="_blank">Chapter 20</a>
+<a href="./html/chapter-21.html" target="_blank">Chapter 21</a>
+<a href="./html/chapter-22.html" target="_blank">Chapter 22</a>
+<a href="./html/chapter-23.html" target="_blank">Chapter 23</a>
+<a href="./html/chapter-24.html" target="_blank">Chapter 24</a>
+<a href="./html/chapter-25.html" target="_blank">Chapter 25</a>
+<a href="./html/chapter-26.html" target="_blank">Chapter 26</a>
+<a href="./html/chapter-27.html" target="_blank">Chapter 27</a>
+<a href="./html/chapter-28.html" target="_blank">Chapter 28</a>
+<a href="./html/chapter-29.html" target="_blank">Chapter 29</a>
+<a href="./html/chapter-30.html" target="_blank">Chapter 30</a>
+<a href="./html/chapter-31.html" target="_blank">Chapter 31</a>
+<a href="./html/chapter-32.html" target="_blank">Chapter 32</a>
+                    </nav>
+                    <div class="declarations">
+                        <div class="declaration">
+                            <span class="decl-label">License:</span>
+                            <p>Snowmoon is released under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL v3</a></p>
+                            <p>Yes, I said GPL v3, not CC-BY-SA. My legal theory, which Kimi K3 says is plausible, is that you are free to go turn it into a movie or a vibe-coded anime or whatever, but if you do that, you are required to open-source the pipeline (AI prompts, scripts, task-specific harness, etc) and other non-commodity materials that you used to make it so that other people can build on top of your work.</p>
+                        </div>
+                        <div class="declaration">
+                            <span class="decl-label">AI usage declaration:</span>
+                            <p>All words were written directly by me.</p>
+                            <p>Spelling, grammar and style checking, verifying consistency of the rules of Minpentai and Dzegoban, the HTML and CSS format and style, and the SVGs were done with assistance from Kimi K3 and Qwen 3.8 Flash Next.</p>
+                        </div>
+                        <div class="declaration">
+                            <span class="decl-label">爱 usage declaration:</span>
+                            <p>Snowmoon was written with love.</p>
+                        </div>
+                    </div>
+</div>
+<script>
+    var isDarkMode = localStorage.getItem('darkMode') === 'true';
+    function toggleDarkMode() {
+        isDarkMode = !isDarkMode;
+        localStorage.setItem('darkMode', isDarkMode);
+        var html = document.documentElement;
+        var btn = document.querySelector('.dark-toggle');
+        if (isDarkMode) { html.classList.add('dark'); btn.textContent = '\uD83C\uDF19'; }
+        else { html.classList.remove('dark'); btn.textContent = '\u2600\uFE0F'; }
+    }
+    if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+        document.querySelector('.dark-toggle').textContent = '\uD83C\uDF19';
+    }
+</script>
+</body>
+</html>

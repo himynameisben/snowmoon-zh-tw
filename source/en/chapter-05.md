@@ -1,0 +1,349 @@
+# Chapter 5
+
+<div class="dateline chapter-open"><hr class="rule"/><span class="txt"><span class="place">Freetown, United Cities</span><span class="sep">·</span><span class="date">3724 Rainmoon 11</span></span></div>
+
+Zei walked out through the door of the air harbor, and held the door open behind him.
+
+"Come on, Mom!", he shouted.
+
+Zei's mother, Min, hurried forward and came out through the door. Bai followed along behind, carrying a shopping bag.
+
+The three of them followed the signs to the taxi stand, and immediately put their luggage into the taxi's luggage trunk, and opened the doors to get in.
+
+"Welcome to Freetown, you both!", Bai exclaimed.
+
+"Glad to be here", Min replied. "Actually my first time abroad."
+
+"So how does this compare to Redshire, since I see you've been everywhere by now?", Min followed up.
+
+"Oh I think Redshire is nicer. Was a shame that the Arctic drones made them cancel all the flights for the past five days."
+
+"That really was too bad. But so far I think Freetown is great! So that means whenever I make it to Redshire I won't be spoiled, and I'll feel just as excited about Redshire then as I am about Freetown now!"
+
+The conversation quieted down, and the three of them stared out the windows of their taxi. They were driving along a highway, and there were buildings of all shapes and sizes - some short, some tall, some stone, some concrete, some glass and steel, some beautiful, some ugly. Some halfway under construction, seemingly abandoned. And among them a few genuinely charming places, small parks with benches and carefully arranged trees to make the rest of the city seem invisible to someone inside.
+
+A few small copters buzzed in the sky overhead, some carrying individual passengers and others carrying goods - most likely food for the wealthy and extremely impatient.
+
+In the distance, there was one area that seemed noticeably nicer than the others, that was surrounded by a high grey and purple colored wall. Bai and Zei, sitting on the right, both turned their attention toward it.
+
+"Probably the local Greater Plum Harbor", Bai mused.
+
+The taxi swerved off the highway to take an exit. It then continued driving along a street, winding through several roundabouts.
+
+For a few minutes, the people and the insides of the buildings looked considerably richer than anything in Dzego. Suddenly, they passed under a highway, and on the other side the structures looked significantly more run-down, the restaurants and stores more basic, and more people outside were driving motorcycles.
+
+As they passed through Freetown street by street, Zei, Bai and Min continued looking, observing the surroundings from inside their safe cocoon.
+
+After five more minutes of driving, the taxi turned, and drove into a garage. It stopped, and the door opened.
+
+"Thank you!", Min shouted, and opened the trunk. The three of them took their luggage, and entered the hotel.
+
+Zei slapped his watch against a green circle on top of a one meter tall pole, which was labeled "Check in" in the center.
+
+After one tick, the circle beeped.
+
+<div class="device-view narrow-device-view"><table>
+<tbody>
+<tr>
+<td><center><div style="border: 1px solid; border-radius: 5px; padding: 5px">Rep score ≥ 100 Verified <b style="font-size: 150%; color: #8f8">✓</b></div></center></td>
+<td><center><div style="border: 1px solid; border-radius: 5px; padding: 5px">Payment successful <b style="font-size: 150%; color: #8f8">✓</b></div></center></td>
+</tr>
+</tbody>
+</table>
+<b>Checked in. Your room numbers are: 714, 715, 716.</b></div>
+
+Zei, Bai and Min's watches all buzzed in unison, confirming their room keys.
+
+------------------------------------------------------------------------
+
+Having put his luggage into his room and taken a shower, Zei stepped out of the elevator and once again entered the hotel lobby. Bai was already there, looking outside a window.
+
+"Mom said she needs to sleep, we should go explore", Zei suggested.
+
+Bai nodded. The two exited the hotel, and entered Freetown's great outdoors.
+
+"So why did you agree to come with me anyway?", Bai asked.
+
+"Well it was obviously the lowest-cost opportunity I would have to go abroad for a long time", Zei replied.
+
+"We both won our games in the semi-finals easily - my opponent was just not prepared for the sudden rule change four thousand turns in - and I saw you won even faster. So the finals are between me and you."
+
+"And so it's a unique situation. Normally, there's a prisoner's dilemma: neither of us can take a break and enjoy anything, because if either of us does, the other will cram harder right before the big game and gain an advantage. But this time, that's not true - because we can both take a break together, so we're sure that neither of us is doing anything else."
+
+"And the surplus is high - both Mom and I get to go abroad for the first time in our lives."
+
+"Now why did you agree to take me?"
+
+"Pretty much the same, now that I think about it. Just without the game theory math."
+
+"Though for me what you call the surplus is spending time with you."
+
+Zei groaned.
+
+------------------------------------------------------------------------
+
+Zei and Bai arrived at a building that looked noticeably larger and nicer than its surroundings.
+
+"Freetown Economics Institute", a sign read.
+
+Right below the name of the institute, the sign listed a schedule of admission fees, featuring a formula that was a function of two variables: increasing with the square root of how much time you spend inside, and decreasing the higher your academic or intellectual reputation score rises.
+
+Academic and intellectual reputation score was difficult to get. The kind of reputation you could zero-knowledge-collateralize to get loans or check into hotels, that was easy to get; it was only hard if you had failed to pay back loans or trashed hotel rooms multiple times. Academic and intellectual reputation, on the other hand, required doing serious work.
+
+There was an entrance gate with turnstiles and glowing green circles. Zei and Bai tapped their hand devices, and walked through.
+
+The inside of the building was a single spiral-shaped sloped floor that looped around several times. If one walked along the outside wall, the slope was barely noticeable - a circumference of perhaps three hundred meters that one could walk around to climb four meters.
+
+In the middle, there were elevators and staircases, for those who wanted to go up or down faster.
+
+Zei and Bai leisurely walked along the floor, and soon saw a restaurant. Two people, a woman and a man, were sitting, drinking tea and eating a dish with vegetables and rice. There was a large screen, at that moment playing a lecture explaining the United Cities' co-governance system.
+
+<div class="device-view wide-device-view"><svg height="200" style="margin-left:35px" viewbox="0 0 400 200" width="400" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<marker id="arrow" markerheight="5" markerwidth="5" orient="auto-start-reverse" refx="5" refy="5" viewbox="0 0 10 10">
+<polygon fill="#cef" points="0,0 10,5 0,10"></polygon>
+</marker>
+</defs>
+<rect fill="#348" height="200" width="400"></rect>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="48.6" x2="96.4" y1="157.6" y2="172.4"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="46.7" x2="88.3" y1="148.9" y2="111.1"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="113.4" x2="161.6" y1="171.8" y2="153.2"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="91.3" x2="68.7" y1="96.8" y2="46.2"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="103.8" x2="156.2" y1="103.4" y2="93.6"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="73.7" x2="136.3" y1="40.2" y2="55.8"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="72.9" x2="157.1" y1="42.3" y2="87.7"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="154.0" x2="211.0" y1="58.0" y2="58.0"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="149.6" x2="160.4" y1="65.8" y2="84.2"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="227.7" x2="292.3" y1="53.4" y2="14.6"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="228.9" x2="336.1" y1="59.4" y2="76.6"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="305.0" x2="340.0" y1="17.5" y2="70.5"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="295.2" x2="244.8" y1="17.6" y2="97.4"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="336.3" x2="248.7" y1="80.2" y2="102.8"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="346.1" x2="348.9" y1="86.9" y2="109.1"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="165.8" x2="169.2" y1="101.0" y2="141.0"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="173.9" x2="231.1" y1="93.5" y2="103.5"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="177.6" x2="232.4" y1="145.1" y2="109.9"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="179.0" x2="246.0" y1="149.8" y2="148.2"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="243.0" x2="252.0" y1="113.5" y2="139.5"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="263.6" x2="341.4" y1="145.3" y2="120.7"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="264.0" x2="366.0" y1="148.5" y2="154.5"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="263.5" x2="321.5" y1="151.0" y2="172.0"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="355.0" x2="370.0" y1="125.5" y2="147.5"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="366.8" x2="338.2" y1="158.7" y2="171.3"></line>
+<line marker-end="url(#arrow)" marker-start="url(#arrow)" stroke="#cef" stroke-width="1" x1="347.0" x2="333.0" y1="126.5" y2="166.5"></line>
+<circle cx="72.5" cy="165.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="72.5" y="168.0">10</text>
+<circle cx="67.5" cy="130.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="67.5" y="133.0">15</text>
+<circle cx="137.5" cy="162.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="137.5" y="165.5">15</text>
+<circle cx="80.0" cy="71.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="80.0" y="74.5">10</text>
+<circle cx="130.0" cy="98.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="130.0" y="101.5">10</text>
+<circle cx="105.0" cy="48.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="105.0" y="51.0">15</text>
+<circle cx="115.0" cy="65.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="115.0" y="68.0">5</text>
+<circle cx="182.5" cy="58.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="182.5" y="61.0">10</text>
+<circle cx="155.0" cy="75.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="155.0" y="78.0">5</text>
+<circle cx="260.0" cy="34.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="260.0" y="37.0">15</text>
+<circle cx="282.5" cy="68.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="282.5" y="71.0">10</text>
+<circle cx="322.5" cy="44.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="322.5" y="47.0">10</text>
+<circle cx="270.0" cy="57.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="270.0" y="60.5">15</text>
+<circle cx="292.5" cy="91.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="292.5" y="94.5">5</text>
+<circle cx="347.5" cy="98.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="347.5" y="101.0">10</text>
+<circle cx="167.5" cy="121.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="167.5" y="124.0">10</text>
+<circle cx="202.5" cy="98.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="202.5" y="101.5">5</text>
+<circle cx="205.0" cy="127.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="205.0" y="130.5">5</text>
+<circle cx="212.5" cy="149.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="212.5" y="152.0">5</text>
+<circle cx="247.5" cy="126.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="247.5" y="129.5">10</text>
+<circle cx="302.5" cy="133.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="302.5" y="136.0">10</text>
+<circle cx="315.0" cy="151.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="315.0" y="154.5">10</text>
+<circle cx="292.5" cy="161.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="292.5" y="164.5">10</text>
+<circle cx="362.5" cy="136.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="362.5" y="139.5">10</text>
+<circle cx="352.5" cy="165.0" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="352.5" y="168.0">10</text>
+<circle cx="340.0" cy="146.5" fill="#348" r="7" stroke="#cef" stroke-width="0.5"></circle><text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="340.0" y="149.5">10</text>
+<circle cx="40" cy="155" fill="#cef" r="5"></circle>
+<circle cx="105" cy="175" fill="#cef" r="5"></circle>
+<circle cx="95" cy="105" fill="#cef" r="5"></circle>
+<circle cx="65" cy="38" fill="#cef" r="5"></circle>
+<circle cx="145" cy="58" fill="#cef" r="5"></circle>
+<circle cx="220" cy="58" fill="#cef" r="5"></circle>
+<circle cx="165" cy="92" fill="#cef" r="5"></circle>
+<circle cx="170" cy="150" fill="#cef" r="5"></circle>
+<circle cx="300" cy="10" fill="#cef" r="5"></circle>
+<circle cx="345" cy="78" fill="#cef" r="5"></circle>
+<circle cx="240" cy="105" fill="#cef" r="5"></circle>
+<circle cx="255" cy="148" fill="#cef" r="5"></circle>
+<circle cx="350" cy="118" fill="#cef" r="5"></circle>
+<circle cx="375" cy="155" fill="#cef" r="5"></circle>
+<circle cx="330" cy="175" fill="#cef" r="5"></circle>
+<rect fill="#348" height="12" rx="2" width="60.5" x="9.8" y="165.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="40" y="175">Silverbeach</text>
+<rect fill="#348" height="12" rx="2" width="33.0" x="93.5" y="183.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="110" y="193">Mabuli</text>
+<rect fill="#348" height="12" rx="2" width="51.5" x="37.5" y="98.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="end" x="88" y="108">Inglewore</text>
+<rect fill="#348" height="12" rx="2" width="33.0" x="53.5" y="18.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="70" y="28">Hapton</text>
+<rect fill="#348" height="12" rx="2" width="27.5" x="136.2" y="38.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="150" y="48">Imber</text>
+<rect fill="#348" height="12" rx="2" width="38.5" x="205.8" y="38.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="225" y="48">Arturia</text>
+<rect fill="#348" height="12" rx="2" width="40.5" x="108.5" y="78.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="end" x="148" y="88">Deplexi</text>
+<rect fill="#348" height="12" rx="2" width="44.0" x="153.0" y="155.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="175" y="165">Freetown</text>
+<rect fill="#348" height="12" rx="2" width="46.0" x="307.0" y="4.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="start" x="308" y="14">Redshire</text>
+<rect fill="#348" height="12" rx="2" width="51.5" x="354.0" y="63.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="start" x="355" y="73">Petersvil</text>
+<rect fill="#348" height="12" rx="2" width="44.0" x="216.0" y="88.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="238" y="98">Devanvil</text>
+<rect fill="#348" height="12" rx="2" width="27.5" x="246.2" y="153.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="260" y="163">Ondak</text>
+<rect fill="#348" height="12" rx="2" width="29.5" x="364.0" y="112.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="start" x="365" y="122">Iptak</text>
+<rect fill="#348" height="12" rx="2" width="33.0" x="363.5" y="165.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="380" y="175">Mantak</text>
+<rect fill="#348" height="12" rx="2" width="38.5" x="315.8" y="183.0"></rect><text fill="#cef" font-family="sans-serif" font-size="10" text-anchor="middle" x="335" y="193">Belpaki</text>
+</svg></div>
+
+"When two cities are in a co-governance relationship, they each elect a percentage of the other's parliament."
+
+"The percentage is based on a pre-agreed number. Whichever city is larger, as computed by a geometric average of population and GDP, elects that pre-agreed share of the smaller city's parliament. Whichever city is smaller elects a share of the larger city's parliament equal to the pre-agreed share, divided by the square root of the ratio in the two cities' sizes."
+
+"You might ask, why square root? Well, it turns out that the utility of a large share of governance, held by a larger participant, is superlinearly larger than the utility of a smaller share-"
+
+Zei stopped listening, and let his mind ponder, trying to work out the math from first principles.
+
+Bai started walking toward the two people sitting at the table.
+
+Zei, still thinking about the math, followed Bai. They kept walking until they were almost standing over the eaters.
+
+"Hi, are you guys busy?", he blurted out awkwardly.
+
+"Ah no, not at all", the woman answered.
+
+"Please come sit down with us, I'm a tourist, always happy to meet locals and understand this place better."
+
+"Ah, we're also tourists. From Dzego", Zei replied. "I'm Zei."
+
+"And I'm Bai."
+
+"I'm Seila", the woman replied. "And this is my ... friend, Jahn."
+
+Zei and Bai sat down.
+
+"So where are you from?", Bai turned to ask.
+
+"Veridia", Seila responded.
+
+"And I'm actually a local", Jahn added.
+
+"So what brings you here?"
+
+"Well, I'm a blogger, I focus on economics and culture. My husband's and my turn to take care of our children just finished, they're with our co-parents now, so we're both taking a break -"
+
+"Well, not really a break, still working. But traveling and exploring."
+
+"So how has Freetown been so far?"
+
+"Well, free in some ways. Not always in others."
+
+"You don't see as many privacy robes here as in Veridia or Dzego, but that's because people just go around in cars, all the interesting stuff tends to happen in these enclosed compounds."
+
+"How is Dzego?"
+
+"Same old. Studying, playing Minpentai. I'm trying to figure out if I'm going into physics or cryptography."
+
+"Tell him about your arm", Bai whispered, loudly enough that all three of the others could hear.
+
+"Oh yeah, my arm broke when our classroom got bombed a while back."
+
+Seila and Jahn froze in surprise - first at the revelation, and then once again at Zei's total nonchalance in relating the news.
+
+"Are the attacks getting worse?"
+
+"They're starting to go after classrooms more. Have also been hearing about more and more surveillance drones getting snuck in."
+
+"So is Dzego going to, like, add its own counter-surveillance network to keep up?"
+
+"Well, the problem is, the Arctics got spies inside all the agencies, so if the counter-surveillance network can see too much, then it becomes their own weapon."
+
+"That's why we've been trying to figure out the cryptography. Each surveillance camera running an algorithm, revealing data only in those cases where it's suspicious, posting a hash to a cryptographic network every time it reveals so we can track how often it's happening, and then a whole system of hardware attestations and randomized infrared scanning to make sure that the cameras are actually running the code that they say they are."
+
+"There's even a rule that anyone can go and unscrew any camera in public and inspect it themselves. There's entire clubs that do it and publish their reports online. It's pretty advanced stuff. I wish I could understand how all the math behind these encryptions and proofs and attestations works."
+
+"Come on, our whole DU chapter knows you're a hotshot at understanding thermodynamics, even better than the teacher. You can totally re-spec to cryptography and figure this all out."
+
+"Are you *trying* to distract me from focusing on the Minpentai finals?"
+
+A robot slid up to them, with a menu on its screen.
+
+Bai and Zei started looking, and clicked buttons in turn to order some tea, as well as a similar rice and vegetables dish to what Seila and Jahn were eating.
+
+"How much of your time is this whole arms race taking up?", Jahn asked.
+
+"Of our time? Well, a few percent of us are full-time on it, for the rest, it's not supposed to be our job, beyond keeping up with how to stay safe. Of our happiness, our spirits, our souls? That's a different question."
+
+Jahn and Seila sighed.
+
+A few minutes later, the robot came back with their drinks, and a few minutes after that the robot came back again with their food. They ate, at times engaging in light conversation learning more nuances of Dzego culture - Minpentai, the Dzegoban language, the people's strong will to see the nation rise - and at times silently. The screen, continuing to explain co-governance and show various diagrams and mathematical formulas, now went entirely unnoticed.
+
+------------------------------------------------------------------------
+
+<div class="device-view narrow-device-view"><table>
+<thead>
+<tr>
+<th>From</th>
+<th></th>
+<th>Message</th>
+<th>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="width: 25%"><center>Gladias</center></td>
+<td style="width: 6%; text-align:center">→</td>
+<td><span style="color:oklch(0.7 0.15 93.33333333333333)">[now calling]</span></td>
+<td>58130</td>
+</tr>
+</tbody>
+</table></div>
+
+Seila tapped on the watch.
+
+She could make out Gladias's face.
+
+"How is your time in Freetown?", Gladias asked.
+
+"Just had lunch with Jahn, and then these lovely kids from Dzego came by."
+
+"How were they?"
+
+"They were wonderful. Though it's so sad what the Arctics are doing to them - one of the two got his arm injured recently."
+
+Seila decided to change the subject.
+
+"How have you been?"
+
+"Good."
+
+He paused.
+
+"I'm pondering something."
+
+"What is it?"
+
+"Someone suggested to me recently - that instead of going for being a Sentinel, I should be a Keeper instead."
+
+"Huh!"
+
+"What do you think about that?"
+
+Gladias visibly paused for a few moments, to ponder his answer.
+
+"It's the more important thing for Veridia, to really make sure that the rubrics themselves are set right. And I feel like the work will be more interesting."
+
+"Well my first instinct is that I actually support the decision."
+
+"You know, I've been thinking about Dzego for these past fifty minutes or so after those kids left, and then Jahn had to go for a meeting soon after."
+
+"They benefit a lot from our Graph Funding, right?"
+
+"Indeed they do."
+
+"What about the rubrics though? Do the rubrics encourage companies to make any of their products more helpful to Dzego in any way?"
+
+Gladias thought for a few moments. "Not really, at least I can't think of anything."
+
+"Well maybe you should become a Keeper. And this could be one of your projects! Figure out how to make or adjust the rubrics to support Dzego better."
+
+Seila paused for a moment.
+
+Gladias stared in response, his eyes wide open.
+
+"Yeah become a Keeper definitely. It's exactly the right choice."
+
+"It'll be fun. As they say, Dze go ba fau gie!"
