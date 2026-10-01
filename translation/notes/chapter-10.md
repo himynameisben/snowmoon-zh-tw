@@ -12,6 +12,7 @@
 - 第 51 段：分貝數字照原文（四十、五十、九十、七十）。
 - 第 82 段：epic poems→史詩、Great Book→經典名著（glossary）。
 - 第 97 段：個人提醒畫面，表頭比照前幾章；「Personal reminders」→「個人提醒」。
+- 第 111 段：原文 "Eighteen and Nine watched silently as Eighteen did his scan" 的第一個 Eighteen 是 Gladias 的筆誤（第 108 段走出包廂旁觀的是格拉迪亞斯和九號，第 110 段掃描的是十八號），照意思譯「格拉迪亞斯和九號」（使用者決定，2026-10-01）。
 - 第 112、122 段：thermal→熱像、nonlinear junction detector→非線性節點探測器（glossary）。
 - 第 136–141 段：negative-sum game→負和賽局、war of attrition→消耗戰、deterrence→嚇阻、game tree→賽局樹（glossary）。第 143 段「nudge」→「互相輕推」，呼應 glossary 的 tax nudges。
 - 第 147 段：formal verification→形式驗證。

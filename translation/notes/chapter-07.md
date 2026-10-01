@@ -5,7 +5,7 @@
 - mo da cu ja li hen ma → 保留拼音，釋義「餐點和飲料好吃嗎？」（glossary.md）
 
 ## 翻譯決定
-- 第 7 段：機器人評分畫面的提問是哲戈語，保留；唯一的英文按鈕「Select」譯「確定」（評分後送出的按鈕，「確定」比字面的「選取」更像真的 App）。
+- 第 7 段：機器人評分畫面的提問是哲戈語，保留；唯一的英文按鈕「Select」譯「選定」（原文第 6 段稱 voting view，與 ch01 是同一個滑桿投票介面，沿用 ch01 的「選定」；初譯「確定」，第三階段 world 統一，2026-10-01 使用者確認）。
 - 第 14–15 段：bots 依 glossary 譯「AI」（跟 AI 對戰），不譯「機器人」，以免和端茶的餐廳機器人混淆。
 - 第 16 段：pipeline→流程、self-play finetune→自我對弈微調（glossary）。
 - 第 19 段：「'Po so dze go ban' can wait」保留拼音，呼應 ch04 小冊子標題 po so dze go ban de sia（哲戈語第九版構想）。
