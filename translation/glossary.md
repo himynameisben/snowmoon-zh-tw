@@ -166,6 +166,16 @@
 | tracker | 追蹤器 | 技術 | ch20 | - | 莫夫偷裝在守律者身上的 |
 | micro-inspect | 顯微檢驗 | 技術 | ch20 | - | 見 destructively inspect（ch09） |
 | interoperability | 互通性 | 技術 | ch20 | 互操作性 | social media openness and interoperability→社群媒體開放性與互通性 |
+| odds ratio | 勝算比 | 技術 | ch21 | 賠率比 | 「shifting the odds ratio by a factor of two or three」→讓勝算比變成兩、三倍；probability update formula→機率更新公式（即貝氏定理，原文沒點名就不要補） |
+| threat model | 威脅模型 | 技術 | ch22 | - | |
+| view-once file | 閱後即焚檔案 | 技術 | ch22 | 一次性查看文件 | 開啟後五分鐘內可看、不能複製、時間到自動刪除 |
+| kill chain | 殺傷鏈 | 技術 | ch22 | 擊殺鏈 | clandestine kill chain→祕密殺傷鏈 |
+| ground drone | 地面無人機 | 技術 | ch22 | - | jammer drones→干擾無人機；attack drones→攻擊無人機；swarm→機群 |
+| chip and memory-kill | 銷毀晶片與記憶體 | 技術 | ch22 | - | fry the target's circuits→燒毀目標的電路；「Goal: all comms and memory dead」→「目標：通訊與記憶體全部摧毀」 |
+| training data | 訓練資料 | 技術 | ch22 | 訓練數據 | |
+| noise-tolerant | 抗雜訊 | 技術 | ch22 | 抗噪聲 | highly noise-tolerant erasure code→高度抗雜訊的抹除碼 |
+| behavior profiling | 行為側寫 | 技術 | ch23 | 行為畫像 | location tracking→位置追蹤 |
+| denial of service attack | 阻斷服務攻擊 | 技術 | ch23 | 拒絕服務攻擊 | Zei 借資安術語形容濫訴；保留這個比喻 |
 
 ## 制度與治理
 
@@ -251,6 +261,25 @@
 | peace dove | 鴿派 | 一般詞 | ch20 | 和平鴿 | extreme peace dove→極端鴿派 |
 | neutral zone | 中立區 | 制度 | ch20 | - | 北林的大梅港 |
 | performative outrage | 作秀式的憤慨 | 一般詞 | ch20 | - | senate hearing→參議院聽證會 |
+| appeal (court) | 上訴 | 制度 | ch21 | - | 法律語境；ch16 的「see the appeal」是吸引力，不在此列。維瑞迪亞法院沒有上下級，上訴就是重新抽一組法官；民事雙方皆可上訴，刑事只有被告方可以（ch23） |
+| bad faith | 惡意 | 制度 | ch21 | 壞信仰 | bad-faith appeal→惡意上訴；frivolous appeals→濫訴性的上訴；penalty judgement→懲罰性判決；settle→和解 |
+| common law | 普通法 | 制度 | ch21 | - | Veridian common law rules→維瑞迪亞的普通法規則 |
+| defense statement | 答辯書 | 制度 | ch21 | 辯護聲明 | appeal document→上訴狀 |
+| preponderance of evidence | 優勢證據 | 制度 | ch21 | 證據的優勢 | 台灣法律用語。賽菈大吼「IT'S ABOUT THE PREPONDERANCE OF EVIDENCE」→「重點是優勢證據！」，大寫照原文用強調處理 |
+| propagandist | 宣傳家 | 一般詞 | ch21 | - | 賽菈：「Ephelion and Delwart are not intellectuals, they are propagandists.」→艾費里昂和德爾瓦特不是知識分子，是宣傳家 |
+| cover story | 掩護說詞 | 一般詞 | ch21 | - | pretense→偽裝；ruse→幌子 |
+| shelter | 避難所 | 制度 | ch22 | 庇護所 | luxurious room in a shelter→豪華避難所房間；emergency shelter functionality（ch20）→緊急避難功能 |
+| cartel | 卡特爾 | 制度 | ch22 | - | 敘事中可補成「卡特爾（聯合壟斷）」一次，之後只寫卡特爾 |
+| maximum budget rule | 預算上限規定 | 制度 | ch22 | - | 自由城憲法限制政府預算 |
+| unified defense grid | 聯防網 | 制度 | ch22 | 統一國防網格 | 「克城」之間的聯合防禦網 |
+| conscientiousness | 盡責性 | 一般詞 | ch22 | 責任心 | 人格五大特質用語；personality test→性格測驗 |
+| legitimacy | 正當性 | 制度 | ch22 | 合法性 | legitimacy by performance（ch23）→以績效建立正當性；quick wins→速效成果 |
+| defense corps | 國防企業 | 組織 | ch22 | 國防軍團 | corps 這裡是 corporations 的縮寫，不是軍團；defense companies 同；seaborne／airborne→海上／空中 |
+| sub-group | 子小組 | 制度 | ch23 | - | 每條規準 21 名守律者分成三個七人子小組 |
+| Senate committee | 參議院委員會 | 制度 | ch23 | - | 澤說見習生轉正要通過 Senate committee；ch08 寫 Parliament committee（議會委員會），照原文各自譯 |
+| co-father | 共養父親 | 制度 | ch23 | - | 見 co-family；Gladias 稱維爾「My co-father, Vil」→我的共養父親維爾（指同一共養家庭的另一位父親，譯文照字面） |
+| Transportation Ministry | 交通部 | 組織 | ch24 | - | administrative change→行政上的變更 |
+| de-facto advisor | 實質顧問 | 一般詞 | ch24 | - | de-facto Kungaupei advisor→昆高派的實質顧問 |
 
 ## 物品、裝置與 AI
 
@@ -291,6 +320,10 @@
 | Number Ten | 十號餐 | 物品 | ch19 | - | 維瑞迪亞哲戈餐車上的菜名（蘑菇蔬菜飯） |
 | sealed cup | 密封杯 | 物品 | ch19 | - | 圖書館在書架旁只給附吸管的密封杯 |
 | data cable | 傳輸線 | 物品 | ch19 | 數據線 | |
+| Taxi fare | 計程車車資 | 物品 | ch22 | - | UI：Driver base fare→司機基本費；Per-minute toll→每分鐘費；Per-kilometer toll→每公里費；Acceleration and deceleration toll→加減速費（113 m/s Δv 保留）；Road congestion toll→道路壅塞費；Total→合計 |
+| calling booth | 通話亭 | 物品 | ch22 | 電話亭 | |
+| mini rocket | 小火箭 | 物品 | ch21 | - | 茲文的物理老師給他看的 |
+| shadowy cloak | 暗色斗篷 | 物品 | ch24 | - | 鄧的斗篷（ch09 是祭司斗篷） |
 
 ## 自創詞與其他
 
@@ -357,6 +390,12 @@
 | burn (zipcoins) | 燒掉 | 自創詞 | ch19 | - | 刻意銷毀吉普幣來表示誠意或付費廣播；UI「50 zipcoins have just been burned. 🔥」→「剛剛燒掉了 50 吉普幣。🔥」 |
 | message envelope | 訊息信封 | 技術 | ch19 | - | 訊息外層、可供篩選的公開標記 |
 | punchline | 笑點 | 一般詞 | ch19 | - | 「as his local AI liked to say, the punchline」→用他的本地 AI 最愛說的話，這就是「笑點」 |
+| When you have eliminated the impossible | 排除一切不可能 | 一般詞 | ch21 | - | 福爾摩斯名言，原文少了 however：「When you have eliminated the impossible, whatever remains, how improbable, must be the truth.」→「排除一切不可能之後，剩下的不管多麼難以置信，都一定是真相。」用台灣讀者熟悉的說法 |
+| minimalism | 極簡主義 | 一般詞 | ch23 | - | internet minimalism→網路極簡主義；physical minimalism→實體極簡主義 |
+| Containing inside the green | 包在綠色裡面 | 自創詞 | ch23 | - | Gladias 逐字硬翻哲戈語的段落：small thinking→小思考（＝極簡主義）、beautiful thinking→美思考（＝美學）、line-heartedness→線心（＝簡單、方便）、locked room→上鎖的房間（＝牢籠）、warm-heartedness→暖心、aggregate-and-group devices→聚合分組裝置（＝計算機）、sound conversation devices→聲音對話裝置（＝電話）、books without an upper lid→沒有上蓋的書（＝無限）。譯文要保留逐字直譯的生硬感，汾、澤的更正則用正常中文。「Containing inside the green」是固定說法，意為「包括哲戈與維瑞迪亞」 |
+| background radiation | 背景輻射 | 一般詞 | ch24 | - | 「Love has to come not as a constant background radiation, but as a reward for winning.」 |
+| mi cin pin fe lo kin do | mi cin pin fe lo kin do | 自創詞 | ch24 | - | Gladias 用哲戈語打招呼，保留拼音 |
+| Chief | 大哥 | 一般詞 | ch22 | 酋長、首領 | 楊恩叫計程車司機「Chief」→「大哥」或「司機大哥」；司機回「boss」→「老闆」 |
 
 ## SVG 標籤建議譯法（ch17 圖譜募資圖，不列入比對）
 

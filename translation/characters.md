@@ -15,7 +15,7 @@
 | Daia | 黛亞 | 女／她 | 共養家庭的另一位母親 | ch01 | - | Aunt Daia→黛亞阿姨 |
 | Jahn | 楊恩 | 男／他 | Seila 在自由城的朋友，自由城經濟研究所研究員（ch10） | ch01 | 揚恩 | ch01 只提名字，ch10 確認為男性 |
 | Mov | 莫夫 | 男／他 | 掌舵會正式成員（應為守律者，見人物卡），Gladias 的朋友；ch08 被抽中轉任傳令官 | ch03 | - | ⚠ 身分原文前後說法不一，見人物卡 |
-| Delwart | 德爾瓦特 | 男／他 | 神祕人，ch01 匿名傳訊者；想推動廢除所有規準 | ch03 | - | ⚠ ch03 揭露他就是 ch01 信譽 200 的匿名傳訊者 |
+| Delwart | 德爾瓦特 | 男／他 | 神祕人，ch01 匿名傳訊者；想推動廢除所有規準；ch16 自稱替銀聊工作，ch21 被推論是北極帝國的人 | ch03 | - | ⚠ ch03 揭露他就是 ch01 信譽 200 的匿名傳訊者 |
 | Ephelion | 艾費里昂 | 未明（暫用他） | 北極帝國駐維瑞迪亞領事（ch03）／大使（ch08） | ch03 | - | Lord Ephelion→艾費里昂勳爵；ch03 只以署名出現，ch08 在辯論中發言 |
 | Arctic Emperor | 北極皇帝 | 男／他 | 北極帝國統治者 | ch01 | 北極大帝 | 未親自登場，常被當笑梗 |
 | Emerald | 翡翠 | AI／它 | Gladias 手持裝置上的本地 AI | ch01 | 祖母綠 | 【待決】Q7。UI「Emerald AI summary」→「翡翠 AI 摘要」；「Emerald listening mode active」→「翡翠聆聽模式已啟動」；Gladias 口語稱 the bot→「那個 AI」 |
@@ -99,6 +99,7 @@
 - 補充（ch10–11）：以守律者身分參加三個小組（公開活動與演出文化價值規準：四號；硬體開放性規準：六號；空氣品質規準：二號）。在小組中想推動「別讓規準把藝術變得平淡」，會發表較長的論述（"But violence is part of life." ch10）；對家人保密德爾瓦特的事。心算分貝、CO₂ 等數字是他一貫的思考方式。
 - 補充（ch13–16）：與德爾瓦特周旋時表面附和、內心保留（被問北極會不會動手，只回 "Probably not." ch13）；在硬體開放性小組用「兩個月後看北極有沒有動作再決定」的提案拖延表決，展現會議上的小手腕（"I just had an idea." ch13）。紅郡淪陷後對德爾瓦特發怒，開門見山質問（"You have a lot of explaining to do."、"What the hell is going on?" ch16）。背守律者投票機制像背課文（"Only votes signed with a valid key count", Gladias recited. ch15）。⚠ ch16 向賽菈說去哲戈是莫夫的想法，其實是德爾瓦特提議——譯文照原文，不要替他圓。對費布里克回嘴俏皮（"I may make lots of mistakes, but I don't make the same mistake twice" ch16）。
 - 補充（ch17–19）：拜會韋爾多與貝爾戈時謙虛、好問（"Honestly, not very." ch17）；投票後覺得「就只是按按鈕」而有點失落；果月 18 日抵達帕佛蓋都，對哲戈的一切好奇、會自己出門散步觀察，努力猜哲戈語單字（"'min' is machine, 'jan' is person, so I guess the two together mean ... robot?" ch19）；談空氣品質時會搬出數字說教（"We breathe twelve kilograms of air every day" ch19）。
+- 補充（ch21–24）：被賽菈痛罵後低聲認錯（"I'm sorry, Seila." ch21），承諾「不再有祕密」；在哲戈成了昆高派的實質顧問，搬進金字塔地下住，每天和韋爾多通話。莉莉出走後徹夜未眠，第一反應是反省（"We really haven't been doing anything to actually motivate or encourage her." ch23），被賽菈吼「別擺哲學家架子」後也會回嘴、要求共同承擔。面對白時情緒低落、話少（"I'm fine" ch24——照 style guide 譯「沒事」）。對鄧提出大膽的建議：「Spy on us.」並條列三點理由，說話回到理性、有條理。已能用哲戈語打招呼。
 - 首見：ch01
 
 ### 賽菈（Seila）
@@ -110,6 +111,7 @@
 - 補充（ch10–11）：已回到梅爾丹。愛開玩笑但會弄錯哲戈語（"Veridia ba 'fun' gie!" ch10）；引用維瑞迪亞古作家的句子稱讚茲文（"He took the path less traveled...and that blazed a trail for all." ch11）；叫 Gladias「Glad」。
 - 補充（ch13–16）：看到艾費里昂的宣傳插播，第一個起身去拔螢幕插頭（ch13，ch16 成為她的安全提問答案）；紅郡淪陷時第一時間傳訊確認楊恩平安（"Please tell me you're in Freetown and you're okay." ch15）。對 Gladias 去哲戈先持保留，再有條件同意，口吻務實（"But please do your homework first." ch16）；是 Gladias 錢包社交恢復的金鑰持有人之一。
 - 補充（ch20）：北林淪陷、費布里克與赫蕾妲受困時先哭，隨即決定「得做點什麼」，主動跟莫夫去拜訪被德爾瓦特接觸過的守律者；說話直接、有主見，當面擋下莫夫（踩他腳趾要他別出聲），很會取得陌生人信任（"Hi, I'm Seila. I know this is awkward, but we wanted to talk about the Order and Delwart." ch20）。自稱「worried mom - or, well, aunt」（共養家庭的身分）。從小喜歡銀聊。最後推理出「Delwart is not from Silverchat.」
+- ⚠ 補充（ch21、ch23）：本書最激烈的情緒：對 Gladias 連罵「idiot」（"Gladias, you idiot! Do you know what you've done?!!!!" ch21），用全大寫吼叫，並逐條列分數推理出德爾瓦特是北極的人；生氣時叫他全名 Gladias 而不是 Glad。譯文要讓她真的在罵人（「你這個白痴」「笨蛋」），不要軟化；全大寫可改用「！」與強調，但不要加字。莉莉出走時先是對莉莉吼了十分鐘，再對 Gladias 吼「HOW COULD YOU HAVE BEEN SO NEGLIGENT?」後掛電話。ch24 她已先教茲文怎麼跟莉莉保持聯絡——冷靜下來後行動力很強。
 - 首見：ch01
 
 ### 茲文（Zven）
@@ -117,6 +119,7 @@
 - 說話風格：活潑、大聲、好勝（"Number five, I win!" ch01；"Yay, I love Uncle Vil!" ch01）。
 - 中文口吻：小孩子的直白與興奮，可用「耶」「我贏了」。
 - 補充（ch11）：約十到十二歲，第一次正式旋翼球比賽，以「撿起地上摔壞的第四顆紅球」這種出奇招讓黃隊獲勝；Daia 覺得他的算術作業比費布里克當年簡單。
+- 補充（ch21、ch24）：旋翼球又贏一場、物理考 95 分，物理老師私下帶他看小火箭，夢想造火箭上月球（"Maybe I'll even be able to go to the moon one day!" ch21）；冒失地喊出「Is it the Arctics?」讓全桌安靜。ch24 接 Gladias 電話時叫「Dad?」，答應幫忙聯絡莉莉（"Anything for my sister."），並吐槽「媽一個長時前就叫我這麼做了」。
 - 首見：ch01
 
 ### 莉莉（Lily）
@@ -125,6 +128,7 @@
 - 中文口吻：青春期的冷淡，「隨便啦……」一類。
 - 補充（ch08）：公民考試考 59 分、全班倒數第三，哭著大喊（"FIFTY-NINE PERCENT. Third-worst in the class." ch08）；曾替賽菈烤生日蛋糕、在赫蕾妲受傷時每天送飯。
 - 補充（ch13–16）：赫蕾妲數學考 96 分時她低頭不語；看完艾費里昂「強者之路」的宣傳文後埋頭玩手持裝置上的遊戲，破關後小聲歡呼（ch13）。ch16 費布里克說她公民考了 70 分、心情好轉，更投入那個不給人看的遊戲。⚠ 那個遊戲是什麼原文刻意不說，譯文不要猜。
+- ⚠ 補充（ch21–24）：ch21 公民考 81 分，興奮地向大家報告（"Uncle Vil, Aunt Daia, Mom!"）。ch23 揭露：她在聊天群組裡分享北極宣傳、為艾費里昂的文章叫好，認為北極「有條件的愛」把她拉出低潮、家人的無條件之愛是毒藥；被賽菈發現後從窗戶出走，把手錶丟上一輛自駕巴士。ch24 Gladias 說她「這一年來」都在吸收北極宣傳。⚠ 回溯：ch13 她盯著艾費里昂的插播、之後埋頭玩「遊戲」並破關歡呼，ch16 費布里克說她心情變好、更投入「那個遊戲」——這些段落照原文譯，不要加暗示，但譯者要知道這條伏線。
 - 首見：ch01
 
 ### 費布里克（Febric）
@@ -144,6 +148,7 @@
 - 補充（ch06–08）：談正事時直接、敏銳，會戳破 Gladias（"It was him, wasn't it? The mysterious gentleman, Delwart?" ch06）；有點吃醋式的抱怨（"Before me." ch06）；簡短俐落的安慰（"In is in." ch08）。
 - 補充（ch13–16）：繼續跟蹤德爾瓦特，隔著茶館包廂牆壁的振動偷聽到他在同一規準的兩個小組都布了人；說話簡短有力、愛下結論句（"Hope is not a strategy." ch15；"Humans - the ultimate trusted hardware." ch15）。ch16 說他有朋友在紅郡淪陷當天也建議他去哲戈看祕密社團如何運作；是 Gladias 社交恢復的候選簽署人。
 - 補充（ch20）：Gladias 在哲戈期間去找賽菈，以「格拉迪亞斯的常用聯絡人」證明身分；對 Gladias 家瞭若指掌（直接走向地下室）；體格比一般人高大。在守律者身上裝了追蹤器卻沒去告發領賞；性子急（擅自燒掉 50 吉普幣逼人開門）。說話仍簡短，但這章較多長段分析（"I think our society has just gotten really complacent." ch20）。
+- 補充（ch21）：賽菈罵他也是「idiot」、說他是 Gladias「shadowy friend」；ch23 被賽菈找去追蹤莉莉的手錶。
 - 首見：ch03
 
 ### 德爾瓦特（Delwart）
@@ -154,6 +159,7 @@
 - 補充（ch06）：莫夫查到他每天換新隱私袍、重新隨機化鞋墊改變步態與身高，但走路時幾乎不東張西望；他在大梅港各茶館輪流見不同的人，可能在遊說多名見習生改當守律者。
 - 補充（ch13–16）：ch13 仍勸 Gladias 說服大家別擔心北極；餐點固定是茶配長方形營養棒；口頭禪式的客套（"Of course you should, family is the most important thing!" ch13）。⚠ ch16 坦承：他和一群彼此不認識的人都在替**銀聊**工作，想讓銀聊成為對抗「平淡化」的避風港，才遊說守律者；紅郡淪陷後認錯（"Look, Gladias, you were right, I was wrong." ch16），建議 Gladias 去哲戈取經。口吻從自信轉為低姿態，但仍條理分明。
 - ⚠ 補充（ch20）：他對不同守律者說法不一：對泰爾羅伊說反戰、主張少用密碼學多信任人、擔心內線交易；對芭爾梅不談國際政治，只反對規準鼓勵愛國教育，還問過她對 Dreadknot 的看法；社群媒體規準小組則完全沒人被他接觸。賽菈據此斷定他**不是**銀聊的人——ch16 的自白是謊話。譯 ch16 時照原文，不要露餡。
+- ⚠ 補充（ch21）：賽菈推論他其實是北極帝國的人，目的是讓掌舵會失靈：對不同守律者依其立場改口（自由、和平、銀聊都只是面具），諜報能力遠超企業；莫夫偷聽到的「銀聊會面」是他察覺被跟蹤後故意布的局。之前各章他的台詞一律照原文、維持原本的人設，不要提前露出破綻。
 - 首見：ch01（匿名）、ch03（現身）
 
 ### 翡翠（Emerald）
@@ -181,6 +187,7 @@
 - 補充（ch09–12）：收到信後被昆高派的鄧招募，轉讀密碼學（一個月內讀完三分之一課程、前兩次考試滿分）；得知明盤台其實是軍事訓練，答應保密（連汾也不說），對媽媽也不能說實話。ch12 到首都薩祖都參加全國賽，第一場在六角格新規則下，用「時間反向」推導出產生印記的方法獲勝。口吻仍帶學生氣但更沉穩（"It's all entropy, isn't it" ch12）。
 - 補充（ch14–15）：準決賽以「蹲低防守、撐到最後」擊敗君・采百；看德盧因比賽佩服對方的耐心，兩人成為朋友（德盧因邀他去紅郡）。紅郡淪陷後為德盧因哭泣，恢復後化身老師，用長訊息詳細教隱寫術（ch15），又怕顯得愛現補一句 "I learned that from Den's cryptography textbooks."；會自我提醒保密原則（不對外人提昆高派）。決賽取消，他成為全國冠軍卻說 "I don't want to win like this."。鄧要他回帕佛蓋都參與密碼學基礎設施。
 - 補充（ch18–19）：與白一起接待 Gladias，當導遊耐心解說；向 Gladias 介紹鄧（"You want Veridia to learn from him, not from our official government." ch19）。ch19 的匿名訊息信封說收件人「18 歲」。收到德盧因的加密信後冷靜分析抹除碼、隱寫與混淆的細節，講話像技術報告。
+- 補充（ch22–24）：已是昆高派「最好的密碼學家之一」，負責與自由城國防企業合作，親自指揮紅郡的無人機戰（對 AI 下指令簡短如軍令："Circles, finish the northwest square now." ch22）；能流暢背出維瑞迪亞掌舵會與法院的規則。對楊恩有禮又熱絡；打完仗疲憊但興奮。
 - 首見：ch02
 
 ### 汾（Fin）
@@ -190,6 +197,7 @@
 - 補充（ch07）：在班順派接受語言學訓練，被認為適合加入；會替澤回嗆白（"You know if you were nicer to Zei..." ch07）；對政府的失敗冷笑（"Heh"）。
 - 補充（ch09–12）：在白哭訴時安慰她，興致勃勃地講解哲戈語文法（"Dzegoban is a masterpiece" ch09）；越來越忙於班順派的事，和澤、白都少聯絡。
 - 補充（ch18）：消失半個月後現身，向眾人發表「哲戈語是協調訓練」的長篇演說，越講越激動，結尾大寫呼喊（"And we are going to WIN." ch18）。譯文要保留他從說理到激昂的節奏，大寫處可用強調或驚嘆號。
+- 補充（ch23）：拿哲戈語書考 Gladias，一路逐字糾正，像嚴格又帶笑的語言老師（"Come on, try."、"Great!"）。
 - 首見：ch02
 
 ### 白（Bai）
@@ -201,6 +209,7 @@
 - 補充（ch09–12）：⚠ ch09 揭露她父母在她小時候死於北極帝國造成的實驗室爆炸，由冷淡的姑姨（aunt）收養，從小靠自己打工賺錢；所以澤與汾「帶上你媽」的玩笑刺痛她。情緒爆發時大吼（"My mom is DEAD! My dad too." ch09），之後又能坦率欣賞澤的戰術。ch10 與澤練習對戰並贏他；ch12 受鄧的人委派到薩祖都記錄參賽者戰術。
 - 補充（ch14）：學餐廳機器人裝可愛取笑它（"jie mo kai tu jie hei ja ma?"）；靠交朋友、旁觀練習蒐集情報，坦白說起自己的成長（"Basic social skills. I needed to learn them to survive growing up." ch14），勸澤別急（"So please don't rush things if you don't have to, okay Zei?"）。對澤的語氣已從挑釁轉為關心。
 - 補充（ch18）：對 Gladias 禮貌而活潑（"We are indeed!"），用古詩回應賽菈引用的維瑞迪亞句子（"Although you're blazing trails, and we're fighting here to survive." ch18）。
+- 補充（ch23–24）：在 Gladias 低潮時主動擁抱、不追問；坦承北極「愛是勝利的獎賞」的說法曾是她的童年寫照，十二歲就開始自己賺錢，在帕佛蓋都的明盤台拿亞軍；認為澤的動力是好奇心。說話成熟、像在講人生哲理（"That maybe there really is no master formula." ch24），最後勸 Gladias「當一兩成的北極人」。
 - 首見：ch04（ch04 前半汾先提到她）
 
 ### 穆（Mu）
@@ -229,6 +238,7 @@
 - 說話風格：話不多，關心時事（"How much of your time is this whole arms race taking up?" ch05）。
 - 中文口吻：平實成熟。
 - 補充（ch15）：紅郡淪陷當天在研究所餐廳看到快報，喃喃自語（"What do we do now?"）；回賽菈訊息簡短安撫。
+- 補充（ch22）：本章視角人物。對自由城的觀察冷靜、帶經濟學家的分析（"It's a trick to work around the maximum budget rule"），和計程車司機互稱「Chief／boss」；向烏塔庫講聯合城邦歷史時是說理長段。透過研究所所長替澤牽線國防企業，與澤以平輩口吻通話；守得住軍事機密（"Freedom of speech is great for many things, but ... not for military secrets."）。
 - 首見：ch01（名字）、ch05（登場）
 
 ### 維爾（Vil）
@@ -236,6 +246,7 @@
 - 說話風格：禮貌、直接（"Sorry to bother you, but it's about Lily." ch08），會用獎勵激勵孩子（帶去北林旅行）。
 - 中文口吻：平實的家長口吻。
 - 補充（ch11）：半年前任職的 Jump 公司破產，發現是避險基金「分歧」的操作，正與同事提集體訴訟；說話客氣、怕麻煩別人（"I've been trying not to burden you guys with the details" ch11）。
+- 補充（ch21）：講官司進度時有條理、帶點疲憊的幽默（"Normally I would say, now you've earned your trip to Northglade. But, well..."）。
 - 首見：ch01（名字）、ch08（訊息與對話）
 
 ### 佩萊（Pelae）
@@ -278,6 +289,7 @@
 - 身分：共養家庭的母親，費布里克與赫蕾妲的媽媽。
 - 說話風格：熱情、細心（"Happy to see you here!" ch11），會留意孩子的課業程度。
 - 中文口吻：親切的家長口吻。
+- 補充（ch21）：在晚餐桌上主動輪流問大家近況，像主持人（"So what else is new for you, Seila?"）。
 - 首見：ch01（名字）、ch11（對話）
 
 ### 鄧（Den）
@@ -285,6 +297,7 @@
 - 說話風格：像嚴格的老師，連續追問考學生（"How do I know it's not just forwarding responses from a different device somewhere else?" ch09），很快就假設對方會答應（"when you're ready, I will start suggesting some tasks for you." ch09）。
 - 中文口吻：沉穩、權威但不兇；講解密碼學清楚俐落。
 - 補充（ch15）：紅郡淪陷後說話變得急切、宣言式（"The shadow society has to become the society. The shadow government has to become the government." ch15），但仍保持導師式的考問（"Do you remember what they are?"）。把澤的比賽戰術類比成「頻寬有限的資訊通道」。
+- 補充（ch24）：在 Gladias 提議「監視我們」時一度露出驚訝，隨即恢復面無表情——他自認不該流露情緒；會先問對方理由（"I think I see the reasoning. But I want to hear yours."），也會徵詢澤的意見。
 - 首見：ch09
 
 ### 蘇（Su）
@@ -313,6 +326,7 @@
 - 說話風格：消息靈通、講話直接（"Haven't you been following the news?" ch10）。
 - 中文口吻：研究生間的平輩口吻。
 - 補充（ch15）：回答楊恩只有一句 "Take the threat seriously"，隨即埋頭打字；行動派。
+- 補充（ch22）：被父母叫回自由城；對克城聯防持保留（"I worry it's more theater than anything substantive."），也欣賞研究所可以自由談論爭議話題。
 - 首見：ch10
 
 ### 十三號（Thirteen, 硬體開放性小組）
@@ -379,6 +393,12 @@
 - 說話風格：幽默、愛挖苦（"Most people tell me they're looking to learn some high-minded thing ... and then go and download their movies as soon as I'm not looking." ch19）、把事情當冒險（"Ah, a quest!"）。
 - 中文口吻：風趣的長輩；自稱「我們這些老古板館員」（stodgy librarians）。
 - 首見：ch19
+
+### 計程車司機（the driver, ch22）
+- 身分：自由城計程車司機，未具名。
+- 說話風格：市井、隨和，接受自由城的市場邏輯（"I guess that's their property, their rules." ch22），叫楊恩「boss」。
+- 中文口吻：計程車大哥的口吻，口語、可帶點江湖味，但不用台語詞。
+- 首見：ch22
 
 ## 稱謂表
 
@@ -465,3 +485,16 @@
 | Seila | Telroy、Balme、Lectoby | - | - | 你 | 陌生人，但賽菈語氣客氣、直接；需要時可用「您」表示歉意，建議統一用「你」 |
 | Telroy、Balme、Lectoby | Seila | - | - | 你 | |
 | Febric、Hreda | Seila | - | - | 你 | ch20 訊息 |
+| Jahn | 計程車司機 | Chief | 大哥 | 你 | ch22 |
+| 計程車司機 | Jahn | boss | 老闆 | 你 | ch22 |
+| Jahn | Utaku | Utaku | 烏塔庫 | 你 | |
+| Zei | Jahn | - | - | 你 | ch22 通話；ch05 相識的大人，原文隨意，用「你」 |
+| Jahn | Zei | Zei | 澤 | 你 | |
+| Seila | Gladias（生氣時） | Gladias | 格拉迪亞斯 | 你 | ch21、ch23 吵架時叫全名，與平常的「格拉德」區分 |
+| Lily | Vil、Daia、Seila | Uncle Vil, Aunt Daia, Mom | 維爾叔叔、黛亞阿姨、媽 | 你們 | ch21 |
+| Zven | Gladias | Dad | 爸 | 你 | ch24 |
+| Gladias | Zven | Zven | 茲文 | 你 | |
+| Bai | Gladias | - | - | 你 | ch24 擁抱安慰 |
+| Den | Gladias | Gladias | 格拉迪亞斯 | 你 | |
+| Gladias | Den | - | - | 你 | 成年人之間、合作關係；不必用「您」 |
+| Fin | Gladias | Gladias | 格拉迪亞斯 | 你 | |
