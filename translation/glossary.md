@@ -141,6 +141,31 @@
 | transaction data field | 交易資料欄位 | 技術 | ch16 | 交易數據字段 | |
 | recovery procedure | 恢復程序 | 技術 | ch16 | - | 指社交恢復；「test my recovery procedure」→測試恢復程序 |
 | security question | 安全提問 | 技術 | ch15 | 密保問題 | ch15 澤說還沒問德盧因 security question；ch16 賽菈的訊息開頭「Security question:」→「安全提問：」。用於確認對方身分 |
+| subgraph | 子圖 | 技術 | ch17 | - | 圖譜募資的圖；node→節點；edge→邊；weights（邊的權重）→權重；parent／children→父節點／子節點 |
+| directed acyclic graph | 有向無環圖 | 技術 | ch17 | - | 「the graph stops being a tree」→圖就不再是一棵樹 |
+| randomize-above-cutoff | 門檻以上隨機分配 | 制度 | ch17 | - | 委員會評為前一成的計畫一律同機率入選 |
+| portfolio | 組合 | 技術 | ch17 | 投資組合 | 圖譜募資 SVG：rest of portfolio→組合其餘部分；Air quality portfolio→空氣品質組合 |
+| intrinsic motivation | 內在動機 | 一般詞 | ch17 | - | accountability→問責 |
+| simulated window | 模擬窗 | 技術 | ch18 | 虛擬窗戶 | 黑色專車以攝影機投影的假窗，會追蹤眼睛調整視角；imitation windows（ch19 建築書）→仿窗 |
+| two-dimensional code | 二維條碼 | 技術 | ch18 | 二維碼 | |
+| physical-delivery mixnet | 實體配送混合網路 | 技術 | ch18 | - | 見 mixnet；「Like a mixnet, but for people」→就像混合網路，只是換成人 |
+| journaling file system | 日誌式檔案系統 | 技術 | ch19 | 日誌文件系統 | |
+| erasure code | 抹除碼 | 技術 | ch19 | 糾刪碼 | five-of-six erasure code→六取五抹除碼；recombination algorithm→重組演算法 |
+| plaintext | 明文 | 技術 | ch19 | - | 同 cleartext |
+| cryptographic pad | 密碼本 | 技術 | ch19 | 加密墊 | 源自 one-time pad（一次性密碼本） |
+| level two obfuscation | 二級混淆 | 技術 | ch19 | 第二層混淆 | level four→四級；cryptographic-grade parameters→密碼學等級的參數；overhead→額外開銷 |
+| obfuscated language model | 經混淆的語言模型 | 技術 | ch19 | 混淆語言模型 | 與 obfuscated circuit 一致用「經混淆的」 |
+| tensor | 張量 | 技術 | ch19 | - | |
+| wrapper program | 包裝程式 | 技術 | ch19 | - | |
+| backdoored | 植入後門 | 技術 | ch19 | - | |
+| non-transmitting room | 無訊號屋 | 技術 | ch19 | - | 不讓任何無線訊號進出的房間 |
+| inert storage medium | 惰性儲存媒體 | 技術 | ch19 | 惰性存儲介質 | 本身沒有電路、不會連網的儲存媒體 |
+| digital archive node | 數位典藏節點 | 技術 | ch19 | - | |
+| gigabyte | GB | 技術 | ch19 | 吉字節 | 「sixty gigabytes」→六十 GB；「10.7 gigabytes」→10.7 GB |
+| data retention | 資料保存 | 技術 | ch20 | 數據留存 | data retention in environmental sensors→環境感測器的資料保存 |
+| tracker | 追蹤器 | 技術 | ch20 | - | 莫夫偷裝在守律者身上的 |
+| micro-inspect | 顯微檢驗 | 技術 | ch20 | - | 見 destructively inspect（ch09） |
+| interoperability | 互通性 | 技術 | ch20 | 互操作性 | social media openness and interoperability→社群媒體開放性與互通性 |
 
 ## 制度與治理
 
@@ -205,6 +230,27 @@
 | Prime Minister | 總理 | 制度 | ch15 | 首相 | 紅郡總理 Celedil→塞勒迪爾總理 |
 | interventionism | 干預主義 | 制度 | ch16 | - | 德爾瓦特用語 |
 | shadow government | 影子政府 | 制度 | ch15 | - | 鄧：「The shadow society has to become the society. The shadow government has to become the government.」→影子社會必須成為社會本身，影子政府必須成為政府本身；排比要保留 |
+| Graph Funding steward | 圖譜募資管理人 | 制度 | ch17 | - | 貝爾戈的身分 |
+| committee | 委員會 | 制度 | ch17 | - | 圖譜募資每個節點由密碼學網路隨機選出一個委員會決定下層權重 |
+| special interests | 特殊利益團體 | 制度 | ch17 | - | captured by special interests→被特殊利益團體把持 |
+| quiet period | 靜默期 | 制度 | ch17 | - | 守律者小組線上討論在投票前七天自動關閉 |
+| key registration | 金鑰登記 | 制度 | ch17 | - | 見 Key Allocation Group |
+| voting window | 投票時段 | 制度 | ch17 | - | fifteen-longhour voting window→十五長時的投票時段 |
+| Motion | 動議 | 制度 | ch17 | - | 投票畫面表頭；Vote→投票；按鈕 Yes／No→贊成／反對 |
+| parliament robe | 議會長袍 | 物品 | ch17 | - | 參議員穿的袍子 |
+| exchange trip | 交換學習 | 制度 | ch17 | - | winter term→冬季學期；special education→特別課程（此處是資優課程，不是特殊教育） |
+| coordination training | 協調訓練 | 自創詞 | ch18 | - | 汾：「Dzegoban is coordination training.」→「哲戈語是協調訓練。」 |
+| Coordination Score | 協調分數 | 自創詞 | ch18 | - | 與 Intelligence Score（智力分數）、Emotional Intelligence Score（情緒智力分數）並列；是社群而非個人的屬性 |
+| Intelligence Score | 智力分數 | 自創詞 | ch18 | 智商 | 北極帝國的觀念；不要譯成「智商」 |
+| positive-sum | 正和 | 技術 | ch18 | - | bad equilibria→不良均衡 |
+| rubric group | 規準小組 | 制度 | ch20 | 規準組 | 守律者的討論小組；rubric group on cybersecurity→資安規準小組；rubric group for private schools→私立學校規準小組 |
+| insider trading | 內線交易 | 制度 | ch20 | - | |
+| noise taxes | 噪音稅 | 制度 | ch20 | - | 小型旋翼機的噪音稅極高 |
+| tax nudges | 稅的輕推 | 制度 | ch20 | 稅收推動 | nudge 取行為經濟學「推力」之意，口語寫「用稅輕推」 |
+| thumb on the scale | 在秤上動手腳 | 一般詞 | ch20 | 拇指壓秤 | 德爾瓦特批評掌舵會偏袒；敘事中也可寫「偏袒」 |
+| peace dove | 鴿派 | 一般詞 | ch20 | 和平鴿 | extreme peace dove→極端鴿派 |
+| neutral zone | 中立區 | 制度 | ch20 | - | 北林的大梅港 |
+| performative outrage | 作秀式的憤慨 | 一般詞 | ch20 | - | senate hearing→參議院聽證會 |
 
 ## 物品、裝置與 AI
 
@@ -240,6 +286,11 @@
 | greenball | 綠球 | 自創詞 | ch16 | - | 旋翼球的球：擊中對方球員會爆出顏料（splatted its paint） |
 | pin | 球瓶 | 自創詞 | ch16 | 針、別針 | 旋翼球：高處圓盤上排成三角形的十支黃色球瓶；pin knockdowns→擊倒球瓶 |
 | green circle | 綠色圓圈 | 物品 | ch01 | - | 全書常見的感應點（閘門、桌面、門邊），手錶或手持裝置貼上去即可驗證、付款；glowing green outline→發綠光的外框 |
+| cabin | 車廂 | 物品 | ch18 | - | 黑色專車的車廂可在隧道中與其他九輛隨機交換（Swapped cabins→換了車廂） |
+| Bluewhale Messenger | 藍鯨通訊 | 物品 | ch18 | - | 藍鯨的通訊軟體 |
+| Number Ten | 十號餐 | 物品 | ch19 | - | 維瑞迪亞哲戈餐車上的菜名（蘑菇蔬菜飯） |
+| sealed cup | 密封杯 | 物品 | ch19 | - | 圖書館在書架旁只給附吸管的密封杯 |
+| data cable | 傳輸線 | 物品 | ch19 | 數據線 | |
 
 ## 自創詞與其他
 
@@ -299,3 +350,17 @@
 | dun | dun | 自創詞 | ch15 | - | 哲戈語裝置畫面欄位（澤手持裝置的「收件人」欄），保留拼音；同理 be（送出按鈕）保留。參見 Dzegoban romanization |
 | jie mo kai tu jie hei ja ma | jie mo kai tu jie hei ja ma | 自創詞 | ch14 | - | 哲戈餐廳機器人的招呼語，保留拼音（小寫、問號照原文）；白用裝可愛的聲音模仿它 |
 | FI LE GEI TAU FA | FI LE GEI TAU FA | 自創詞 | ch14 | - | 明盤台開局倒數（全大寫哲戈語），連同 MU GU GEI TAU FA、PA GU、TAU FA 全部保留原文 |
+| kai ja | kai ja | 自創詞 | ch17 | - | 哲戈語「茶」，字面「植物水」（plant water）；ja＝水。保留拼音，照譯英文釋義 |
+| mo fan | mo fan | 自創詞 | ch19 | - | 哲戈語「吃飯的房間」＝餐廳；min＝機器、jan＝人、min jan＝機器人、kun gau＝保全（安全）。畫面上的哲戈語保留，Gladias 的猜測照譯 |
+| river horse | 河馬 | 一般詞 | ch19 | 河之馬 | 圖書館門邊的圖；中文「河馬」字面正好是 river horse |
+| Outside of a dog, a book is man's best friend | 狗之外，書是人類最好的朋友 | 一般詞 | ch19 | - | 格魯喬・馬克思的名言，雙關 outside of（除了／在……外面）。建議：「在狗之外，書是人類最好的朋友；在狗之內，太暗了，沒法讀。」用「之外／之內」保留一點雙關，並在譯者筆記說明 |
+| burn (zipcoins) | 燒掉 | 自創詞 | ch19 | - | 刻意銷毀吉普幣來表示誠意或付費廣播；UI「50 zipcoins have just been burned. 🔥」→「剛剛燒掉了 50 吉普幣。🔥」 |
+| message envelope | 訊息信封 | 技術 | ch19 | - | 訊息外層、可供篩選的公開標記 |
+| punchline | 笑點 | 一般詞 | ch19 | - | 「as his local AI liked to say, the punchline」→用他的本地 AI 最愛說的話，這就是「笑點」 |
+
+## SVG 標籤建議譯法（ch17 圖譜募資圖，不列入比對）
+
+SVG 空間小，中文盡量短；研究者人名見 characters.md。
+
+- 圖一（Airborne disease resistance 子圖）：Airborne disease resistance→空氣傳播疾病防治；Air quality→空氣品質；Early detection→早期偵測；Treatment→治療；Individual non-pharmaceutical prevention→個人非藥物預防（三行可拆成「個人／非藥物／預防」）；Prophylactics→預防用藥；Ventilation→通風；Filtration→過濾；Ultraviolet light→紫外線；Wastewater scanning→汙水監測；Social media open-source analysis→社群媒體開源分析；Individual testing→個人檢測；Airborne environment scanning→空氣環境監測；Antivirals→抗病毒藥物；Supportive care→支持性療法；Immuno-modulators→免疫調節劑；Masks→口罩；Nose sprays→鼻噴劑；Saline nasal rinsing→食鹽水洗鼻；Vaccines→疫苗；Passive immunization→被動免疫；Chemo-prophylaxis→化學預防；rest of portfolio→組合其餘部分。
+- 圖二（Ultraviolet light 子圖）：222nm lamp efficiency improvements→222nm 燈具效率改良；222nm safety testing→222nm 安全測試；222nm upper-room deployment→222nm 上層空間部署；Krypton chloride lamps→氯化氪燈；Research into alternative lamp designs→替代燈具設計研究；VNU Materials Science Lab→國立大學材料科學實驗室；VNU Aeronautics Lab→國立大學航空實驗室；effects on household chemicals→對家用化學品的影響；Air quality portfolio→空氣品質組合；「et al」→「等人」。
