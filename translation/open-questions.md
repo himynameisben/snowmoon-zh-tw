@@ -3,9 +3,11 @@
 需要使用者拍板的翻譯決策。每題都已在對應詞條填入「目前暫用」的譯法，第一階段可以先照用；
 使用者決定後，把狀態改為「已決：<譯法>」並同步更新詞條、移除備註中的【待決】。
 
+第零階段收尾（ch32）：以下依重要性排序（影響範圍最廣、最需要品味判斷的在前）；編號沿用原始編號，以免詞條備註中的「Q5」等參照失效。其餘問題（如 Ground Law、bot、DOG、法官名拼法不一）已由編纂者自行決定，記在各詞條備註。
+
 ## Q1：書名與月名 Snowmoon 怎麼譯？
 - 狀態：待決
-- 相關詞條：Snowmoon（glossary.md）、Rainmoon、Windmoon、Bloomtime、Grasstime（worldbuilding.md）
+- 相關詞條：Snowmoon（glossary.md）、Rainmoon、Windmoon、Bloomtime、Grasstime、Harvestmoon、Firemoon、Fruitmoon、Grapetime、Mistime、Frostime（worldbuilding.md）
 - 背景：Snowmoon 是書名，也是曆法中的月名，每章 dateline 都有「3724 Snowmoon N」。ch01–04 全發生在這個月。月名與書名最好同一譯法。
 - 選項：
   1. 雪月（建議）— 簡潔、像月名，dateline「3724 年雪月 3 日」讀起來自然；書名《雪月》有詩意。
@@ -14,17 +16,8 @@
 - 補充（ch10–12）：後續月名有兩種字尾：Rainmoon、Windmoon（-moon），Bloomtime、Grasstime（-time）。建議 -moon 一律「X月」、-time 一律「X季」（花季、草季），保留原文的區分。另外 Windmoon 直譯「風月」在中文有「風花雪月／風月場所」的聯想；dateline 裡讀者應能看懂是月名，建議照用，若介意可改「颳風月」或全部改「X之月」（雪之月、雨之月、風之月）。
 - 補充（ch13–16）：新月名 Harvestmoon（ch13）、Firemoon（ch14–16），月序為 …草季 → 穫月 → 火月。Firemoon→「火月」沒有問題；Harvestmoon 若維持兩字，建議「穫月」（「穫」單字稍生但意思明確），替代案「收月」（好念但意思較模糊）、「收穫月」（清楚但破壞兩字格式）。
 - 補充（ch17–20）：再出現 Fruitmoon（果月，ch17–18）、Grapetime（ch19）、Mistime（ch20）。Grapetime 若硬壓成兩字（「葡季」「萄季」）都不成詞，建議「葡萄季」；Mistime 建議「霧季」。如果使用者偏好全部兩字，-time 系列可以考慮改成「X 節」以外的方案，但會影響花季、草季。
-- 目前暫用：雪月；雨月、風月、花季、草季、穫月、火月、果月、葡萄季、霧季
-
-## Q2：Veridia 系人名的音譯風格與字數
-- 狀態：待決
-- 相關詞條：Gladias、Seila、Febric、Hreda、Delwart 等（characters.md）
-- 背景：主角 Gladias 若完整音譯是 5 字（格拉迪亞斯），超過命名原則「2–4 字」；他的暱稱 Glad 也需要對應譯名。這決定全書西式人名的整體風格。
-- 選項：
-  1. 完整音譯：格拉迪亞斯／暱稱格拉德（建議）— 忠於發音，暱稱自然由全名截短而來。
-  2. 縮短音譯：葛拉迪斯（4 字）／暱稱葛拉德 — 好念，但少了一個音節。
-  3. 女性名一律用「菈、妲、蕾」等女性化字（賽菈、赫蕾妲）是否可接受，也請一併確認。
-- 目前暫用：格拉迪亞斯／格拉德；女性名用女性化用字
+- 補充（ch25–32）：最後一個月 Frostime（ch25–28）建議「霜季」；之後跨年到 **3725 年雪月**，全書高潮的北岸省決戰發生在雪月 29–30 日（ch29–30），ch31–32 回到雨月。書名 Snowmoon 因此有明確的情節對應（決戰之月），更支持書名與月名同譯「雪月」。
+- 目前暫用：雪月；雨月、風月、花季、草季、穫月、火月、果月、葡萄季、霧季、霜季
 
 ## Q3：Dzego 系人名、地名與專有名詞的譯法
 - 狀態：待決
@@ -37,28 +30,19 @@
 - 補充（ch09–12）：組織名 Bansunpei、Kungaupei 同以 -pei 收尾，建議一律譯「派」（班順派、昆高派）；首都 Sadzu Du 的拼音意為「主城」，原文特別說明「helpfully-named」，音譯「薩祖都」後照譯原文的英文釋義即可。ch12 有紅郡選手 Deluin 被哲戈人叫成「De lu hin」，說明「不像哲戈名字」——哲戈人名與外國人名的譯法必須看得出差異，這也支持選項 1。
 - 補充（ch14）：新增哲戈人名 Gun Caibai（君・采百；gun 沿用載君街的「君」）、Kau Seiza（考・世薩），地名 Dzundei（尊德）、Geijaken（紀嘉肯）。選字時刻意避開已用字（Caibai 不用「白」、Kau 不用昆高派的「高」），同音節盡量同字。
 - 補充（ch18–19）：新增街名 Tan Kai（譚凱街）、Zin Go（辛戈街）、Len Su（連蘇街）。ch19 揭露 kun gau＝「保全、安全」，所以 Kungaupei 字面近於「安全派」；若使用者傾向意譯組織名，可考慮「昆高派」改「保安派」，但班順派的字義未知，一致起見仍建議音譯。
+- 補充（ch25–32）：ch26 澤揭露 Pafogai 字面是「十四石」（pa fo＝14、gai＝石），暗指週期表上的矽；ch27 的倒數讓哲戈語數字完整現形（pa＝1……gu＝0）。這些字義都由原文的英文釋義或角色對話交代，音譯不影響理解，仍建議選項 1。
 - 補充：無論選哪個，Dzegoban 的句子、口號、招牌、倒數（gie fe kiu kai ci bin hu、MU GU GEI FA）都建議保留羅馬拼音，只翻原文附的英文釋義。
 - 目前暫用：選項 1
 
-## Q4：時間單位 tick 與 longhour 怎麼譯？
+## Q2：Veridia 系人名的音譯風格與字數
 - 狀態：待決
-- 相關詞條：tick、longhour（glossary.md）
-- 背景：本書的計時是十進位制：1 天 = 10 longhour = 1,000 分鐘 = 100,000 tick（ch09 明說）。tick 約 0.864 秒，全書極常出現（a few ticks later、milli-ticks、裝置時間 60259）。原文刻意不叫 second。首見 ch01。
+- 相關詞條：Gladias、Seila、Febric、Hreda、Delwart 等（characters.md）
+- 背景：主角 Gladias 若完整音譯是 5 字（格拉迪亞斯），超過命名原則「2–4 字」；他的暱稱 Glad 也需要對應譯名。這決定全書西式人名的整體風格。
 - 選項：
-  1. tick＝拍、longhour＝長時（建議）— 「拍」短、可當量詞（幾拍之後、毫拍），有節拍的意象；「長時」清楚表示比小時長。
-  2. tick＝秒、longhour＝長時 — 最順口，但讀者會以為就是現實的秒，失去世界觀的陌生感（ch09「一分鐘一百秒」反而會像錯字）。
-  3. tick＝刻 — 有古意，但中文「一刻」已是十五分鐘，易誤解。
-- 目前暫用：拍／長時
-
-## Q5：Order of Steering 與 Steering 相關詞的譯法
-- 狀態：待決
-- 相關詞條：Order of Steering、Steering、Steering taxes、Order member（worldbuilding.md / glossary.md）
-- 背景：Steering 是 Veridia 以稅與補貼「引導方向」的核心制度，全書高頻出現：the Order of Steering、the Steering system、Steering taxes、Order member。首見 ch01。
-- 選項：
-  1. 掌舵會／掌舵制度／掌舵稅（建議）— 「掌舵」是中文常見的譬喻，既有方向感又像組織名；「掌舵會的人」口語自然。
-  2. 導引會／導引機制／導引稅 — 意思更直白，但組織名較平淡。
-  3. 導向修會／導向稅 — 保留 Order 的修會色彩，但「修會」宗教味太重。
-- 目前暫用：掌舵會／掌舵稅
+  1. 完整音譯：格拉迪亞斯／暱稱格拉德（建議）— 忠於發音，暱稱自然由全名截短而來。
+  2. 縮短音譯：葛拉迪斯（4 字）／暱稱葛拉德 — 好念，但少了一個音節。
+  3. 女性名一律用「菈、妲、蕾」等女性化字（賽菈、赫蕾妲）是否可接受，也請一併確認。
+- 目前暫用：格拉迪亞斯／格拉德；女性名用女性化用字
 
 ## Q6：掌舵會三種身分 Acolyte、Keeper、Sentinel 的譯名
 - 狀態：待決
@@ -71,6 +55,26 @@
 - 補充（ch06）：第四種身分 Herald——從守律者或哨兵中隨機抽出「退任」、負責對大眾公開說明的前成員（ch06 Alagael、ch08 莫夫）。建議「傳令官」，與原文的中世紀色彩一致；替代選項「宣講人」（職能較清楚）。
 - 目前暫用：見習生／守律者／哨兵／傳令官
 
+## Q5：Order of Steering 與 Steering 相關詞的譯法
+- 狀態：待決
+- 相關詞條：Order of Steering、Steering、Steering taxes、Order member（worldbuilding.md / glossary.md）
+- 背景：Steering 是 Veridia 以稅與補貼「引導方向」的核心制度，全書高頻出現：the Order of Steering、the Steering system、Steering taxes、Order member。首見 ch01。
+- 選項：
+  1. 掌舵會／掌舵制度／掌舵稅（建議）— 「掌舵」是中文常見的譬喻，既有方向感又像組織名；「掌舵會的人」口語自然。
+  2. 導引會／導引機制／導引稅 — 意思更直白，但組織名較平淡。
+  3. 導向修會／導向稅 — 保留 Order 的修會色彩，但「修會」宗教味太重。
+- 目前暫用：掌舵會／掌舵稅
+
+## Q4：時間單位 tick 與 longhour 怎麼譯？
+- 狀態：待決
+- 相關詞條：tick、longhour（glossary.md）
+- 背景：本書的計時是十進位制：1 天 = 10 longhour = 1,000 分鐘 = 100,000 tick（ch09 明說）。tick 約 0.864 秒，全書極常出現（a few ticks later、milli-ticks、裝置時間 60259）。原文刻意不叫 second。首見 ch01。
+- 選項：
+  1. tick＝拍、longhour＝長時（建議）— 「拍」短、可當量詞（幾拍之後、毫拍），有節拍的意象；「長時」清楚表示比小時長。
+  2. tick＝秒、longhour＝長時 — 最順口，但讀者會以為就是現實的秒，失去世界觀的陌生感（ch09「一分鐘一百秒」反而會像錯字）。
+  3. tick＝刻 — 有古意，但中文「一刻」已是十五分鐘，易誤解。
+- 目前暫用：拍／長時
+
 ## Q7：AI 角色 Emerald 的名字與代名詞
 - 狀態：待決
 - 相關詞條：Emerald（characters.md）
@@ -81,6 +85,7 @@
   3. 代名詞「祂」— 只有當 AI 在後文被描寫成近乎神格的存在時才適合。
 - 補充（ch16）：費布里克在自己的裝置上也「asked Emerald to search for the receiving address」，顯示 Emerald 可能是大家通用的 AI 產品／服務名稱，而不是 Gladias 私人 AI 的專名。這更支持意譯「翡翠」（像產品名，也不會讓讀者以為是人名）與代名詞「它」。
 - 補充（ch20）：賽菈的手錶也收到 Emerald 的警示訊息，Emerald 是通用 AI 服務的可能性更高。
+- 補充（ch27–29）：賽菈、穆、韋爾多、澤都在用 Emerald；澤說「I asked Emerald and two other AIs」、穆說「had a fresh instance read」——Emerald 是眾多 AI 產品之一、可開多個實例，確定是產品／服務名稱。建議定案「翡翠／它」。
 - 目前暫用：翡翠／它
 
 ## Q8：英文複合地名是否意譯
@@ -91,17 +96,8 @@
   1. 字面意義明顯者意譯，其餘音譯（建議）：自由城、紅郡、北林、清丘大道、大梅港；德文維爾、英格沃爾音譯 — 符合中文讀者對奇幻地名的習慣（如「自由城」）。
   2. 全部音譯：弗里敦、雷德郡、諾斯格萊德、克利爾希爾大道、大普朗港 — 一致，但冗長難記。
 - 補充（ch20）：北林屬於維瑞迪亞的 Northshore 省，暫譯「北岸省」（意譯，同本題選項 1）。
+- 補充（ch29–31）：新增北極帝國城市 Glasscrown（ch31，像巨大冰晶的城市），依選項 1 暫譯「玻璃冠城」（音譯「格拉斯克朗」）；其他新地名 Elenar Forest、Eldil、Thaldur、Telten、Dolinar、Gelebor 都是非英文詞形，音譯。
 - 目前暫用：選項 1
-
-## Q9：樂團 Dreadknot 的團名
-- 狀態：待決
-- 相關詞條：Dreadknot（worldbuilding.md）
-- 背景：金屬樂團，ch01 是 Gladias 稽核的對象，ch03、ch10 等處反覆被當作規準案例提起。團名可能是 dreadnought（無畏艦）的諧音加 knot（結）。
-- 選項：
-  1. 保留英文 Dreadknot（建議）— 台灣樂迷習慣直接用英文團名；避免硬譯雙關。
-  2. 意譯「無畏結」— 保留 dreadnought 的諧音梗，但讀者未必看得出來。
-  3. 音譯「德雷諾特」— 中性但無趣。
-- 目前暫用：Dreadknot
 
 ## Q10：Graph Funding 的譯名
 - 狀態：待決
@@ -122,3 +118,13 @@
   2. 速幣 — 意譯 zip 的「迅速」，簡短，但讀者看不出與 zc 的關係。
   3. 保留 zipcoin — 最忠實，但中文敘事中金額寫英文不好讀。
 - 目前暫用：吉普幣
+
+## Q9：樂團 Dreadknot 的團名
+- 狀態：待決
+- 相關詞條：Dreadknot（worldbuilding.md）
+- 背景：金屬樂團，ch01 是 Gladias 稽核的對象，ch03、ch10 等處反覆被當作規準案例提起。團名可能是 dreadnought（無畏艦）的諧音加 knot（結）。
+- 選項：
+  1. 保留英文 Dreadknot（建議）— 台灣樂迷習慣直接用英文團名；避免硬譯雙關。
+  2. 意譯「無畏結」— 保留 dreadnought 的諧音梗，但讀者未必看得出來。
+  3. 音譯「德雷諾特」— 中性但無趣。
+- 目前暫用：Dreadknot

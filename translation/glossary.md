@@ -176,6 +176,29 @@
 | noise-tolerant | 抗雜訊 | 技術 | ch22 | 抗噪聲 | highly noise-tolerant erasure code→高度抗雜訊的抹除碼 |
 | behavior profiling | 行為側寫 | 技術 | ch23 | 行為畫像 | location tracking→位置追蹤 |
 | denial of service attack | 阻斷服務攻擊 | 技術 | ch23 | 拒絕服務攻擊 | Zei 借資安術語形容濫訴；保留這個比喻 |
+| XOR sum | XOR 和 | 技術 | ch25 | 互斥或和、異或和 | 澤的取圓圈遊戲的必勝法：「the XOR sum of the board」→盤面的 XOR 和。base 2／binary→二進位；highest-order digit→最高位；lowest-order digit→最低位；circle counts→各堆的圓圈數 |
+| first-player-favoring | 先手有利 | 技術 | ch25 | 第一玩家有利 | second-player-favoring→後手有利；first player／second player→先手／後手。澤把「保衛維瑞迪亞」比成先手或後手有利的賽局 |
+| backdoor | 後門 | 技術 | ch25 | - | 名詞；動詞形 backdoored 見 ch19（植入後門）。「called home」→回傳（給原廠） |
+| common knowledge | 共同知識 | 技術 | ch27 | - | 賽局理論術語：人人知道，也知道別人知道，也知道別人知道別人知道……。**不可**譯成「常識」 |
+| prediction market | 預測市場 | 技術 | ch27 | - | arbitrageur→套利者；risk-neutral→風險中立；manipulator→操縱者 |
+| arbitrageur | 套利者 | 技術 | ch27 | - | 見 prediction market |
+| two-party computation | 兩方計算 | 技術 | ch27 | 雙方計算 | verifiable two-party computation→可驗證的兩方計算；ephemeral virtual private sandbox→臨時的虛擬私有沙盒（sandbox 同 ch04 譯「沙盒」） |
+| verifiable garbled circuits | 可驗證的混淆電路 | 技術 | ch27 | - | 見 two-party garbled circuit（ch03）；garbled-circuit executions→混淆電路的執行；overhead→額外開銷 |
+| machine-checkable | 可由機器檢查 | 技術 | ch27 | - | machine-checkable mathematical proof→可由機器檢查的數學證明；end-to-end→端到端；correctness and privacy properties→正確性與隱私性質；information leakage→資訊外洩 |
+| whitepaper | 白皮書 | 技術 | ch27 | - | |
+| bot | AI／預測 AI | 技術 | ch27 | - | ch27 起的 bots 指銀聊預測上做預測的 AI 程式（forecaster bots→預測 AI）。**不要**譯成「機器人」——送茶的 robot 才是機器人，兩者在同一場景出現。ch32「Bots.」（九兆個 AI）同理。（「機器人」不列入避免欄，因為 robot 全書都用它） |
+| gradient descent | 梯度下降 | 技術 | ch29 | - | gradient descent attacks→梯度下降攻擊；take the derivative→求導數 |
+| raw weights | 原始權重 | 技術 | ch29 | 原始重量 | weights（模型）→權重 |
+| adversarial attack | 對抗式攻擊 | 技術 | ch30 | 敵對攻擊 | train adversarial attacks→訓練對抗式攻擊；attack patterns→攻擊圖樣；trial deviations→試驗用的偏移；perpendicular directions→正交方向 |
+| simulated environment | 模擬環境 | 技術 | ch30 | - | simulation platform→模擬平台；full world-model simulations→完整的世界模型模擬；input modalities→輸入模態；classification results→分類結果；visual input stream→視覺輸入串流 |
+| proxy | 代理伺服器／代理 | 技術 | ch30 | - | proxy through→透過……代理連線；Proxies:（UI 標題）→代理：；proxy endpoints→代理端點 |
+| endpoint | 端點 | 技術 | ch30 | 終端 | access keys→存取金鑰；network addresses→網路位址；Network:（UI 標題）→網路： |
+| scalar | 純量 | 技術 | ch30 | 標量 | scalar signal→純量訊號；「not just a binary」→不只是有或沒有（二元）；time-to-detection／detection time→被偵測所需時間／偵測時間 |
+| fiber optic cables | 光纖纜線 | 技術 | ch29 | 光纖電纜 | |
+| casualty ratio | 戰損比 | 技術 | ch29 | 傷亡比率 | 本書指無人機的損失比；「ten to one in the Veridian drone fleet's favor」→維瑞迪亞無人機隊佔優的十比一；casualty counts→損失數 |
+| micro-tactics | 細部戰術 | 技術 | ch29 | 微操 | micro-tactical→細部戰術的；tactics one／five→一號戰術／五號戰術；「微操」是大陸電競用語，避免 |
+| visual attack | 視覺攻擊 | 技術 | ch29 | - | 貼上印有特殊圖樣的紙騙過對方 AI 的視覺辨識 |
+| exploit | 漏洞攻擊 | 技術 | ch28 | - | exploits against Arctic drones→針對北極無人機的漏洞攻擊；敘事中可簡稱「漏洞」 |
 
 ## 制度與治理
 
@@ -280,6 +303,22 @@
 | co-father | 共養父親 | 制度 | ch23 | - | 見 co-family；Gladias 稱維爾「My co-father, Vil」→我的共養父親維爾（指同一共養家庭的另一位父親，譯文照字面） |
 | Transportation Ministry | 交通部 | 組織 | ch24 | - | administrative change→行政上的變更 |
 | de-facto advisor | 實質顧問 | 一般詞 | ch24 | - | de-facto Kungaupei advisor→昆高派的實質顧問 |
+| Ground Law | 基本法 | 制度 | ch25 | 地面法、根據法 | 維瑞迪亞的根本法條。the fourteenth Ground Law→第十四條基本法（軍隊有保衛國家的義務）；Twenty-first Ground Law→第二十一條基本法（官員須誠實、善意、不受不當影響地履職，受不當影響時須通報並辭職）。取德國 Grundgesetz 的通行譯名「基本法」 |
+| undue influence | 不當影響 | 制度 | ch26 | - | 見 Ground Law；misaligned→（利益）不一致 |
+| standing (legal) | 當事人適格 | 制度 | ch26 | - | 法律術語，原文斜體：「The legal term for that is *standing*.」→法律上這叫*當事人適格*。plaintiff→原告；have a stake in the outcome→與判決結果有利害關係。英文詞條加括號，避免比對到 ch01「Sentinel in full standing」 |
+| case law | 判例法 | 制度 | ch25 | - | settled case law→已有定論的判例法；re-litigate→重新爭訟 |
+| plaintiff | 原告 | 制度 | ch26 | - | |
+| closed session | 祕密會議／閉門會議 | 制度 | ch28 | - | closed door session→閉門會議；special closed session（ch28 議會）→特別祕密會議 |
+| head general | 最高將領 | 制度 | ch28 | - | top general 同；general→將軍；commander→指揮官；military leadership→軍方領導層；command structure→指揮體系 |
+| Group North | 北路軍 | 制度 | ch29 | 北方組、北組 | 北岸省反攻的四路軍：Group North→北路軍（加洛瓦）、Group Center→中路軍（特爾坡）、Group South→南路軍（鄧，後由穆接掌）、Group Naval→海路軍（瓦卡里亞）。army groups→各路軍；SVG 標籤「Group／North」兩行可寫「北路／軍」或單行「北路軍」 |
+| Group Center | 中路軍 | 制度 | ch29 | 中央組 | 見 Group North |
+| Group South | 南路軍 | 制度 | ch29 | 南方組 | 見 Group North |
+| Group Naval | 海路軍 | 制度 | ch29 | 海軍組 | 見 Group North；land army groups→陸上各路軍 |
+| Rear base | 後方基地 | 制度 | ch29 | - | UI「Rear base #3」→「第三後方基地」；command post→指揮所；bunker→掩體；command centers→指揮中心 |
+| contingency plan | 應變計畫 | 制度 | ch26 | - | mainline plan→主計畫；mainline version（戰術）→主版本 |
+| poll | 民調 | 制度 | ch27 | - | Silverchat polls→銀聊民調；polling feature→民調功能；questionnaire→問卷；decoy questions→誘餌題；priority level→優先級；breadth→觸及範圍 |
+| boarding school | 寄宿學校 | 制度 | ch26 | - | 北極在北林設立；Arctic civics class（ch28）→北極的公民課；detention→禁閉 |
+| Arctic core territory | 北極本土 | 制度 | ch29 | 北極核心領土 | ch19「Arctic Empire core territory」→北極帝國本土；core Arctic territory 同 |
 
 ## 物品、裝置與 AI
 
@@ -324,6 +363,10 @@
 | calling booth | 通話亭 | 物品 | ch22 | 電話亭 | |
 | mini rocket | 小火箭 | 物品 | ch21 | - | 茲文的物理老師給他看的 |
 | shadowy cloak | 暗色斗篷 | 物品 | ch24 | - | 鄧的斗篷（ch09 是祭司斗篷） |
+| seaborne drone | 海上無人機 | 物品 | ch22 | - | ch22 已有 seaborne／airborne→海上／空中；ch26 sea drone 同；ground craft（ch29）→地面載具 |
+| snow drone | 雪地無人機 | 物品 | ch29 | 雪無人機 | 類似雪上摩托車（snowmobile-like contraptions）的地面戰鬥無人機；sky drone（ch30）→空中無人機；delivery copters→送貨旋翼機；Helisport copters→旋翼球的旋翼機 |
+| thermal cloak | 熱偽裝斗篷 | 物品 | ch26 | 保暖斗篷 | 遮蔽體溫以躲避熱像偵測，不是用來保暖 |
+| energy drink | 能量飲料 | 物品 | ch29 | - | |
 
 ## 自創詞與其他
 
@@ -333,7 +376,7 @@
 | enclave | 飛地 | 一般詞 | ch03 | - | 指大梅港 |
 | basis points | 基點 | 一般詞 | ch03 | - | |
 | anti-cheat | 反作弊 | 技術 | ch04 | - | |
-| Snowmoon | 雪月 | 自創詞 | ch01 | 雪之月 | 【待決】Q1。月名兼書名。dateline「3724 Snowmoon 3」→「3724 年雪月 3 日」 |
+| Snowmoon | 雪月 | 自創詞 | ch01 | 雪之月 | 【待決】Q1。月名兼書名。dateline「3724 Snowmoon 3」→「3724 年雪月 3 日」。⚠ 雪月是一年的第一個月：全書高潮的北岸省決戰發生在「3725 年雪月 29–30 日」（ch29–30），書名在此呼應 |
 | tick | 拍 | 自創詞 | ch01 | 刻 | 【待決】Q4。時間單位，一天 100,000 拍（約 0.864 秒）。a few ticks later→幾拍之後；milli-ticks→毫拍；time 顯示的數字（60259）是當天第幾拍 |
 | longhour | 長時 | 自創詞 | ch01 | 長小時 | 【待決】Q4。100 分鐘＝10,000 拍（約 2.4 小時），一天 10 長時；half a longhour→半長時 |
 | Acolyte | 見習生 | 制度 | ch01 | 侍僧、助祭 | 【待決】Q6。掌舵會的受訓成員 |
@@ -396,6 +439,22 @@
 | background radiation | 背景輻射 | 一般詞 | ch24 | - | 「Love has to come not as a constant background radiation, but as a reward for winning.」 |
 | mi cin pin fe lo kin do | mi cin pin fe lo kin do | 自創詞 | ch24 | - | Gladias 用哲戈語打招呼，保留拼音 |
 | Chief | 大哥 | 一般詞 | ch22 | 酋長、首領 | 楊恩叫計程車司機「Chief」→「大哥」或「司機大哥」；司機回「boss」→「老闆」 |
+| secret sauce | 獨門祕訣 | 一般詞 | ch25 | 秘密醬汁 | |
+| Entropy is always in the eye of the beholder | 熵，永遠存乎觀者之眼 | 一般詞 | ch25 | - | 澤化用 beauty is in the eye of the beholder；與 ch12「一切都是熵」呼應。中文要短、像格言 |
+| Man was not made for categories | 人不是為分類而生 | 一般詞 | ch25 | - | 韋爾多語，化用馬可福音 2:27「安息日是為人設立的，人不是為安息日設立的」。全句建議：「人不是為了分類而生，分類是為了人而設。」不要加註出處 |
+| grown, not forged | 是長出來的，不是鍛造出來的 | 一般詞 | ch29 | - | 白談 AI 模型；下一句「They don't have walls, they have immune systems.」→它們沒有城牆，只有免疫系統。ch32 韋爾多說的 distributed immune systems→分散式免疫系統，呼應此句 |
+| magical snake with a deadly stare | 有致命凝視的魔蛇 | 一般詞 | ch29 | - | 澤的比喻（近似蛇怪巴西利斯克），原文沒點名就不要補名字 |
+| DOG | 狗 | 一般詞 | ch30 | - | 貼在無人機上的大字「**DOG**」→「**狗**」，粗體照原文。維瑞迪亞的文字全書都譯成中文，這裡比照；讓北極 AI 以為維瑞迪亞無人機是狗 |
+| not just a good idea, it's the law | 不只是好主意，更是法律 | 一般詞 | ch31 | - | 澤：「Open source - it's not just a good idea, it's the law」→「開源——不只是好主意，更是法律。」仿美國交通安全標語，保持口號感 |
+| go native | 入境隨俗 | 一般詞 | ch31 | - | 德盧因加引號的 'go native'，指假裝徹底投向北極；保留引號 |
+| Privacy for the weak, transparency for the powerful | 弱者要隱私，強者要透明 | 一般詞 | ch32 | - | 密碼龐克的老口號，保持對仗 |
+| lightfeet | 光呎 | 自創詞 | ch32 | 光腳 | lightfoot 的複數，見 ch09 lightfoot |
+| Dzegoban numerals | 保留原文 | 自創詞 | ch27 | - | 由 ch27 的倒數推得的哲戈語數字：pa＝1、le＝2、shi＝3、fo＝4、mu＝5、ha＝6、ze＝7、bi＝8、so＝9、gu＝0（pa gu＝10、mu gu＝50）。倒數與報數一律保留拼音，只翻原文附的釋義。本列只作說明，check.py 不比對 |
+| MU GU GEI HUI ZIU FA | MU GU GEI HUI ZIU FA | 自創詞 | ch27 | - | 「五十拍後開始」，澤模仿明盤台播報員；白搶先喊 LE MU GEI HUI ZIU FA（二十五）；齊聲倒數「PA GU ... SO ... BI ... ZE ... HA ... MU ... FO ... SHI ... LE ... PA ... HUI ZIU FA!」全部保留。ch26 小寫 mu gu gei tau fa＝五十拍後開戰（原文自附釋義 Battle starts in fifty ticks）；ch26 fi le gei tau fa、ch29 fi le gei fa（一百拍後開始）同樣保留 |
+| jie fe hen dzi | jie fe hen dzi | 自創詞 | ch30 | - | 德盧因信末的哲戈語，原文無釋義，不要自行解釋 |
+| mi fu zo de tei ka ciu pin | mi fu zo de tei ka ciu pin | 自創詞 | ch31 | - | 德盧因引的古詩，保留拼音；原文釋義 when I am defeated, I feel like I won→「被打敗時，我覺得自己贏了」 |
+| dze kai lin pan | dze kai lin pan | 自創詞 | ch32 | - | 哲戈語「菜飯」（Vegetable and rice）；韋爾多逐字硬翻 green plant line bread→「綠色植物線麵包」，保留生硬感（參見 Containing inside the green）。Gladias 點餐整句 dia jie fe kai ja cu dze kai lin pan 保留 |
+| Veridia ba fau gie | Veridia ba fau gie | 自創詞 | ch26 | - | 韋爾多把「Dze go ba fau gie」改成維瑞迪亞版（這次沒有換錯字，對照 ch10 賽菈的 'fun'），保留拼音，原文無釋義就不補 |
 
 ## SVG 標籤建議譯法（ch17 圖譜募資圖，不列入比對）
 
