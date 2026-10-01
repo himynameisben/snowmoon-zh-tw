@@ -53,6 +53,7 @@
 | pseudorandom | 偽隨機 | 技術 | ch06 | 偽任意 | |
 | unlinkable | 不可連結 | 技術 | ch06 | - | |
 | collateralize | 抵押 | 技術 | ch05 | - | zero-knowledge-collateralize→以零知識方式抵押；loan collateralized by his reputation→以信譽抵押借款 |
+| reputation-backed loan | 信譽擔保借款 | 技術 | ch06 | - | UI「Reputation-backed loan request」→「信譽擔保借款申請」；敘事中 loan collateralized by his reputation→以信譽抵押借款 |
 | wallet | 錢包 | 技術 | ch06 | - | |
 | transaction | 交易 | 技術 | ch06 | - | |
 | hardware attestation | 硬體認證 | 技術 | ch05 | - | |
@@ -277,6 +278,7 @@
 | Intelligence Score | 智力分數 | 自創詞 | ch18 | 智商 | 北極帝國的觀念；不要譯成「智商」 |
 | positive-sum | 正和 | 技術 | ch18 | - | bad equilibria→不良均衡 |
 | rubric group | 規準小組 | 制度 | ch20 | 規準組 | 守律者的討論小組；rubric group on cybersecurity→資安規準小組；rubric group for private schools→私立學校規準小組 |
+| Discussion Group | 討論小組 | 制度 | ch06 | - | ch06 守律者結構 SVG：Discussion Group 1→討論小組 1；Current Keepers for this rubric→本規準現任守律者；added this year／last year／second-last year→今年／去年／前年加入 |
 | insider trading | 內線交易 | 制度 | ch20 | - | |
 | noise taxes | 噪音稅 | 制度 | ch20 | - | 小型旋翼機的噪音稅極高 |
 | tax nudges | 稅的輕推 | 制度 | ch20 | 稅收推動 | nudge 取行為經濟學「推力」之意，口語寫「用稅輕推」 |
