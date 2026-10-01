@@ -5,7 +5,7 @@
 
 ## 最簡單的方式：開一個 Issue
 
-在本 repo 的 Issues 頁開新 Issue，盡量附上：
+到 [Issues 頁](https://github.com/himynameisben/snowmoon-zh-tw/issues/new) 開新 Issue，盡量附上：
 
 - **位置**：第幾章、哪一句（直接貼出那句譯文最方便）
 - **問題**：錯字、誤譯、漏譯、語氣不對、譯名不一致……

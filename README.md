@@ -83,7 +83,7 @@
 
 ## 發現錯字或誤譯？
 
-非常歡迎回報！開 Issue 或直接送 Pull Request 都可以，做法寫在 [CONTRIBUTING.md](CONTRIBUTING.md)。
+非常歡迎回報！[開 Issue](https://github.com/himynameisben/snowmoon-zh-tw/issues/new) 或直接送 Pull Request 都可以，做法寫在 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 授權
 
