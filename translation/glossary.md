@@ -470,6 +470,8 @@
 | dun fe tin di zei de kin kie | dun fe tin di zei de kin kie | 自創詞 | ch07 | - | 澤收到的深紫色信封上的哲戈語，保留拼音；英文釋義 For Zei's eyes only→「僅限澤親閱」 |
 | mo da cu ja li hen ma | mo da cu ja li hen ma | 自創詞 | ch07 | - | 餐廳機器人的評分提問，保留拼音；英文釋義 Is the food and drink good?→「餐點和飲料好吃嗎？」 |
 | team Zau | Zau 隊 | 自創詞 | ch04 | - | 明盤台分隊名，保留拼音：team Zau→Zau 隊（澤、白）、team Ja→Ja 隊（潘、札） |
+| car-free zone | 無車區 | 一般詞 | ch27 | - | 卡利馬區內車輛不得進入的區域，黑色專車只能開到邊界 |
+| government-run hotel | 政府經營的旅館／政府旅館 | 一般詞 | ch26 | 政府飯店 | ch26 首次出現（government-run hotel→政府經營的旅館），ch27 起簡作 government hotel→政府旅館；Gladias 一行人在梅爾丹的住處。ch27 補登 |
 
 ## SVG 標籤建議譯法（ch17 圖譜募資圖，不列入比對）
 
