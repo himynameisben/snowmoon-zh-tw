@@ -10,6 +10,8 @@
 - 工具：[Claude Code](https://claude.com/claude-code)，由主 session 擔任總指揮，依序派 Claude Opus subagent 執行各階段。
 - 結果：32 章全部通過機械驗收，沒有退件；雙語 QA 修正 14 處；一致性階段修改譯文 11 處、bible 51 條。
 - 尚未經過人工通讀校稿。
+- 2026-10-01 新增第二輪文學編輯流程；正文尚未開始套用，進度見
+  `translation/literary-edit/progress.md`。
 
 ## 目錄結構
 
@@ -30,6 +32,7 @@ translation/         翻譯基準文件與過程紀錄
   notes/             第一階段譯者筆記（每章一份）
   qa/                第二階段 QA 紀錄（每章一份）
   consistency/       第三階段全書一致性報告
+  literary-edit/     第二輪文學編輯流程、subagent prompt、正反例與進度
   log.md             總指揮的執行紀錄
 .claude/
   agents/            各階段 subagent 的完整 prompt
@@ -57,6 +60,10 @@ tools/
 
 總指揮不審閱譯文，只用 `tools/check.py` 做機械驗收（段數對齊、HTML 標籤未被改動、
 無簡體字、無佔位標記），每章通過後 commit 一次。
+
+上述限制只適用於已完成的初譯流程。第二輪文學編輯需要主 Agent 實際閱讀原文、初譯、editor 候選稿與
+reviewer issues，再做最終整合；完整規格見 `translation/literary-edit/WORKFLOW.md`。這一輪不取代或回寫
+既有的第一至第三階段紀錄。
 
 原文本身的筆誤：作者原意可以確定的照意思譯並在譯者筆記說明，不能確定的照原文譯並在筆記存疑。
 
