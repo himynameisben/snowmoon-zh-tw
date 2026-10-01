@@ -26,11 +26,14 @@ literary edit」，預設指的是第二輪文學編輯，不是重新翻譯。
 ## 不可違反的邊界
 
 - `source/en/`、`original/` 不可修改。
-- `source/en/chapter-NN.md` 與 `zh-tw/chapter-NN.md` 必須段落一對一；不得跨段搬移資訊、合段或拆段。
-- HTML 標籤、屬性與 Markdown 結構不可改；只可編輯正文文字。
-- 內容忠實，句法不必忠實。可在同一原文段落內拆句、合句、換序，但不得改變資訊、因果、語氣強度、
+- `source/en/chapter-NN.md` 與 `zh-tw/chapter-NN.md` 依**錨點**對齊：標題、HTML 區塊、分隔線、`>` 引言、
+  清單的種類、數量與順序不變（`check.py` 檢查）。兩個錨點之間的散文段稱為**段群**，段群內可以拆段、合段、
+  重排句子與段落；資訊不可跨錨點搬移。
+- HTML 標籤、屬性不可改；錨點內只可編輯文字。
+- 內容忠實，句法與分段不必忠實。段群內怎麼重寫都可以，但不得改變資訊、因果、語氣強度、
   不確定性、人物意圖、技術機制或敘事事實。
-- 不得增加原文沒有的動作、心理、情緒、象徵、比喻、景物或伏筆。
+- 不得增加原文沒有的動作、心理、情緒、動機、象徵、比喻、情節事實或伏筆。唯一例外：第二輪場景敘事段落可補
+  少量感官細節（聲音、光線、人群動態、空間感、身體感受），規則見 `translation/literary-edit/literary-editor.md`「補畫面」。
 - 專有名詞依 bible。若自然化需要改固定譯名或單位，主 Agent 只提出 flag；取得使用者明確同意後，
   才能更新 bible 並另行做全書一致修改。不得因單章工作擅自擴大範圍。
 - 不使用中國大陸用語，不把平實文字改成文青腔，也不把作者的工程師式冷靜語氣抹掉。
@@ -39,11 +42,15 @@ literary edit」，預設指的是第二輪文學編輯，不是重新翻譯。
 
 使用者已明確要求由主 Agent 指揮 subagent。正文工作採順序流程，不可把同一 chunk 的兩個角色平行執行：
 
-1. 主 Agent 切出完整段落組成的 chunk，通常約 800–1,500 個中文字，並準備英文、初譯、前後完整段落與 bible。
-2. Literary Editor 只提出編輯稿與必要 flags，不做事實裁決。
-3. Faithfulness Reviewer 對英文逐項核對編輯稿，只回 PASS 或具體 ISSUE，不直接改稿。
-4. 主 Agent 決定並套用最小必要修正。只要依 ISSUE 做了實質修訂，就送 reviewer 複查至 PASS。
+1. 主 Agent 建立本章 bible 摘錄（含全章固定用詞），用 `tools/literary_edit.py` 以完整段群切 chunk、產生資料包
+   （英文、初譯、前後文與 bible 摘錄）。
+2. Literary Editor（Opus，附初譯）重寫句法與分段，可補少量畫面，只提出編輯稿與必要 flags，不做事實裁決。
+3. 主 Agent 用 `literary_edit.py validate --report` 驗證結構並產生用詞差異表。
+   Faithfulness Reviewer（Opus）對英文逐項核對編輯稿與用詞差異表，只回 PASS 或具體 ISSUE，不直接改稿。
+4. 主 Agent 決定並套用最小必要修正（`literary_edit.py apply`）。只要依 ISSUE 做了實質修訂，就送 reviewer 複查至 PASS。
 5. 完成整章後做銜接通讀，並執行 `uv run tools/check.py chapter N`。
+
+詳細步驟、模型選擇的理由與指令見 `translation/literary-edit/WORKFLOW.md`。
 
 主 Agent 不可把 editor 的輸出直接視為定稿，也不可讓 reviewer 為了文筆偏好提出修改。
 

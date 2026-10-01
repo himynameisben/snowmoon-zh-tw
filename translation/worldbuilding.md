@@ -145,7 +145,7 @@
 
 ## 度量衡與貨幣
 
-- 公制：decimeter→公寸（ch01「五公寸」）、meter→公尺、kilometer→公里。
+- 公制：decimeter 換算成公分（ch01 five decimeters→「五十公分」；2026-10-01 使用者決定，原為「公寸」，全書僅此一處）、meter→公尺、kilometer→公里。
 - 帕佛蓋都門牌號碼＝距離（公尺），ch02 Zei 以此算路程，數字照原文。
 - ch09：哲戈想用「光呎」（lightfoot）取代公尺：光在一拍內前進十億光呎，1 光呎 = 259.0206837 公釐（原文念法 two hundred fifty-nine point oh two oh six eight three seven one two millimeters，數字照原文）。長度接近英格沃爾的舊單位。
 - 稅率以百分比與 basis points（基點）表示。

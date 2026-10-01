@@ -12,7 +12,11 @@
   uv run tools/check.py find REGEX [--en] [--chapter N]
                                                在譯文（或 --en 原文）中搜尋，輸出對照段落
 
-段落對齊規則：原文與譯文都以「空行」切段，段數必須一致，第 i 段對第 i 段。
+段落對齊規則：原文與譯文都以「空行」切段。
+- 段數相同時：逐段對應，第 i 段對第 i 段（初譯與第一輪 QA 的規則）。
+- 段數不同時：改用「錨點對齊」（第二輪文學編輯允許在段群內拆段、合段）。
+  錨點＝標題、HTML 區塊、分隔線、引言（>）、清單；錨點的種類、順序、HTML 標籤必須與原文一致。
+  兩個錨點之間的散文段構成一個「段群」，段群內段數可以不同，但原文有內容的段群譯文不可為空。
 """
 
 import argparse
@@ -96,6 +100,46 @@ def cjk_count(s: str) -> int:
     return len(CJK.findall(s))
 
 
+ANCHOR_KINDS = {"html", "heading", "hr", "quote", "list"}
+
+
+def align(en_b: list[str], zh_b: list[str], force_anchor: bool = False) -> tuple[str, list[dict]]:
+    """回傳 (mode, units)。每個 unit：label、kind、en、zh（字串；zh 可能為空字串）、first（原文起始段號）。
+    mode 為 "para"（逐段）或 "anchor"（錨點對齊）。錨點數不一致時 units 為空，由呼叫端報錯。"""
+    if not force_anchor and len(en_b) == len(zh_b) and all(kind(e) == kind(z) for e, z in zip(en_b, zh_b)):
+        return "para", [dict(label=f"第 {i} 段", kind=kind(e), en=e, zh=z, first=i)
+                        for i, (e, z) in enumerate(zip(en_b, zh_b), 1)]
+
+    def split(bs):
+        anchors, groups, start = [], [[]], [1]
+        for i, b in enumerate(bs, 1):
+            if kind(b) in ANCHOR_KINDS:
+                anchors.append((i, b))
+                groups.append([])
+                start.append(i + 1)
+            else:
+                groups[-1].append(b)
+        return anchors, groups, start
+
+    ea, eg, es = split(en_b)
+    za, zg, _ = split(zh_b)
+    if len(ea) != len(za):
+        return "anchor", []
+    units = []
+    for k in range(len(eg)):
+        if eg[k] or zg[k]:
+            lo = es[k]
+            hi = lo + len(eg[k]) - 1
+            rng = f"原文第 {lo}–{hi} 段" if eg[k] else f"原文第 {lo - 1} 段之後"
+            units.append(dict(label=f"段群 {k + 1}（{rng}）", kind="prose",
+                              en="\n\n".join(eg[k]), zh="\n\n".join(zg[k]), first=lo))
+        if k < len(ea):
+            i, e = ea[k]
+            units.append(dict(label=f"原文第 {i} 段（錨點）", kind=kind(e), en=e, zh=za[k][1], first=i,
+                              zkind=kind(za[k][1])))
+    return "anchor", units
+
+
 # ---------------------------------------------------------------- chapter
 
 def check_chapter(n: int) -> tuple[list[str], list[str], dict]:
@@ -118,29 +162,41 @@ def check_chapter(n: int) -> tuple[list[str], list[str], dict]:
     if bad:
         errors.append(f"出現簡體字：{''.join(bad)}")
 
-    if len(en_b) != len(zh_b):
-        errors.append(f"段數不符：原文 {len(en_b)} 段，譯文 {len(zh_b)} 段（必須逐段對應，不可合併或拆分段落）")
-        # 找出第一個種類不一致的位置，方便定位；錯位之後逐段比對沒有意義，直接回報
-        for i, (e, z) in enumerate(zip(en_b, zh_b), 1):
+    mode, units = align(en_b, zh_b)
+    stats["mode"] = mode
+    if mode == "anchor" and not units:
+        errors.append(f"錨點數不符：原文與譯文的標題／HTML／分隔線／引言／清單數量不同（段數 {len(en_b)}/{len(zh_b)}）")
+        ea = [(i, b) for i, b in enumerate(en_b, 1) if kind(b) in ANCHOR_KINDS]
+        za = [b for b in zh_b if kind(b) in ANCHOR_KINDS]
+        for (i, e), z in zip(ea, za):
             if kind(e) != kind(z) or TAG.findall(e) != TAG.findall(z):
-                errors.append(f"  第一個對不上的位置約在第 {i} 段：EN「{plain(e)[:60]}」／ZH「{plain(z)[:40]}」")
+                errors.append(f"  第一個對不上的錨點約在原文第 {i} 段：EN「{plain(e)[:60]}」／ZH「{plain(z)[:40]}」")
                 break
         return errors, warns, stats
 
     total_en = total_zh = 0
-    for i, (e, z) in enumerate(zip(en_b, zh_b), 1):
-        ke, kz = kind(e), kind(z)
+    for u in units:
+        i, e, z = u["label"], u["en"], u["zh"]
+        ke, kz = u["kind"], u.get("zkind", u["kind"])
+        if mode == "para":
+            kz = kind(z)
         if ke != kz:
-            errors.append(f"第 {i} 段類型不同：原文是 {ke}，譯文是 {kz}")
+            errors.append(f"{i}類型不同：原文是 {ke}，譯文是 {kz}")
+            continue
+        if e.strip() and not z.strip():
+            errors.append(f"{i}：原文有內容，譯文是空的")
+            continue
+        if z.strip() and not e.strip():
+            errors.append(f"{i}：原文沒有內容，譯文卻多出段落（資訊不可跨錨點搬移）")
             continue
         te, tz = TAG.findall(e), TAG.findall(z)
         if te != tz:
             for j, (a, b) in enumerate(zip(te, tz)):
                 if a != b:
-                    errors.append(f"第 {i} 段 HTML 標籤被改動（第 {j + 1} 個標籤）：{a!r} → {b!r}")
+                    errors.append(f"{i} HTML 標籤被改動（第 {j + 1} 個標籤）：{a!r} → {b!r}")
                     break
             else:
-                errors.append(f"第 {i} 段 HTML 標籤數量不同：{len(te)} → {len(tz)}")
+                errors.append(f"{i} HTML 標籤數量不同：{len(te)} → {len(tz)}")
         if ke == "hr":
             continue
 
@@ -150,26 +206,26 @@ def check_chapter(n: int) -> tuple[list[str], list[str], dict]:
         total_zh += cz
         latin = len(LATIN.findall(pz))
         if latin >= 30 and latin > 0.35 * (latin + cz):
-            warns.append(f"第 {i} 段英文字母偏多（{latin} 個），可能有未翻譯的內容")
+            warns.append(f"{i}英文字母偏多（{latin} 個），可能有未翻譯的內容")
         if ke in {"prose", "quote", "list"} and we >= 25:
             ratio = cz / we
             if ratio < 0.9:
-                warns.append(f"第 {i} 段譯文偏短（{cz} 字 / 原文 {we} 詞，比例 {ratio:.2f}），請確認沒有漏譯")
+                warns.append(f"{i}譯文偏短（{cz} 字 / 原文 {we} 詞，比例 {ratio:.2f}），請確認沒有漏譯")
             elif ratio > 3.2:
-                warns.append(f"第 {i} 段譯文偏長（{cz} 字 / 原文 {we} 詞，比例 {ratio:.2f}），請確認沒有增譯")
+                warns.append(f"{i}譯文偏長（{cz} 字 / 原文 {we} 詞，比例 {ratio:.2f}），請確認沒有增譯")
         if ke != "html":
             body = z
             if '"' in body or "“" in body or "”" in body:
-                warns.append(f"第 {i} 段有英文引號，對話請用「」、引號內引號用『』")
+                warns.append(f"{i}有英文引號，對話請用「」、引號內引號用『』")
             if re.search(r"[㐀-鿿][,?!:;]|[,?!:;][㐀-鿿]", body):
-                warns.append(f"第 {i} 段在中文旁用了半形標點")
+                warns.append(f"{i}在中文旁用了半形標點")
             if "..." in body:
-                warns.append(f"第 {i} 段用了 ...，請改成……")
+                warns.append(f"{i}用了 ...，請改成……")
             if re.search(r"[㐀-鿿] - [㐀-鿿]|[㐀-鿿]--[㐀-鿿]", body):
-                warns.append(f"第 {i} 段用了英文破折號，請改成——")
+                warns.append(f"{i}用了英文破折號，請改成——")
         for w in MAINLAND:
             if w in pz:
-                warns.append(f"第 {i} 段出現中國大陸用語「{w}」")
+                warns.append(f"{i}出現中國大陸用語「{w}」")
 
     stats["en_words"], stats["zh_chars"] = total_en, total_zh
     if total_en:
@@ -183,7 +239,8 @@ def cmd_chapter(args) -> int:
         errors, warns, stats = check_chapter(n)
         verdict = "ERROR" if errors else ("PASS（有 WARN）" if warns else "PASS")
         ratio = f"，字詞比 {stats['ratio']:.2f}" if "ratio" in stats else ""
-        print(f"== 第 {n} 章：{verdict}  段數 {stats.get('en_blocks', '?')}/{stats.get('zh_blocks', '?')}{ratio}")
+        mode = "，錨點對齊" if stats.get("mode") == "anchor" else ""
+        print(f"== 第 {n} 章：{verdict}  段數 {stats.get('en_blocks', '?')}/{stats.get('zh_blocks', '?')}{mode}{ratio}")
         for e in errors:
             print(f"  ERROR {e}")
         for w in warns[: args.max_warn]:
@@ -229,28 +286,40 @@ def cmd_status(args) -> int:
 
 # ---------------------------------------------------------------- pair / find
 
-def show_pair(n: int, i: int, e: str, z: str | None):
+def show_pair(n: int, label: str, e: str, z: str | None):
     k = kind(e)
     if k == "hr":
         return
     tag = " [html，只顯示文字]" if k == "html" else ""
-    print(f"[{n}:{i}]{tag}")
+    print(f"[{n}] {label}{tag}")
     print(f"EN: {plain(e) if k == 'html' else e}")
     if z is not None:
         print(f"ZH: {plain(z) if k == 'html' else z}")
     print()
 
 
-def cmd_pair(args) -> int:
-    n = args.n
+def chapter_units(n: int) -> list[dict]:
     en_b = blocks(en_path(n).read_text(encoding="utf-8"))
     zh_b = blocks(zh_path(n).read_text(encoding="utf-8")) if zh_path(n).exists() else []
+    if not zh_b:
+        return [dict(label=f"第 {i} 段", kind=kind(e), en=e, zh=None, first=i) for i, e in enumerate(en_b, 1)]
+    mode, units = align(en_b, zh_b)
+    if not units:
+        print(f"!! 第 {n} 章錨點對不上，改用逐段對照，可能錯位", file=sys.stderr)
+        units = [dict(label=f"第 {i} 段", kind=kind(e), en=e, zh=zh_b[i - 1] if i - 1 < len(zh_b) else "（缺）", first=i)
+                 for i, e in enumerate(en_b, 1)]
+    return units
+
+
+def cmd_pair(args) -> int:
+    n = args.n
     lo = args.start or 1
-    hi = args.end or len(en_b)
-    if zh_b and len(zh_b) != len(en_b):
-        print(f"!! 段數不符（{len(en_b)}/{len(zh_b)}），對照可能錯位", file=sys.stderr)
-    for i in range(lo, min(hi, len(en_b)) + 1):
-        show_pair(n, i, en_b[i - 1], zh_b[i - 1] if i - 1 < len(zh_b) else "（缺）")
+    hi = args.end or 10**9
+    units = chapter_units(n)
+    for k, u in enumerate(units):
+        nxt = units[k + 1]["first"] if k + 1 < len(units) else 10**9
+        if u["first"] <= hi and nxt > lo:
+            show_pair(n, u["label"], u["en"], u["zh"])
     return 0
 
 
@@ -260,16 +329,13 @@ def cmd_find(args) -> int:
     for n in ([args.chapter] if args.chapter else chapters()):
         if not zh_path(n).exists() and not args.en:
             continue
-        en_b = blocks(en_path(n).read_text(encoding="utf-8"))
-        zh_b = blocks(zh_path(n).read_text(encoding="utf-8")) if zh_path(n).exists() else []
-        target = en_b if args.en else zh_b
-        for i, b in enumerate(target, 1):
-            if rx.search(b):
+        for u in chapter_units(n):
+            target = u["en"] if args.en else (u["zh"] or "")
+            if rx.search(target):
                 hits += 1
                 if hits > args.limit:
                     continue
-                show_pair(n, i, en_b[i - 1] if i - 1 < len(en_b) else "（缺）",
-                          zh_b[i - 1] if i - 1 < len(zh_b) else None)
+                show_pair(n, u["label"], u["en"], u["zh"])
     if hits > args.limit:
         print(f"…共 {hits} 筆，只顯示前 {args.limit} 筆（用 --limit 調整）")
     else:

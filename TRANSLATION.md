@@ -10,7 +10,7 @@
 - 工具：[Claude Code](https://claude.com/claude-code)，由主 session 擔任總指揮，依序派 Claude Opus subagent 執行各階段。
 - 結果：32 章全部通過機械驗收，沒有退件；雙語 QA 修正 14 處；一致性階段修改譯文 11 處、bible 51 條。
 - 尚未經過人工通讀校稿。
-- 2026-10-01 新增第二輪文學編輯流程；正文尚未開始套用，進度見
+- 2026-10-01 新增第二輪文學編輯流程（錨點對齊、段群內可重新分段），進度見
   `translation/literary-edit/progress.md`。
 
 ## 目錄結構
@@ -21,7 +21,7 @@ original/            原站下載的 HTML，保持原樣不修改
   html/chapter-N.html
 source/en/           由 original/ 轉出的英文原文 Markdown，作為翻譯底稿
   chapter-01.md … chapter-32.md
-zh-tw/               台灣繁體中文譯文（段落與 source/en/ 一對一）
+zh-tw/               台灣繁體中文譯文（與 source/en/ 依錨點對齊；初譯為段落一對一）
 translation/         翻譯基準文件與過程紀錄
   style-guide.md     翻譯風格指南（含正反例）
   glossary.md        術語表
@@ -43,6 +43,7 @@ assets/
 tools/
   html2md.py         original/ → source/en/ 的轉檔腳本
   check.py           譯文結構檢查、進度、英中對照、術語掃描
+  literary_edit.py   第二輪文學編輯：切 chunk、產生資料包、驗證 editor 輸出（含用詞差異表）、套用
 ```
 
 ## 翻譯流程
