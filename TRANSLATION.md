@@ -21,7 +21,8 @@ original/            原站下載的 HTML，保持原樣不修改
   html/chapter-N.html
 source/en/           由 original/ 轉出的英文原文 Markdown，作為翻譯底稿
   chapter-01.md … chapter-32.md
-zh-tw/               台灣繁體中文譯文（與 source/en/ 依錨點對齊；初譯為段落一對一）
+zh-tw/               台灣繁體中文譯文，永遠是每章目前最好的版本（與 source/en/ 依錨點對齊）
+zh-tw-v1/            v1：初譯定稿快照（commit 060e9ee、tag zh-tw-v1），凍結不修改，供對照
 translation/         翻譯基準文件與過程紀錄
   style-guide.md     翻譯風格指南（含正反例）
   glossary.md        術語表

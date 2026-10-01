@@ -1,8 +1,10 @@
 # 第 1 章 文學編輯紀錄
 
-狀態：**編輯中**。v1 已套用；v2（正式設定）尚未開始。
+狀態：**編輯中**。試編版已套用；v2（正式設定）尚未開始。
 
-## v1：保守修稿（2026-10-01，已套用，將被 v2 取代）
+版本名稱：v1＝初譯定稿（凍結在 `zh-tw-v1/`）；試編版＝下面的保守修稿；v2＝第二輪正式設定的成果（寫進 `zh-tw/`）。
+
+## 試編版：保守修稿（2026-10-01，已套用，將被 v2 取代）
 
 - 規則：逐段一對一、Sonnet editor／reviewer、舊版 `literary-editor.md`（修稿模式）。
 - 底稿：開工時 `zh-tw/chapter-01.md` 第 3–6 段已有使用者未 commit 的人工修訂，視為較新的底稿交給 editor，
@@ -25,7 +27,7 @@
 
 ## v2 交接（給下一個 session）
 
-1. 先看 `git status --short`。本章目前的 `zh-tw/chapter-01.md` 就是 v2 的底稿，內容為 v1、使用者修訂與「五十公分」。
+1. 先看 `git status --short`。本章目前的 `zh-tw/chapter-01.md` 就是 v2 的底稿，內容為試編版、使用者第 3–6 段修訂與「五十公分」。對照初譯請看 `zh-tw-v1/chapter-01.md`。
 2. bible 摘錄已備好：`chapter-01.bible.md`（全章固定用詞、本章 bible 譯名、人物口吻、伏筆邊界、哪些段落適合補畫面）。
 3. 切 chunk：`uv run tools/literary_edit.py plan 1`，目前切成 8 個 chunk：
 

@@ -25,7 +25,7 @@ literary edit」，預設指的是第二輪文學編輯，不是重新翻譯。
 
 ## 不可違反的邊界
 
-- `source/en/`、`original/` 不可修改。
+- `source/en/`、`original/`、`zh-tw-v1/`（凍結的初譯快照）不可修改。第二輪編輯直接改 `zh-tw/`。
 - `source/en/chapter-NN.md` 與 `zh-tw/chapter-NN.md` 依**錨點**對齊：標題、HTML 區塊、分隔線、`>` 引言、
   清單的種類、數量與順序不變（`check.py` 檢查）。兩個錨點之間的散文段稱為**段群**，段群內可以拆段、合段、
   重排句子與段落；資訊不可跨錨點搬移。

@@ -76,7 +76,9 @@
 - **譯本**：非官方的社群譯本，與原作者無關
 - **怎麼翻的**：由 AI（Claude）依照公開的風格指南與術語表翻譯，再經過英中逐段 QA 與全書一致性檢查；
   完整流程、prompt 與工具都公開在 [TRANSLATION.md](TRANSLATION.md)
-- **現況**：2026 年 10 月完成全書翻譯，**尚未經過完整的人工校稿**
+- **現況**：2026 年 10 月完成全書翻譯，**尚未經過完整的人工校稿**。目前正逐章進行第二輪文學編輯
+  （讓譯文讀起來更像中文小說），完成的章節直接更新在 `zh-tw/`，進度見
+  [文學編輯進度](translation/literary-edit/progress.md)；編輯前的初譯版完整保留在 [`zh-tw-v1/`](zh-tw-v1/) 供對照
 
 人名、地名與書中自創詞的譯法，可以查 [術語表](translation/glossary.md)、[人物表](translation/characters.md)
 與 [世界觀設定](translation/worldbuilding.md)。
