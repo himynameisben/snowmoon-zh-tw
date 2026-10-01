@@ -149,6 +149,7 @@
 | randomize-above-cutoff | 門檻以上隨機分配 | 制度 | ch17 | - | 委員會評為前一成的計畫一律同機率入選 |
 | portfolio | 組合 | 技術 | ch17 | 投資組合 | 圖譜募資 SVG：rest of portfolio→組合其餘部分；Air quality portfolio→空氣品質組合 |
 | intrinsic motivation | 內在動機 | 一般詞 | ch17 | - | accountability→問責 |
+| UVC lamp | 紫外線 C 燈 | 技術 | ch17 | UVC 燈 | 與 far-UVC（遠紫外線 C）一致；SVG 中的 Ultraviolet light→紫外線；ultraviolet lights（ch17 敘事）→紫外線燈 |
 | simulated window | 模擬窗 | 技術 | ch18 | 虛擬窗戶 | 黑色專車以攝影機投影的假窗，會追蹤眼睛調整視角；imitation windows（ch19 建築書）→仿窗 |
 | two-dimensional code | 二維條碼 | 技術 | ch18 | 二維碼 | |
 | physical-delivery mixnet | 實體配送混合網路 | 技術 | ch18 | - | 見 mixnet；「Like a mixnet, but for people」→就像混合網路，只是換成人 |
