@@ -14,9 +14,9 @@
 | Vil | 維爾 | 男／他 | 共養家庭的另一位父親 | ch01 | - | Uncle Vil→維爾叔叔 |
 | Daia | 黛亞 | 女／她 | 共養家庭的另一位母親 | ch01 | - | Aunt Daia→黛亞阿姨 |
 | Jahn | 楊恩 | 男／他 | Seila 在自由城的朋友，自由城經濟研究所研究員（ch10） | ch01 | 揚恩 | ch01 只提名字，ch10 確認為男性 |
-| Mov | 莫夫 | 男／他 | 掌舵會正式成員（應為守律者，見人物卡），Gladias 的朋友；ch08 被抽中轉任傳令官 | ch03 | - | ⚠ 身分原文前後說法不一，見人物卡 |
+| Mov | 莫夫 | 男／他 | 掌舵會正式成員（守律者），Gladias 的朋友；ch08 被抽中轉任傳令官 | ch03 | - | ch03 "join me as a Sentinel" 的譯法已於第三階段定案，見人物卡 |
 | Delwart | 德爾瓦特 | 男／他 | 神祕人，ch01 匿名傳訊者；想推動廢除所有規準；ch16 自稱替銀聊工作，ch21 被推論是北極帝國的人 | ch03 | - | ⚠ ch03 揭露他就是 ch01 信譽 200 的匿名傳訊者 |
-| Ephelion | 艾費里昂 | 未明（暫用他） | 北極帝國駐維瑞迪亞領事（ch03）／大使（ch08） | ch03 | - | Lord Ephelion→艾費里昂勳爵；ch03 只以署名出現，ch08 在辯論中發言。直到 ch32 原文都沒有給代名詞，維持「能省則省，必要時用他」 |
+| Ephelion | 艾費里昂 | 男／他 | 北極帝國駐維瑞迪亞領事（ch03）／大使（ch08） | ch03 | - | Lord Ephelion→艾費里昂勳爵；ch03 只以署名出現，ch08 在辯論中發言。ch21 賽菈以 he 稱之（"So he's openly saying..."），第三階段 voice 定案為男性、用「他」 |
 | Arctic Emperor | 北極皇帝 | 男／他 | 北極帝國統治者 | ch01 | 北極大帝 | 未親自登場，常被當笑梗。ch32 韋爾多以 he 稱之，確認男性 |
 | Emerald | 翡翠 | AI／它 | Gladias 手持裝置上的本地 AI | ch01 | 祖母綠 | 【已決】Q7。UI「Emerald AI summary」→「翡翠 AI 摘要」；「Emerald listening mode active」→「翡翠聆聽模式已啟動」；Gladias 口語稱 the bot→「那個 AI」 |
 | Zei | 澤 | 男／他 | 哲戈高中生，明盤台選手，數學腦 | ch02 | 賊 | 【已決】Q3。全名 Zei Leimin→澤・雷明（ch04 比賽介紹）。不要譯「齊」（Q3 舊案）；「齊」字保留給法官齊文（Zevin），故不列避免欄 |
@@ -156,7 +156,7 @@
 
 ### 莫夫（Mov）
 - 身分：掌舵會正式成員，Gladias 的朋友；負責網路媒體的開放性規準；ch03 暗中跟隨 Gladias 去見德爾瓦特，之後持續追蹤德爾瓦特（用「監視蝙蝠」）。ch08 被密碼學抽籤選為傳令官，從此不再有正式權力。
-- ⚠ 職位：ch03 他說「我們的守律者小組」、ch08 說「看來我們終究當不成守律者了」，應為守律者；但 ch03 也有 "you're not just someone about to join me as a Sentinel"。ch03 那句建議譯成「不只是快要跟我一樣成為正式成員的人」一類，避免與守律者身分矛盾；或照譯並在譯者筆記說明。由第三階段統一。
+- 職位（第三階段 voice 已決）：ch03 他說「我們的守律者小組」、ch08 說「看來我們終究當不成守律者了」，是守律者。ch03 "you're not just someone about to join me as a Sentinel" 定案譯為「你不只是快要加入我們、成為哨兵的人」：「加入我們」指成為掌舵會正式成員，「成為哨兵」是 Gladias 當時打算走的路線（同章他自己說 running for Sentinel status），與莫夫的守律者身分不衝突。不要改成「跟我一樣當哨兵」。
 - 說話風格：愛開玩笑、講話隨性、口語縮寫多（"No, it's the Arctic Emperor. I'm here to literally suck out your soul." ch03；"we gotta step up our paranoia" ch03；"Nah"、"the gov"）。
 - 中文口吻：輕鬆、損友式的調侃，可用「少來」「欸」等口語，但不用台語詞。
 - 補充（ch06–08）：談正事時直接、敏銳，會戳破 Gladias（"It was him, wasn't it? The mysterious gentleman, Delwart?" ch06）；有點吃醋式的抱怨（"Before me." ch06）；簡短俐落的安慰（"In is in." ch08）。
@@ -190,6 +190,7 @@
 - 中文口吻：政治宣傳文體，第二人稱「你」，句子鏗鏘；結尾「With regards」→「謹致問候」。
 - 補充（ch08）：在 VNU 與希爾卡公開辯論，頭銜變成 Arctic ambassador（大使，照譯）。論述流暢、學究式（"you focus on increasing the largest eigenvector" ch08），Gladias 評為「有天分的煽動家」。辯論口吻要比海報沉穩、有說服力。
 - 補充（ch13）：宣傳文〈平等主義的死亡之手，與強者之路〉插播到餐廳螢幕，署名又回到「北極帝國駐維瑞迪亞領事」。文體是勵志演說式的排比與命令句（"Grow stronger. Grow so strong, that you later look upon your former self with shame." ch13），譯文要鏗鏘、短句要有力，照舊對讀者用「你」。
+- 補充（第三階段 voice）：ch21 賽菈以 he 稱之，代名詞定案為「他」。
 - 首見：ch03
 
 ### 澤（Zei）
@@ -499,7 +500,7 @@
 | Mu | Zei、Bai | you two | 你們兩個 | 你們 | |
 | Fin | Bai | - | - | 你 | 替澤回嘴 |
 | Den | Zei | Zei | 澤 | 你 | 導師式 |
-| Zei | Den | - | - | 您 | 初見面時敬重（"I am honored to be here"），之後熟了可省略代名詞 |
+| Zei | Den | - | - | 您 | ch09–ch15 用「您」（初見敬重 "I am honored to be here"；ch15 仍是受指派的學生）。ch24 起改「你」（"Good to see you again, Den"→「很高興又見到你，鄧」），見下方 ch26 條 |
 | Mu | Zei（ch10 昆高派場合） | - | - | 你 | |
 | Bai | Fin | - | - | 你 | |
 | Fin | Bai | - | - | 你 | |
@@ -554,7 +555,7 @@
 | Zei | Verdow | Senator | 參議員 | 您（能省則省） | ch26 初見 "It's a pleasure to meet you, Senator."；ch32 熟了之後可改「你」 |
 | Gladias | 法官們 | Caeron、Sewlert | 凱隆、瑟勒特 | 你 | ch26 直呼名字，像熟識的同僚 |
 | 法官們 | Gladias | Gladias | 格拉迪亞斯 | 你 | |
-| Zei | Den | Den | 鄧 | 你 | ch26 作戰中直呼名字，已是戰友；初見時的「您」不再沿用 |
+| Zei | Den | Den | 鄧 | 你 | ch24 重逢起用「你」；ch26 作戰中直呼名字，已是戰友；初見時的「您」不再沿用 |
 | Zei | Mu | Mu | 穆 | 你 | ch26 "Mu, how did you get here!?"、ch29 "I trust you, Mu." |
 | Seila、Gladias | Evelor | - | - | 你 | ch27 初見 |
 | Evelor | Seila、Gladias、Zei | Seila／Gladias | 賽菈／格拉迪亞斯 | 你／你們 | |
