@@ -455,6 +455,10 @@
 | mi fu zo de tei ka ciu pin | mi fu zo de tei ka ciu pin | 自創詞 | ch31 | - | 德盧因引的古詩，保留拼音；原文釋義 when I am defeated, I feel like I won→「被打敗時，我覺得自己贏了」 |
 | dze kai lin pan | dze kai lin pan | 自創詞 | ch32 | - | 哲戈語「菜飯」（Vegetable and rice）；韋爾多逐字硬翻 green plant line bread→「綠色植物線麵包」，保留生硬感（參見 Containing inside the green）。Gladias 點餐整句 dia jie fe kai ja cu dze kai lin pan 保留 |
 | Veridia ba fau gie | Veridia ba fau gie | 自創詞 | ch26 | - | 韋爾多把「Dze go ba fau gie」改成維瑞迪亞版（這次沒有換錯字，對照 ch10 賽菈的 'fun'），保留拼音，原文無釋義就不補 |
+| boring school | 無聊學校 | 一般詞 | ch02 | - | 汾對自己就讀的一般學校（相對於 DU）的戲稱；下一句「Boring, I take it?」→「我猜，很無聊？」接這個梗 |
+| critical governance studies | 批判治理研究 | 一般詞 | ch02 | - | 汾說要到大學才會教的科目 |
+| zui fia kun zun | zui fia kun zun | 自創詞 | ch02 | - | 洪民街招牌，保留拼音；英文釋義 Underground safe place→「地下安全處」 |
+| pa jan li sun zo zai gau fe pa jan | pa jan li sun zo zai gau fe pa jan | 自創詞 | ch02 | - | DU 校訓（含下半句 go li sun zo bai gau fe go），保留拼音；英文釋義→「一人學習，使一人自由。一國學習，使一國偉大。」 |
 
 ## SVG 標籤建議譯法（ch17 圖譜募資圖，不列入比對）
 
