@@ -6,7 +6,7 @@
 第零階段收尾（ch32）：以下依重要性排序（影響範圍最廣、最需要品味判斷的在前）；編號沿用原始編號，以免詞條備註中的「Q5」等參照失效。其餘問題（如 Ground Law、bot、DOG、法官名拼法不一）已由編纂者自行決定，記在各詞條備註。
 
 ## Q1：書名與月名 Snowmoon 怎麼譯？
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Snowmoon（glossary.md）、Rainmoon、Windmoon、Bloomtime、Grasstime、Harvestmoon、Firemoon、Fruitmoon、Grapetime、Mistime、Frostime（worldbuilding.md）
 - 背景：Snowmoon 是書名，也是曆法中的月名，每章 dateline 都有「3724 Snowmoon N」。ch01–04 全發生在這個月。月名與書名最好同一譯法。
 - 選項：
@@ -18,9 +18,10 @@
 - 補充（ch17–20）：再出現 Fruitmoon（果月，ch17–18）、Grapetime（ch19）、Mistime（ch20）。Grapetime 若硬壓成兩字（「葡季」「萄季」）都不成詞，建議「葡萄季」；Mistime 建議「霧季」。如果使用者偏好全部兩字，-time 系列可以考慮改成「X 節」以外的方案，但會影響花季、草季。
 - 補充（ch25–32）：最後一個月 Frostime（ch25–28）建議「霜季」；之後跨年到 **3725 年雪月**，全書高潮的北岸省決戰發生在雪月 29–30 日（ch29–30），ch31–32 回到雨月。書名 Snowmoon 因此有明確的情節對應（決戰之月），更支持書名與月名同譯「雪月」。
 - 目前暫用：雪月；雨月、風月、花季、草季、穫月、火月、果月、葡萄季、霧季、霜季
+- 決定：雪月；雨月、風月、花季、草季、穫月、火月、果月、葡萄季、霧季、霜季（使用者，2026-10-01）
 
 ## Q3：Dzego 系人名、地名與專有名詞的譯法
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Dzego、Dzegoban、Pafogai Du、Sadzu Du、Zei、Fin、Bai、Mu、Min、Den、Su、Minpentai、Bansunpei、Kungaupei、Hun Min 等（characters.md / worldbuilding.md / glossary.md）
 - 背景：Dzego 是有東亞氛圍的國家（可愛卡通美學、分散式製造、百年前戰敗），其語言 Dzegoban 是單音節人造語言，原文以羅馬拼音呈現。人名多為單音節（Zei、Fin、Bai、Mu），全名如 Zei Leimin、Bai Jahen。首見 ch01（Dzego）、ch02（人名）。
 - 選項：
@@ -33,9 +34,10 @@
 - 補充（ch25–32）：ch26 澤揭露 Pafogai 字面是「十四石」（pa fo＝14、gai＝石），暗指週期表上的矽；ch27 的倒數讓哲戈語數字完整現形（pa＝1……gu＝0）。這些字義都由原文的英文釋義或角色對話交代，音譯不影響理解，仍建議選項 1。
 - 補充：無論選哪個，Dzegoban 的句子、口號、招牌、倒數（gie fe kiu kai ci bin hu、MU GU GEI FA）都建議保留羅馬拼音，只翻原文附的英文釋義。
 - 目前暫用：選項 1
+- 決定：一音節一漢字、選用人名／地名常用字（哲戈、澤、汾、白、穆、帕佛蓋都、明盤台、昆高派）；哲戈語句子、口號、倒數保留羅馬拼音（使用者，2026-10-01）
 
 ## Q2：Veridia 系人名的音譯風格與字數
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Gladias、Seila、Febric、Hreda、Delwart 等（characters.md）
 - 背景：主角 Gladias 若完整音譯是 5 字（格拉迪亞斯），超過命名原則「2–4 字」；他的暱稱 Glad 也需要對應譯名。這決定全書西式人名的整體風格。
 - 選項：
@@ -43,9 +45,10 @@
   2. 縮短音譯：葛拉迪斯（4 字）／暱稱葛拉德 — 好念，但少了一個音節。
   3. 女性名一律用「菈、妲、蕾」等女性化字（賽菈、赫蕾妲）是否可接受，也請一併確認。
 - 目前暫用：格拉迪亞斯／格拉德；女性名用女性化用字
+- 決定：格拉迪亞斯／格拉德；女性名用女性化用字（使用者，2026-10-01）
 
 ## Q6：掌舵會三種身分 Acolyte、Keeper、Sentinel 的譯名
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Acolyte、Keeper、Sentinel、Herald（glossary.md）
 - 背景：原文借用宗教／騎士團詞彙（Acolyte＝侍祭、Keeper＝守護者、Sentinel＝哨兵），但實際職能是：受訓者、制定規準者、稽核企業者。三者全書高頻出現，需要成套。首見 ch01。
 - 選項：
@@ -54,9 +57,10 @@
   3. 見習員／立則者／稽核官 — 完全功能化，最好懂，但失去原作的風格。
 - 補充（ch06）：第四種身分 Herald——從守律者或哨兵中隨機抽出「退任」、負責對大眾公開說明的前成員（ch06 Alagael、ch08 莫夫）。建議「傳令官」，與原文的中世紀色彩一致；替代選項「宣講人」（職能較清楚）。
 - 目前暫用：見習生／守律者／哨兵／傳令官
+- 決定：見習生／守律者／哨兵／傳令官（使用者，2026-10-01）
 
 ## Q5：Order of Steering 與 Steering 相關詞的譯法
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Order of Steering、Steering、Steering taxes、Order member（worldbuilding.md / glossary.md）
 - 背景：Steering 是 Veridia 以稅與補貼「引導方向」的核心制度，全書高頻出現：the Order of Steering、the Steering system、Steering taxes、Order member。首見 ch01。
 - 選項：
@@ -64,9 +68,10 @@
   2. 導引會／導引機制／導引稅 — 意思更直白，但組織名較平淡。
   3. 導向修會／導向稅 — 保留 Order 的修會色彩，但「修會」宗教味太重。
 - 目前暫用：掌舵會／掌舵稅
+- 決定：掌舵會／掌舵稅（使用者，2026-10-01）
 
 ## Q4：時間單位 tick 與 longhour 怎麼譯？
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：tick、longhour（glossary.md）
 - 背景：本書的計時是十進位制：1 天 = 10 longhour = 1,000 分鐘 = 100,000 tick（ch09 明說）。tick 約 0.864 秒，全書極常出現（a few ticks later、milli-ticks、裝置時間 60259）。原文刻意不叫 second。首見 ch01。
 - 選項：
@@ -74,9 +79,10 @@
   2. tick＝秒、longhour＝長時 — 最順口，但讀者會以為就是現實的秒，失去世界觀的陌生感（ch09「一分鐘一百秒」反而會像錯字）。
   3. tick＝刻 — 有古意，但中文「一刻」已是十五分鐘，易誤解。
 - 目前暫用：拍／長時
+- 決定：拍／長時（使用者，2026-10-01）
 
 ## Q7：AI 角色 Emerald 的名字與代名詞
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Emerald（characters.md）
 - 背景：Emerald 是 Gladias 手持裝置上的本地 AI，會說話、出現在 UI（Emerald AI summary）。目前只是工具型助理，但全書 AI 的定位可能變化。首見 ch01。
 - 選項：
@@ -87,9 +93,10 @@
 - 補充（ch20）：賽菈的手錶也收到 Emerald 的警示訊息，Emerald 是通用 AI 服務的可能性更高。
 - 補充（ch27–29）：賽菈、穆、韋爾多、澤都在用 Emerald；澤說「I asked Emerald and two other AIs」、穆說「had a fresh instance read」——Emerald 是眾多 AI 產品之一、可開多個實例，確定是產品／服務名稱。建議定案「翡翠／它」。
 - 目前暫用：翡翠／它
+- 決定：翡翠／它（使用者，2026-10-01）
 
 ## Q8：英文複合地名是否意譯
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Freetown、Redshire、Northglade、Clearhill Ave、Greater Plum Harbor（worldbuilding.md）
 - 背景：部分虛構地名由英文單字組成、字面意義明顯（自由城、紅郡），其他則是非英文詞形（Veridia、Meldan、Devanvil）。Freetown 在 ch01 被當作「沒靈魂的方正水泥建築」的代表；Greater Plum Harbor 是企業飛地，常簡稱 GPH。首見 ch01–03。
 - 選項：
@@ -98,9 +105,10 @@
 - 補充（ch20）：北林屬於維瑞迪亞的 Northshore 省，暫譯「北岸省」（意譯，同本題選項 1）。
 - 補充（ch29–31）：新增北極帝國城市 Glasscrown（ch31，像巨大冰晶的城市），依選項 1 暫譯「玻璃冠城」（音譯「格拉斯克朗」）；其他新地名 Elenar Forest、Eldil、Thaldur、Telten、Dolinar、Gelebor 都是非英文詞形，音譯。
 - 目前暫用：選項 1
+- 決定：字面意義明顯的英文複合地名意譯（自由城、紅郡、北林、北岸省、清丘大道、大梅港、玻璃冠城），非英文詞形音譯（使用者，2026-10-01）
 
 ## Q10：Graph Funding 的譯名
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Graph Funding（glossary.md）
 - 背景：與 Quadratic Funding（平方募資，台灣通行譯名）並列的自創公共資金分配機制，靠「關係圖」（graph）分配資金，資助教育與開放科技。首見 ch01，全書高頻。
 - 選項：
@@ -108,9 +116,10 @@
   2. 圖論募資 — 更精確指數學 graph，但學術味重。
   3. 關係圖募資 — 最白話，但四字＋募資太長。
 - 目前暫用：圖譜募資
+- 決定：圖譜募資（使用者，2026-10-01）
 
 ## Q11：貨幣 zipcoin 的譯名
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：zipcoin（glossary.md）
 - 背景：維瑞迪亞（與世界多數地方）使用的貨幣，ch06 首見：「2773 zipcoins」，UI 縮寫「zc」。帶有加密貨幣命名風格（如 bitcoin→比特幣）。
 - 選項：
@@ -118,9 +127,10 @@
   2. 速幣 — 意譯 zip 的「迅速」，簡短，但讀者看不出與 zc 的關係。
   3. 保留 zipcoin — 最忠實，但中文敘事中金額寫英文不好讀。
 - 目前暫用：吉普幣
+- 決定：吉普幣（使用者，2026-10-01）
 
 ## Q9：樂團 Dreadknot 的團名
-- 狀態：待決
+- 狀態：已決
 - 相關詞條：Dreadknot（worldbuilding.md）
 - 背景：金屬樂團，ch01 是 Gladias 稽核的對象，ch03、ch10 等處反覆被當作規準案例提起。團名可能是 dreadnought（無畏艦）的諧音加 knot（結）。
 - 選項：
@@ -128,3 +138,4 @@
   2. 意譯「無畏結」— 保留 dreadnought 的諧音梗，但讀者未必看得出來。
   3. 音譯「德雷諾特」— 中性但無趣。
 - 目前暫用：Dreadknot
+- 決定：Dreadknot（使用者，2026-10-01）

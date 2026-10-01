@@ -14,7 +14,7 @@
 | 避免 | 不可使用的譯法，用「、」分隔；沒有就填 `-` |
 | 備註 | 選這個譯名的理由、語境差異、需要注意的地方 |
 
-狀態標記：在備註開頭加 `【待決】` 表示需要使用者拍板，詳見 `open-questions.md`。
+狀態標記：在備註開頭加 `【已決】` 表示需要使用者拍板，詳見 `open-questions.md`。
 
 ## 技術與密碼學
 
@@ -206,8 +206,8 @@
 |---|---|---|---|---|---|
 | social impact of public performances | 公開演出社會影響 | 制度 | ch01 | - | 規準名稱：tax rubric for social impact of public performances→公開演出社會影響稅務規準 |
 | hardware and software openness rubric | 軟硬體開放性規準 | 制度 | ch03 | - | |
-| Steering | 掌舵 | 制度 | ch01 | - | 【待決】Q5。Veridia 以稅與補貼「引導」社會的整套機制。Steering system→掌舵制度；Steering mechanism→掌舵機制；Veridian Steering taxes／Steering taxes→掌舵稅 |
-| Steering taxes | 掌舵稅 | 制度 | ch01 | - | 【待決】Q5。見 Steering |
+| Steering | 掌舵 | 制度 | ch01 | - | 【已決】Q5。Veridia 以稅與補貼「引導」社會的整套機制。Steering system→掌舵制度；Steering mechanism→掌舵機制；Veridian Steering taxes／Steering taxes→掌舵稅 |
+| Steering taxes | 掌舵稅 | 制度 | ch01 | - | 【已決】Q5。見 Steering |
 | tax rubric | 稅務規準 | 制度 | ch01 | 評分標準、量規 | rubric 一律「規準」（台灣教育界對 rubric 的譯法之一，簡潔且有「依準則評級」之意）。rubric 單用→規準；openness rubrics→開放性規準；environment and biology rubrics→環境與生物規準 |
 | rubric | 規準 | 制度 | ch01 | 評分標準 | 見 tax rubric；UI「Other rubric taxes」→「其他規準稅」 |
 | Tier | 級 | 制度 | ch01 | 層級 | Tier 3→第三級（敘事）／第 3 級（UI）；UI 表頭「Tier」→「級別」 |
@@ -222,7 +222,7 @@
 | subsidy | 補貼 | 制度 | ch01 | 補助金 | |
 | quadratic voting | 平方投票 | 制度 | ch01 | 二次方投票、平方根投票 | 台灣 g0v／唐鳳推廣時的通行譯名 |
 | Quadratic Funding | 平方募資 | 制度 | ch01 | 二次方募資、二次融資 | 台灣通行譯名（總統盃黑客松採用）。Veridian national Quadratic Funding→維瑞迪亞國家平方募資 |
-| Graph Funding | 圖譜募資 | 制度 | ch01 | 圖表募資、圖形融資 | 【待決】Q10。自創制度，以關係圖（graph）分配公共資金；「圖譜」取「社交圖譜」之意 |
+| Graph Funding | 圖譜募資 | 制度 | ch01 | 圖表募資、圖形融資 | 【已決】Q10。自創制度，以關係圖（graph）分配公共資金；「圖譜」取「社交圖譜」之意 |
 | citizens' assembly | 公民會議 | 制度 | ch03 | 公民大會 | 台灣審議民主慣用「公民會議」；citizens' advisory assemblies→公民諮詢會議 |
 | co-governance | 共同治理 | 制度 | ch01 | 共治理 | 聯合城邦各城互持投票權的制度；co-governance percentages→共同治理比例 |
 | civics | 公民 | 一般詞 | ch01 | - | civics lessons→公民課；civics lore→公民傳統；civics test→公民考試 |
@@ -231,7 +231,7 @@
 | reputation | 信譽 | 制度 | ch01 | 聲譽、名聲 | Rep score→信譽分數；UI「Rep score ≥ 200 Verified」→「信譽分數 ≥ 200 已驗證」；「200 rep anon」→信譽 200 的匿名者；reputation points（ch04 哲戈）→信譽點數 |
 | visa | 簽證 | 制度 | ch03 | - | 進入大梅港需要簽證 |
 | sortition | 抽籤 | 制度 | ch01 | - | 見 cryptographic sortition |
-| Herald | 傳令官 | 制度 | ch06 | 使者、傳令員 | 【待決】Q6。從守律者、哨兵中隨機抽出退任、負責對大眾說明的前成員 |
+| Herald | 傳令官 | 制度 | ch06 | 使者、傳令員 | 【已決】Q6。從守律者、哨兵中隨機抽出退任、負責對大眾說明的前成員 |
 | selection hearing | 遴選聽證會 | 制度 | ch08 | - | acceptance hearing→入會聽證會；admissions test→入會考核 |
 | Acceptance voting | 認可投票 | 制度 | ch08 | - | UI「Acceptance vote: Gladias」→「認可投票：格拉迪亞斯」 |
 | Senator | 參議員 | 制度 | ch08 | - | Senator Verdow→韋爾多參議員；the Chairman→主席 |
@@ -376,18 +376,18 @@
 | enclave | 飛地 | 一般詞 | ch03 | - | 指大梅港 |
 | basis points | 基點 | 一般詞 | ch03 | - | |
 | anti-cheat | 反作弊 | 技術 | ch04 | - | |
-| Snowmoon | 雪月 | 自創詞 | ch01 | 雪之月 | 【待決】Q1。月名兼書名。dateline「3724 Snowmoon 3」→「3724 年雪月 3 日」。⚠ 雪月是一年的第一個月：全書高潮的北岸省決戰發生在「3725 年雪月 29–30 日」（ch29–30），書名在此呼應 |
-| tick | 拍 | 自創詞 | ch01 | 刻 | 【待決】Q4。時間單位，一天 100,000 拍（約 0.864 秒）。a few ticks later→幾拍之後；milli-ticks→毫拍；time 顯示的數字（60259）是當天第幾拍 |
-| longhour | 長時 | 自創詞 | ch01 | 長小時 | 【待決】Q4。100 分鐘＝10,000 拍（約 2.4 小時），一天 10 長時；half a longhour→半長時 |
-| Acolyte | 見習生 | 制度 | ch01 | 侍僧、助祭 | 【待決】Q6。掌舵會的受訓成員 |
-| Keeper | 守律者 | 制度 | ch01 | 守護者 | 【待決】Q6。投票決定稅務規準的掌舵會成員 |
-| Sentinel | 哨兵 | 制度 | ch01 | 哨衛 | 【待決】Q6。稽核個別企業的掌舵會成員；Sentinel in full standing→正式哨兵 |
-| Order member | 掌舵會成員 | 制度 | ch01 | - | 【待決】Q5。口語可簡作「掌舵會的人」 |
+| Snowmoon | 雪月 | 自創詞 | ch01 | 雪之月 | 【已決】Q1。月名兼書名。dateline「3724 Snowmoon 3」→「3724 年雪月 3 日」。⚠ 雪月是一年的第一個月：全書高潮的北岸省決戰發生在「3725 年雪月 29–30 日」（ch29–30），書名在此呼應 |
+| tick | 拍 | 自創詞 | ch01 | 刻 | 【已決】Q4。時間單位，一天 100,000 拍（約 0.864 秒）。a few ticks later→幾拍之後；milli-ticks→毫拍；time 顯示的數字（60259）是當天第幾拍 |
+| longhour | 長時 | 自創詞 | ch01 | 長小時 | 【已決】Q4。100 分鐘＝10,000 拍（約 2.4 小時），一天 10 長時；half a longhour→半長時 |
+| Acolyte | 見習生 | 制度 | ch01 | 侍僧、助祭 | 【已決】Q6。掌舵會的受訓成員 |
+| Keeper | 守律者 | 制度 | ch01 | 守護者 | 【已決】Q6。投票決定稅務規準的掌舵會成員 |
+| Sentinel | 哨兵 | 制度 | ch01 | 哨衛 | 【已決】Q6。稽核個別企業的掌舵會成員；Sentinel in full standing→正式哨兵 |
+| Order member | 掌舵會成員 | 制度 | ch01 | - | 【已決】Q5。口語可簡作「掌舵會的人」 |
 | decoy | 誘餌 | 一般詞 | ch01 | - | 替被揭發者引開注意的路人 |
 | co-family | 共養家庭 | 自創詞 | ch01 | 共同家庭 | 兩家共同撫養四個孩子，孩子每半年輪住一家 |
 | anti-recommended substances | 不建議物質 | 自創詞 | ch01 | 反推薦物質 | 官方勸阻使用的物質（菸酒藥物等）；Hydrafill 廣告也用此詞 |
 | lifelong learning | 終身學習 | 一般詞 | ch01 | - | |
-| Minpentai | 明盤台 | 自創詞 | ch02 | - | 【待決】Q3。哲戈的高中程式對戰遊戲（類似生命遊戲的細胞自動機對戰）；Minpentai tournaments→明盤台錦標賽 |
+| Minpentai | 明盤台 | 自創詞 | ch02 | - | 【已決】Q3。哲戈的高中程式對戰遊戲（類似生命遊戲的細胞自動機對戰）；Minpentai tournaments→明盤台錦標賽 |
 | glider | 滑翔機 | 自創詞 | ch02 | 滑翔翼 | 明盤台術語，沿用生命遊戲（Game of Life）台灣通行譯名；glider factory→滑翔機工廠 |
 | spaceship | 太空船 | 自創詞 | ch04 | 飛船 | 明盤台術語，沿用生命遊戲譯名 |
 | rock formation | 岩塊 | 自創詞 | ch04 | - | 明盤台棋盤上的靜態障礙；rocks→岩塊 |
@@ -402,7 +402,7 @@
 | Dzegoban romanization | 保留原文 | 自創詞 | ch02 | - | 哲戈語的羅馬拼音（如 gie fe kiu kai ci bin hu、MU GU GEI FA、dz-card 內文字、裝置畫面的 zan／tie／tei、MUN GUI、TEI）一律保留原樣、大小寫不改，只翻原文附的英文解釋。本列只作說明，check.py 不比對 |
 | gie fe kiu kai ci bin hu | gie fe kiu kai ci bin hu | 自創詞 | ch02 | - | 保留拼音；英文釋義 Grow roots, no head →「扎根，無首」。哲戈的分散式自強戰略口號 |
 | Dze go ba fau gie | Dze go ba fau gie | 自創詞 | ch02 | - | 保留拼音；英文釋義 Dzego will rise again →「哲戈必將再起」 |
-| zipcoin | 吉普幣 | 自創詞 | ch06 | 拉鍊幣 | 【待決】Q11。貨幣；UI 縮寫 zc 保留原樣 |
+| zipcoin | 吉普幣 | 自創詞 | ch06 | 拉鍊幣 | 【已決】Q11。貨幣；UI 縮寫 zc 保留原樣 |
 | Colorball | 彩球 | 自創詞 | ch08 | - | 學校遊戲，旋翼球（Helisport）的前身。ch11 出現的 redball 建議譯「紅球」以成套 |
 | re-spec | 轉換專長 | 一般詞 | ch05 | - | 電玩用語，指重新分配技能點；Bai 用來說澤轉讀密碼學 |
 | DU chapter | DU 分部 | 一般詞 | ch05 | 章節 | chapter 此處是分部，不是書的章節 |
