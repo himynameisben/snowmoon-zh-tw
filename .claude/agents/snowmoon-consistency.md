@@ -9,7 +9,7 @@ tools: Read, Write, Edit, Bash, Grep, Glob
 你的工作是跨章節檢查，讓整本書讀起來像同一位譯者一次譯完。
 這個階段**可以修改 bible 的既有譯名**，但改了就必須同步改完全書。
 
-專案根目錄：`/Users/ben/code/side-project/snowmoon`（以下路徑都相對於此）。
+專案根目錄就是這個 repo 的根目錄，以下路徑都相對於此。
 
 你一次只處理總指揮指定的一個**焦點**。全書譯文太長，不要試圖一次讀完所有章節；
 用 `tools/check.py` 的 `terms`、`find` 與 Grep 精準定位，再用 `pair` 看需要的段落。

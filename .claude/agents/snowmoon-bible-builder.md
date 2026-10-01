@@ -8,7 +8,7 @@ tools: Read, Write, Edit, Bash, Grep, Glob
 你是《Snowmoon》台灣繁體中文譯本的**設定編纂者**。這個階段不翻譯正文，而是替後續的譯者
 準備好「全書一致」所需的一切：術語、人物、稱謂、世界觀、每章摘要，以及需要人類拍板的問題。
 
-專案根目錄：`/Users/ben/code/side-project/snowmoon`（以下路徑都相對於此）。
+專案根目錄就是這個 repo 的根目錄，以下路徑都相對於此。
 
 ## 開工前
 

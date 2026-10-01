@@ -8,7 +8,7 @@ description: Snowmoon 小說翻譯流程的總指揮。依序派 subagent 執行
 你（主 session）是總指揮。你**不翻譯、不審稿、不評論譯文品質**——原則上相信 agent 的翻譯。
 你的工作只有：派工、驗收「任務有沒有完成」、決定 agent 要接續還是換手、記錄、commit。
 
-專案根目錄：`/Users/ben/code/side-project/snowmoon`。所有指令在根目錄執行。
+專案根目錄就是這個 repo 的根目錄，所有指令在根目錄執行。
 
 ## 流程總覽
 

@@ -1,98 +1,96 @@
-# Snowmoon 台灣繁體中文社群翻譯
+# 雪月（Snowmoon）｜Vitalik Buterin 長篇小說・台灣繁體中文版
 
-這是 Vitalik Buterin 的小說《Snowmoon》的台灣繁體中文社群翻譯專案。
+<p align="center">
+  <img src="assets/cover.webp" alt="《雪月》繁中社群版封面：雪夜滿月下，左側是綠意與白色塔樓的梅爾丹，右側是霓虹電子街的帕佛蓋都，兩個背影各自走在一側" width="360">
+</p>
 
-- 原作：<https://vitalik.eth.limo/snowmoon/>
-- 原作者：Vitalik Buterin
-- 原作授權：[GPL v3](https://www.gnu.org/licenses/gpl-3.0.html)
+> 一座用平方投票決定建築美不美的城市，一個被強權壓了一百年、只能靠加密與分散活下來的國家。
+> 當戰爭從北方逼近，「好的制度」能不能撐得住？
 
-本翻譯為非官方的社群譯本，與原作者無關。
+《雪月》是以太坊創辦人 **Vitalik Buterin** 的長篇小說《Snowmoon》的台灣繁體中文譯本，全書 32 章，免費線上閱讀。
 
-## 目前狀態
+**[從第一章開始讀 →](zh-tw/chapter-01.md)**
 
-全書 32 章已於 2026-10-01 完成三個階段：文學翻譯、雙語 QA（修正 14 處）、全書一致性（terms／voice／world）。
-尚未經過人工通讀校稿，歡迎回報問題。
+## 故事簡介
 
-- 執行紀錄：`translation/log.md`；各章譯者筆記與 QA 紀錄見 `translation/notes/`、`translation/qa/`。
-- 原文本身的筆誤：作者原意可以確定的照意思譯並在筆記說明，不能確定的照原文譯並在筆記存疑。
-- 已知限制：`check.py terms` 以英文字面比對，會固定出現幾筆誤報（如動詞 watch、句首 Glad、數字 Zero），可以忽略。
+維瑞迪亞的首都梅爾丹綠意盎然，連一棟大樓美不美，都由隨機抽中的市民用平方投票決定。
+維持這套稅與補貼制度的是「掌舵會」：成員身分保密，負責稽核每一家企業對社會的影響。
+格拉迪亞斯是掌舵會的見習生，白天隱姓埋名地執行稽核，晚上回家和妻子賽菈、孩子們吃哲戈餐車的晚餐。直到某天，一封匿名訊息告訴他：有人認出他了。
+
+另一個國家哲戈，在百年前的戰爭中落敗，重工業和科技一直被北極帝國壓制。高中生澤和死黨汾
+在電子街裡長大，上課地點要到開課那一刻才解密公布，國家的戰略只有四個字：「扎根，無首」。
+
+兩條敘事線在一年的四季裡慢慢交會，從雪月走到下一個雪月。
+
+## 這本書在寫什麼
+
+小說裡的世界運作著許多 Vitalik 長年討論的想法，被寫成日常生活的一部分：
+
+- **平方投票**與**土地稅**怎麼決定一座城市的樣子
+- 不靠中央指揮、以**密碼學**和**分散式組織**存活的國家
+- **AI** 與無人機改變了間諜、戰爭和民主的運作方式
+- 好的制度遇上外部強權時，要付出什麼代價
+
+不需要懂區塊鏈也能讀。它首先是一個關於家庭、友情和選擇的故事。
+
+## 目錄
+
+| 章節 | 地點 | 日期 |
+|---|---|---|
+| [第一章](zh-tw/chapter-01.md) | 維瑞迪亞，梅爾丹 | 3724 年雪月 3 日 |
+| [第二章](zh-tw/chapter-02.md) | 哲戈，帕佛蓋都 | 3724 年雪月 5 日 |
+| [第三章](zh-tw/chapter-03.md) | 維瑞迪亞，梅爾丹 | 3724 年雪月 8 日 |
+| [第四章](zh-tw/chapter-04.md) | 哲戈，帕佛蓋都 | 3724 年雪月 24 日 |
+| [第五章](zh-tw/chapter-05.md) | 聯合城邦，自由城 | 3724 年雨月 11 日 |
+| [第六章](zh-tw/chapter-06.md) | 維瑞迪亞，梅爾丹 | 3724 年雨月 12 日 |
+| [第七章](zh-tw/chapter-07.md) | 哲戈，帕佛蓋都 | 3724 年雨月 23 日 |
+| [第八章](zh-tw/chapter-08.md) | 維瑞迪亞，梅爾丹 | 3724 年雨月 26 日 |
+| [第九章](zh-tw/chapter-09.md) | 哲戈，帕佛蓋都 | 3724 年雨月 28 日 |
+| [第十章](zh-tw/chapter-10.md) | 聯合城邦，自由城 | 3724 年風月 24 日 |
+| [第十一章](zh-tw/chapter-11.md) | 維瑞迪亞，梅爾丹 | 3724 年花季 15 日 |
+| [第十二章](zh-tw/chapter-12.md) | 哲戈，薩祖都 | 3724 年草季 22 日 |
+| [第十三章](zh-tw/chapter-13.md) | 維瑞迪亞，梅爾丹 | 3724 年穫月 8 日 |
+| [第十四章](zh-tw/chapter-14.md) | 哲戈，薩祖都 | 3724 年火月 10 日 |
+| [第十五章](zh-tw/chapter-15.md) | 聯合城邦，自由城 | 3724 年火月 17 日 |
+| [第十六章](zh-tw/chapter-16.md) | 維瑞迪亞，梅爾丹 | 3724 年火月 25 日 |
+| [第十七章](zh-tw/chapter-17.md) | 維瑞迪亞，梅爾丹 | 3724 年果月 11 日 |
+| [第十八章](zh-tw/chapter-18.md) | 哲戈，帕佛蓋都 | 3724 年果月 18 日 |
+| [第十九章](zh-tw/chapter-19.md) | 哲戈，帕佛蓋都 | 3724 年葡萄季 15 日 |
+| [第二十章](zh-tw/chapter-20.md) | 維瑞迪亞，梅爾丹 | 3724 年霧季 10 日 |
+| [第二十一章](zh-tw/chapter-21.md) | 維瑞迪亞，梅爾丹 | 3724 年霧季 20 日 |
+| [第二十二章](zh-tw/chapter-22.md) | 聯合城邦，自由城 | 3724 年霧季 22 日 |
+| [第二十三章](zh-tw/chapter-23.md) | 哲戈，帕佛蓋都 | 3724 年霧季 22 日 |
+| [第二十四章](zh-tw/chapter-24.md) | 哲戈，帕佛蓋都 | 3724 年霧季 27 日 |
+| [第二十五章](zh-tw/chapter-25.md) | 哲戈，帕佛蓋都 | 3724 年霜季 1 日 |
+| [第二十六章](zh-tw/chapter-26.md) | 維瑞迪亞 | 3724 年霜季 5 日 |
+| [第二十七章](zh-tw/chapter-27.md) | 維瑞迪亞，梅爾丹 | 3724 年霜季 7 日 |
+| [第二十八章](zh-tw/chapter-28.md) | 維瑞迪亞，梅爾丹 | 3724 年霜季 15 日 |
+| [第二十九章](zh-tw/chapter-29.md) | 維瑞迪亞，艾勒納森林 | 3725 年雪月 29 日 |
+| [第三十章](zh-tw/chapter-30.md) | 維瑞迪亞，艾勒納森林 | 3725 年雪月 30 日 |
+| [第三十一章](zh-tw/chapter-31.md) | 維瑞迪亞，北林 | 3725 年雨月 2 日 |
+| [第三十二章](zh-tw/chapter-32.md) | 維瑞迪亞，梅爾丹 | 3725 年雨月 12 日 |
+
+## 關於這個譯本
+
+- **原作**：Vitalik Buterin，《[Snowmoon](https://vitalik.eth.limo/snowmoon/)》，以 GPL v3 授權釋出
+- **譯本**：非官方的社群譯本，與原作者無關
+- **怎麼翻的**：由 AI（Claude）依照公開的風格指南與術語表翻譯，再經過英中逐段 QA 與全書一致性檢查；
+  完整流程、prompt 與工具都公開在 [TRANSLATION.md](TRANSLATION.md)
+- **現況**：2026 年 10 月完成全書翻譯，**尚未經過完整的人工校稿**
+
+人名、地名與書中自創詞的譯法，可以查 [術語表](translation/glossary.md)、[人物表](translation/characters.md)
+與 [世界觀設定](translation/worldbuilding.md)。
+
+## 發現錯字或誤譯？
+
+非常歡迎回報！開 Issue 或直接送 Pull Request 都可以，做法寫在 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
 ## 授權
 
-原作以 GPL v3 釋出，本翻譯屬衍生作品，同樣以 **GPL v3** 釋出，全文見 [LICENSE](LICENSE)。
+原作以 GPL v3 釋出，本譯本屬衍生作品，同樣以 **GPL v3** 釋出，全文見 [LICENSE](LICENSE)。
+原作者要求衍生作品一併公開製作流程，所以本譯本使用的轉檔腳本、翻譯 prompt 與術語表都放在這個 repo 裡。
 
-原作者在授權說明中特別要求：以本作品為基礎產出衍生作品時，須一併公開製作流程
-（AI prompt、腳本、客製化工具等非通用素材），讓其他人能在此基礎上繼續創作。
-因此本專案使用到的轉檔腳本、翻譯 prompt 與術語表都會放在這個 repo 裡。
+---
 
-## 目錄結構
-
-```
-original/            原站下載的 HTML，保持原樣不修改
-  index.html         首頁（目錄、授權與 AI 使用聲明）
-  html/chapter-N.html
-source/en/           由 original/ 轉出的英文原文 Markdown，作為翻譯底稿
-  chapter-01.md … chapter-32.md
-zh-tw/               台灣繁體中文譯文（段落與 source/en/ 一對一）
-translation/         翻譯基準文件與過程紀錄
-  style-guide.md     翻譯風格指南（含正反例）
-  glossary.md        術語表
-  characters.md      人物、說話風格、稱謂
-  worldbuilding.md   地名、曆法、制度、科技設定
-  synopsis.md        每章摘要（第零階段產出）
-  open-questions.md  需要人工拍板的譯法決策
-  notes/             第一階段譯者筆記（每章一份）
-  qa/                第二階段 QA 紀錄（每章一份）
-  consistency/       第三階段全書一致性報告
-  log.md             總指揮的執行紀錄
-.claude/
-  agents/            各階段 subagent 的完整 prompt
-  skills/snowmoon-translate/SKILL.md
-                     總指揮的流程 prompt
-tools/
-  html2md.py         original/ → source/en/ 的轉檔腳本
-  check.py           譯文結構檢查、進度、英中對照、術語掃描
-```
-
-## 翻譯流程
-
-使用 [Claude Code](https://claude.com/claude-code)，由主 session 擔任總指揮
-（`/snowmoon-translate`），依序派 Claude Opus subagent 執行各階段。
-同一時間只有一個 agent 在工作；agent 的上下文還夠用（約 150k tokens 以內）時接續處理下一章，
-超過 300k 就換新的 agent。
-
-| 階段 | 內容 | agent |
-|---|---|---|
-| 0 | 通讀全書，建立術語、人物、世界觀、每章摘要；列出需要人工拍板的譯法 | `snowmoon-bible-builder` |
-| 1 | 文學翻譯：英文 → 台灣繁中，忠實與自然一次完成 | `snowmoon-translator` |
-| 2 | 雙語 QA：英中逐段檢查，只找翻譯錯誤 | `snowmoon-qa` |
-| 3 | 全書一致性：術語、人物語氣與稱謂、世界觀 | `snowmoon-consistency` |
-
-總指揮不審閱譯文，只用 `tools/check.py` 做機械驗收（段數對齊、HTML 標籤未被改動、
-無簡體字、無佔位標記），每章通過後 commit 一次。
-
-```sh
-uv run tools/check.py status          # 進度
-uv run tools/check.py chapter 3       # 檢查第 3 章譯文結構
-uv run tools/check.py pair 3          # 第 3 章英中逐段對照
-uv run tools/check.py terms           # 術語一致性掃描
-```
-
-## 原文 Markdown 格式
-
-`source/en/*.md` 由 `tools/html2md.py` 產生，規則如下：
-
-- 一般內文（段落、強調、引言、清單、分隔線）轉為 GitHub Flavored Markdown。
-- 下列結構化區塊**原樣保留為 HTML**，翻譯時只改標籤內的文字，不要動標籤與屬性：
-  - `<div class="dateline …">`：章節開頭或場景切換的地點與日期
-  - `<div class="device-view …">`：書中裝置畫面（表格、按鈕、選單等）
-  - `<svg>`：圖表，其中 `<text>` 的內容需要翻譯
-- 原站的導覽列、深色模式按鈕與 script 已移除，之後重建網站時由模板補回。
-
-重新產生原文：
-
-```sh
-uv run tools/html2md.py
-```
-
-需要 [uv](https://docs.astral.sh/uv/) 與 [pandoc](https://pandoc.org/)。
+<sub>關鍵字：Vitalik Buterin 小說、Snowmoon 中文版、雪月、Snowmoon Chinese translation、
+以太坊、科幻小說、平方投票、quadratic voting、去中心化治理、密碼學、繁體中文翻譯</sub>
