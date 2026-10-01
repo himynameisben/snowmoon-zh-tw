@@ -112,6 +112,8 @@
 | permutation | 置換 | 技術 | ch12 | 排列 | 密碼學語境 |
 | xor | XOR | 技術 | ch12 | 異或 | 保留英文；truncate-and-xor→截斷再 XOR |
 | round function | 輪函數 | 技術 | ch12 | - | |
+| entropy-preserving | 保持熵 | 技術 | ch12 | 熵保持 | 原文斜體「an *entropy-preserving* transformation」→一個*保持熵*的變換；與 ch14 weight-preserving（保持權重）同構 |
+| time step | 時間步 | 技術 | ch12 | 時間步驟 | 明盤台與細胞自動機的一步演化；timestep 同。tiling（六角格每步的三角形分割）→分割 |
 | hex grid | 六角格 | 自創詞 | ch12 | - | 明盤台全國賽的新規則；hexgrid 同 |
 | deuterium | 氘 | 技術 | ch11 | - | heavy water→重水；parts per million→ppm |
 | anonymity set | 匿名集合 | 技術 | ch13 | 匿名集 | 十三號說透露性別「only cuts down my anonymity set by a factor of two」→只讓匿名集合縮小一半 |
