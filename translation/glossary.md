@@ -49,7 +49,7 @@
 | nullifier | 作廢碼 | 技術 | ch06 | 空值器、無效器 | 由信譽評價以確定性但不可連結的方式產生的偽隨機雜湊值，公開後可防止同一份信譽被重複使用。UI「Nullifier:」→「作廢碼：」。ch06 掌舵會成員以作廢碼開頭「372f」稱呼 Gladias（three-seven-two-eff→「三七二 F」） |
 | social recovery | 社交恢復 | 技術 | ch06 | 社會恢復 | 加密錢包術語：由事先指定的親友持有金鑰，湊足門檻（六取四）即可找回資產 |
 | combined signatures | 聯合簽章 | 技術 | ch06 | 聯合簽名 | |
-| hash | 雜湊值 | 技術 | ch05 | 哈希 | 動詞 hash→雜湊；hash-based trie→雜湊字典樹 |
+| hash | 雜湊值／雜湊 | 技術 | ch05 | 哈希 | 動詞 hash→雜湊；hash-based trie→雜湊字典樹。第三階段：譯名欄加「雜湊」，涵蓋 hash function、hash-based signatures 等複合詞（ch10、ch12） |
 | pseudorandom | 偽隨機 | 技術 | ch06 | 偽任意 | |
 | unlinkable | 不可連結 | 技術 | ch06 | - | |
 | collateralize | 抵押 | 技術 | ch05 | - | zero-knowledge-collateralize→以零知識方式抵押；loan collateralized by his reputation→以信譽抵押借款 |
@@ -70,7 +70,9 @@
 | eigenvector | 特徵向量 | 技術 | ch08 | 本徵向量 | largest eigenvector→最大特徵向量 |
 | self-play | 自我對弈 | 技術 | ch07 | 自我博弈 | self-play finetune→自我對弈微調 |
 | finetune | 微調 | 技術 | ch07 | - | |
-| pipeline | 流程 | 技術 | ch07 | 管道 | |
+| pipeline | 流程 | 技術 | ch07 | - | 不要譯「管道」——「管道」保留給 channel（見 channel (route) 列）。第三階段：原避免欄「管道」因 channel 的正確譯法大量誤報而移到備註 |
+| channel (route) | 管道／頻道／通道 | 技術 | ch04 | - | 依語境：傳遞訊息、資源的途徑→管道，through our channels（ch11）、anonymous channel（ch15 匿名的聯絡管道）、班順派發布消息的 channel（ch18）、main channel of two-way communication（ch20）、法律把主觀判斷導進 channels（ch25）；語音、對話、通訊的 channel→頻道（ch04 隊伍語音頻道、ch06 對話頻道、ch29 軍事通訊頻道）；隱寫術的 steganographic channel（ch29）→隱寫通道；動詞 channel（ch28）照語境意譯。第三階段新增，與 pipeline（流程）區分；英文欄加括號是為了不讓 check.py 比對（用法太分散） |
+| open source | 開源 | 技術 | ch03 | 開放原始碼 | open-source（形容詞）同；open-source defense hardware→開源國防硬體。全書一律「開源」（第三階段新增） |
 | thought transcript | 思考紀錄 | 技術 | ch07 | 思維轉錄 | 明盤台決賽中 AI 的推理過程，雙方可互相讀取 |
 | fab | 晶圓廠 | 技術 | ch07 | - | distributed underground fabs→分散式地下晶圓廠 |
 | trie | 字典樹 | 技術 | ch06 | - | hash-based trie→雜湊字典樹；bounded-depth trees→有限深度樹 |
@@ -82,11 +84,11 @@
 | linear transformations | 線性變換 | 技術 | ch09 | - | 「adding errors on top」→再加上誤差 |
 | physical unclonable function | 物理不可複製函數 | 技術 | ch09 | - | PUF |
 | public key | 公鑰 | 技術 | ch09 | 公共密鑰 | secret key→私鑰／秘密金鑰（依語境） |
-| signature | 簽章 | 技術 | ch09 | 簽名 | 動詞 sign→簽署；hash-based signatures→雜湊式簽章；stateless tree-of-tree-based→無狀態、以樹中樹為基礎的 |
+| signature | 簽章／招牌 | 技術 | ch09 | 數位簽名 | 動詞 sign→簽署；hash-based signatures→雜湊式簽章；stateless tree-of-tree-based→無狀態、以樹中樹為基礎的。密碼學語境一律「簽章」，不用「簽名」；在表格、文件上簽名（sign a form，ch22）照一般用法寫「簽名」。形容詞 signature（signature Veridian Privacy Robe、signature tactic，ch01、ch04）→招牌 |
 | public inspectors | 公共檢驗員 | 技術 | ch09 | - | destructively inspect→破壞性檢驗 |
 | supply chain | 供應鏈 | 技術 | ch09 | - | |
 | mixnet | 混合網路 | 技術 | ch09 | 混合網絡 | 三層加密、隨機節點轉送；ch09 延伸為實體物流的「混合網路」 |
-| node | 節點 | 技術 | ch09 | - | |
+| node | 節點／據點 | 技術 | ch09 | - | 技術語境（混合網路、圖譜募資）一律「節點」；ch22 大梅港在北林的 node 指企業的分支據點→據點 |
 | payload | 酬載 | 技術 | ch09 | 有效載荷 | 台灣資訊圈用法 |
 | collude | 共謀 | 技術 | ch09 | - | counter-colluding（ch10）→反制共謀 |
 | tamper-proof | 防竄改 | 技術 | ch09 | 防篡改 | |
@@ -94,12 +96,12 @@
 | lightfoot | 光呎 | 自創詞 | ch09 | 光腳 | 光在一拍內走十億光呎；1 光呎 ≈ 259.02 公釐，接近英格沃爾舊單位；「呎」點出它接近英尺 |
 | formal verification | 形式驗證 | 技術 | ch10 | - | |
 | nonlinear junction detector | 非線性節點探測器 | 技術 | ch10 | - | 偵測竊聽器的真實工具 |
-| thermal | 熱像 | 技術 | ch10 | - | 「picking up any powered electronics with thermal」→用熱像偵測通電中的電子裝置 |
+| thermal | 熱像／熱偽裝 | 技術 | ch10 | - | 「picking up any powered electronics with thermal」→用熱像偵測通電中的電子裝置。thermal cloak（ch26、ch30）→熱偽裝斗篷，見該列 |
 | game tree | 賽局樹 | 技術 | ch10 | 博弈樹 | |
 | negative-sum game | 負和賽局 | 技術 | ch10 | 負和博弈 | |
 | war of attrition | 消耗戰 | 技術 | ch10 | - | |
 | deterrence | 嚇阻 | 技術 | ch10 | 威懾 | |
-| derivative | 衍生性商品 | 技術 | ch11 | 衍生品 | 金融語境 |
+| derivative | 衍生性商品／導數 | 技術 | ch11 | 衍生品 | 金融語境→衍生性商品；微積分（ch29 take the derivative，梯度下降）→導數、求導數 |
 | slippage | 滑價 | 技術 | ch11 | 滑點 | |
 | hedge fund | 避險基金 | 技術 | ch11 | 對沖基金 | |
 | free option | 免費選擇權 | 技術 | ch11 | 免費期權 | |
@@ -109,18 +111,18 @@
 | wastewater scanning | 汙水監測 | 技術 | ch11 | 污水掃描 | |
 | cleartext | 明文 | 技術 | ch11 | - | |
 | hash function | 雜湊函數 | 技術 | ch12 | 哈希函數 | hash algorithm→雜湊演算法 |
-| permutation | 置換 | 技術 | ch12 | 排列 | 密碼學語境 |
+| permutation | 置換 | 技術 | ch12 | - | 密碼學語境一律「置換」，不用「排列」；一般動詞 arrange 譯「排列」不受影響。第三階段：避免欄「排列」因一般用法誤報而移到備註 |
 | xor | XOR | 技術 | ch12 | 異或 | 保留英文；truncate-and-xor→截斷再 XOR |
 | round function | 輪函數 | 技術 | ch12 | - | |
 | entropy-preserving | 保持熵 | 技術 | ch12 | 熵保持 | 原文斜體「an *entropy-preserving* transformation」→一個*保持熵*的變換；與 ch14 weight-preserving（保持權重）同構 |
 | time step | 時間步 | 技術 | ch12 | 時間步驟 | 明盤台與細胞自動機的一步演化；timestep 同。tiling（六角格每步的三角形分割）→分割 |
 | hex grid | 六角格 | 自創詞 | ch12 | - | 明盤台全國賽的新規則；hexgrid 同 |
 | deuterium | 氘 | 技術 | ch11 | - | heavy water→重水；parts per million→ppm |
-| anonymity set | 匿名集合 | 技術 | ch13 | 匿名集 | 十三號說透露性別「only cuts down my anonymity set by a factor of two」→只讓匿名集合縮小一半 |
+| anonymity set | 匿名集合 | 技術 | ch13 | - | 十三號說透露性別「only cuts down my anonymity set by a factor of two」→只讓匿名集合縮小一半。不要簡作「匿名集」（避免欄原列「匿名集」，但它是正確譯名的子字串，會誤報，第三階段移到備註） |
 | zero-sum game | 零和賽局 | 技術 | ch13 | 零和博弈 | 與負和賽局成套 |
 | re-randomized AI-generated voice | 重新隨機化的 AI 合成語音 | 技術 | ch13 | - | 守律者小組以頸帶傳聲時的變聲處理 |
 | mass conservation | 質量守恆 | 技術 | ch14 | - | 明盤台語境：神壇是唯一違反質量守恆的物件 |
-| weight-preserving | 保持權重 | 技術 | ch14 | 保重 | 此處 weight 指格子中活細胞的數量（漢明權重）；「XOR is not weight-preserving, but it is reversible」→XOR 不保持權重，但可逆 |
+| weight-preserving | 保持權重 | 技術 | ch14 | - | 此處 weight 指格子中活細胞的數量（漢明權重）；「XOR is not weight-preserving, but it is reversible」→XOR 不保持權重，但可逆。不要縮成「保重」（避免欄原列此詞，會誤報「保重」的一般用法，第三階段移到備註） |
 | Key Allocation Group | 金鑰分配小組 | 制度 | ch15 | 密鑰分配組 | 守律者產生投票金鑰時要當面見的五人小組（五取三）。縮寫 KAG 譯文不保留，改寫「金鑰小組」或「金鑰分配小組」 |
 | KAG | 金鑰小組／金鑰分配小組 | 制度 | ch15 | - | 見 Key Allocation Group |
 | voting key | 投票金鑰 | 技術 | ch15 | 投票密鑰 | 「Only votes signed with a valid key count」→只有用有效金鑰簽署的票才算數 |
@@ -128,7 +130,7 @@
 | obfuscated circuit | 經混淆的電路 | 技術 | ch15 | - | 程式混淆（obfuscation）產物；**不要**寫成「混淆電路」，那是 garbled circuit 的譯名（ch03） |
 | trusted hardware | 可信硬體 | 技術 | ch15 | 受信任硬件 | 莫夫的妙語「Humans - the ultimate trusted hardware.」→「人類——最終極的可信硬體。」 |
 | steganographic encoding | 隱寫編碼 | 技術 | ch15 | 隱寫術編碼方式 | steganography→隱寫術 |
-| least-significant bit | 最低有效位元 | 技術 | ch15 | 最低有效位 | higher-order bits→高位元；lowest-order binary digit→最低位的二進位數字。bit→位元（flip a bit→翻轉位元），不收成獨立詞條以免誤比對「a little bit」。澤後文加引號的「least significant」是雙關（LLM 判定「最不重要」的位元），照「最不重要」或「最低有效」皆可，要保留引號 |
+| least-significant bit | 最低有效位元 | 技術 | ch15 | - | higher-order bits→高位元；lowest-order binary digit→最低位的二進位數字。bit→位元（flip a bit→翻轉位元），不收成獨立詞條以免誤比對「a little bit」。澤後文加引號的「least significant」是雙關（LLM 判定「最不重要」的位元），照「最不重要」或「最低有效」皆可，要保留引號。不要寫成「最低有效位」而漏掉「元」（避免欄原列此詞，但它是正確譯名的子字串，第三階段移到備註） |
 | language model | 語言模型 | 技術 | ch15 | - | LLM 保留英文 |
 | LLM | LLM | 技術 | ch15 | 大模型 | 保留英文 |
 | bucket | 桶 | 技術 | ch15 | 存儲桶 | 雜湊／分組演算法的 bucket；「the i'th bucket」→第 i 個桶 |
@@ -196,7 +198,7 @@
 | adversarial attack | 對抗式攻擊 | 技術 | ch30 | 敵對攻擊 | train adversarial attacks→訓練對抗式攻擊；attack patterns→攻擊圖樣；trial deviations→試驗用的偏移；perpendicular directions→正交方向 |
 | simulated environment | 模擬環境 | 技術 | ch30 | - | simulation platform→模擬平台；full world-model simulations→完整的世界模型模擬；input modalities→輸入模態；classification results→分類結果；visual input stream→視覺輸入串流 |
 | proxy | 代理伺服器／代理 | 技術 | ch30 | - | proxy through→透過……代理連線；Proxies:（UI 標題）→代理：；proxy endpoints→代理端點 |
-| endpoint | 端點 | 技術 | ch30 | 終端 | access keys→存取金鑰；network addresses→網路位址；Network:（UI 標題）→網路： |
+| endpoint | 端點 | 技術 | ch30 | - | access keys→存取金鑰；network addresses→網路位址；Network:（UI 標題）→網路：。不要譯「終端」；computer terminal（ch19、ch24）→電腦終端機，不受影響（第三階段把「終端」從避免欄移到備註） |
 | scalar | 純量 | 技術 | ch30 | 標量 | scalar signal→純量訊號；「not just a binary」→不只是有或沒有（二元）；time-to-detection／detection time→被偵測所需時間／偵測時間 |
 | fiber optic cables | 光纖纜線 | 技術 | ch29 | 光纖電纜 | |
 | casualty ratio | 戰損比 | 技術 | ch29 | 傷亡比率 | 本書指無人機的損失比；「ten to one in the Veridian drone fleet's favor」→維瑞迪亞無人機隊佔優的十比一；casualty counts→損失數 |
@@ -214,7 +216,7 @@
 | Steering taxes | 掌舵稅 | 制度 | ch01 | - | 【已決】Q5。見 Steering |
 | tax rubric | 稅務規準 | 制度 | ch01 | 評分標準、量規 | rubric 一律「規準」（台灣教育界對 rubric 的譯法之一，簡潔且有「依準則評級」之意）。rubric 單用→規準；openness rubrics→開放性規準；environment and biology rubrics→環境與生物規準 |
 | rubric | 規準 | 制度 | ch01 | 評分標準 | 見 tax rubric；UI「Other rubric taxes」→「其他規準稅」 |
-| Tier | 級 | 制度 | ch01 | 層級 | Tier 3→第三級（敘事）／第 3 級（UI）；UI 表頭「Tier」→「級別」 |
+| Tier | 級 | 制度 | ch01 | - | Tier 3→第三級（敘事）／第 3 級（UI）；UI 表頭「Tier」→「級別」。不要譯「層級」；一般的 level（原子層級）不受影響（第三階段把「層級」從避免欄移到備註） |
 | precedent | 前例 | 制度 | ch01 | 先例 | UI「View relevant precedents」→「查看相關前例」 |
 | audit | 稽核 | 制度 | ch01 | 審計 | Sentinel 對個別企業的評級工作；動詞 audit→稽核 |
 | prediction score | 預測分數 | 制度 | ch01 | - | Acolyte 的考核分數：抽查的一成稽核與 Sentinel 判定相符的程度；須保持 90 以上 |
@@ -232,7 +234,7 @@
 | civics | 公民 | 一般詞 | ch01 | - | civics lessons→公民課；civics lore→公民傳統；civics test→公民考試 |
 | bounty | 賞金 | 制度 | ch01 | - | 揭發掌舵會成員任務者可得被扣薪資的一半 |
 | deposit | 保證金 | 制度 | ch01 | 押金 | 送出猜測時附上的小額保證金 |
-| reputation | 信譽 | 制度 | ch01 | 聲譽、名聲 | Rep score→信譽分數；UI「Rep score ≥ 200 Verified」→「信譽分數 ≥ 200 已驗證」；「200 rep anon」→信譽 200 的匿名者；reputation points（ch04 哲戈）→信譽點數 |
+| reputation | 信譽／聲望 | 制度 | ch01 | 聲譽、名聲 | Rep score→信譽分數；UI「Rep score ≥ 200 Verified」→「信譽分數 ≥ 200 已驗證」；「200 rep anon」→信譽 200 的匿名者；reputation points（ch04 哲戈）→信譽點數。信譽系統之外的一般名望（ch31 德盧因「my parents' reputation」，在北極帝國）→聲望 |
 | visa | 簽證 | 制度 | ch03 | - | 進入大梅港需要簽證 |
 | sortition | 抽籤 | 制度 | ch01 | - | 見 cryptographic sortition |
 | Herald | 傳令官 | 制度 | ch06 | 使者、傳令員 | 【已決】Q6。從守律者、哨兵中隨機抽出退任、負責對大眾說明的前成員 |
@@ -250,7 +252,7 @@
 | Clean indoor air | 室內空氣潔淨 | 制度 | ch06 | - | 規準名稱（UI） |
 | academic and intellectual reputation score | 學術與知識信譽分數 | 制度 | ch05 | - | 大小寫不一，比對時不分大小寫 |
 | High Council | 最高議會 | 制度 | ch09 | - | 昆高派的領導機構；High Council member→最高議會成員；councilor（ch10）→議員 |
-| circle (Keeper group) | 小組 | 制度 | ch10 | 圈子 | 僅指守律者討論小組（"in this circle"、"third circle of Keepers"）；一般的 green circle 仍譯「圓圈」。third circle→第三個小組 |
+| circle (Keeper group) | 小組 | 制度 | ch10 | - | 僅指守律者討論小組（"in this circle"、"third circle of Keepers"）；一般的 green circle 仍譯「圓圈」。third circle→第三個小組。不要譯「圈子」；社交圈（those circles，ch22）、繞圈子（going in circles，ch27）不受影響（第三階段把「圈子」從避免欄移到備註） |
 | third-year | 第三年 | 制度 | ch10 | - | 守律者的年資；second-year、first-year 同理 |
 | number Four | 四號 | 制度 | ch10 | - | 守律者在小組內以編號互稱（One、Four、Six、Nine、Eleven、Eighteen、Twenty、Zero、Two），一律譯「X 號」或直接「X 號」當稱呼；Zero→零號 |
 | defense budgets | 國防預算 | 制度 | ch10 | - | |
@@ -284,7 +286,7 @@
 | Discussion Group | 討論小組 | 制度 | ch06 | - | ch06 守律者結構 SVG：Discussion Group 1→討論小組 1；Current Keepers for this rubric→本規準現任守律者；added this year／last year／second-last year→今年／去年／前年加入 |
 | insider trading | 內線交易 | 制度 | ch20 | - | |
 | noise taxes | 噪音稅 | 制度 | ch20 | - | 小型旋翼機的噪音稅極高 |
-| tax nudges | 稅的輕推 | 制度 | ch20 | 稅收推動 | nudge 取行為經濟學「推力」之意，口語寫「用稅輕推」 |
+| tax nudges | 稅的輕推／用稅輕推 | 制度 | ch20 | 稅收推動 | nudge 取行為經濟學「推力」之意，口語寫「用稅輕推」 |
 | thumb on the scale | 在秤上動手腳 | 一般詞 | ch20 | 拇指壓秤 | 德爾瓦特批評掌舵會偏袒；敘事中也可寫「偏袒」 |
 | peace dove | 鴿派 | 一般詞 | ch20 | 和平鴿 | extreme peace dove→極端鴿派 |
 | neutral zone | 中立區 | 制度 | ch20 | - | 北林的大梅港 |
@@ -296,7 +298,7 @@
 | preponderance of evidence | 優勢證據 | 制度 | ch21 | 證據的優勢 | 台灣法律用語。賽菈大吼「IT'S ABOUT THE PREPONDERANCE OF EVIDENCE」→「重點是優勢證據！」，大寫照原文用強調處理 |
 | propagandist | 宣傳家 | 一般詞 | ch21 | - | 賽菈：「Ephelion and Delwart are not intellectuals, they are propagandists.」→艾費里昂和德爾瓦特不是知識分子，是宣傳家 |
 | cover story | 掩護說詞 | 一般詞 | ch21 | - | pretense→偽裝；ruse→幌子 |
-| shelter | 避難所 | 制度 | ch22 | 庇護所 | luxurious room in a shelter→豪華避難所房間；emergency shelter functionality（ch20）→緊急避難功能 |
+| shelter | 避難所／避難 | 制度 | ch22 | 庇護所 | luxurious room in a shelter→豪華避難所房間；emergency shelter functionality（ch20）→緊急避難功能 |
 | cartel | 卡特爾 | 制度 | ch22 | - | 敘事中可補成「卡特爾（聯合壟斷）」一次，之後只寫卡特爾 |
 | maximum budget rule | 預算上限規定 | 制度 | ch22 | - | 自由城憲法限制政府預算 |
 | unified defense grid | 聯防網 | 制度 | ch22 | 統一國防網格 | 「克城」之間的聯合防禦網 |
@@ -305,7 +307,7 @@
 | defense corps | 國防企業 | 組織 | ch22 | 國防軍團 | corps 這裡是 corporations 的縮寫，不是軍團；defense companies 同；seaborne／airborne→海上／空中 |
 | sub-group | 子小組 | 制度 | ch23 | - | 每條規準 21 名守律者分成三個七人子小組 |
 | Senate committee | 參議院委員會 | 制度 | ch23 | - | 澤說見習生轉正要通過 Senate committee；ch08 寫 Parliament committee（議會委員會），照原文各自譯 |
-| co-father | 共養父親 | 制度 | ch23 | - | 見 co-family；Gladias 稱維爾「My co-father, Vil」→我的共養父親維爾（指同一共養家庭的另一位父親，譯文照字面） |
+| co-father | 共養孩子的 | 制度 | ch23 | 共養父親 | 見 co-family。Gladias 說「My co-father, Vil」→「和我們家共養孩子的維爾」。第三階段：原譯名「共養父親」易被讀成「維爾是格拉迪亞斯的父親」（ch23 譯者與 QA 皆提出），改用描述式說法 |
 | Transportation Ministry | 交通部 | 組織 | ch24 | - | administrative change→行政上的變更 |
 | de-facto advisor | 實質顧問 | 一般詞 | ch24 | - | de-facto Kungaupei advisor→昆高派的實質顧問 |
 | Ground Law | 基本法 | 制度 | ch25 | 地面法、根據法 | 維瑞迪亞的根本法條。the fourteenth Ground Law→第十四條基本法（軍隊有保衛國家的義務）；Twenty-first Ground Law→第二十一條基本法（官員須誠實、善意、不受不當影響地履職，受不當影響時須通報並辭職）。取德國 Grundgesetz 的通行譯名「基本法」 |
@@ -340,11 +342,11 @@
 | autobus | 自駕巴士 | 物品 | ch01 | 公共汽車 | 自動駕駛的公車；首次可寫「自駕巴士」，後文可簡稱「巴士」 |
 | autonomous delivery vehicle | 自動送貨車 | 物品 | ch01 | - | |
 | anti-transmission foil | 阻訊箔 | 物品 | ch02 | 防傳輸箔紙 | 阻擋無線訊號的金屬箔，哲戈房間常見 |
-| air filter | 空氣清淨機 | 物品 | ch03 | - | 桌邊白盒；air filters（教室設備）→空氣過濾系統 |
+| air filter | 空氣清淨機 | 物品 | ch02 | - | 房間裡獨立擺放的機器（桌邊白盒、地上的機台、椅子之間的機器）→空氣清淨機；ch02 教室內建、「開到最大功率」的 air filters→空氣過濾系統。一般動名詞 air filtering→空氣過濾 |
 | sensor | 感測器 | 物品 | ch02 | 傳感器 | sensors designed to detect sensors→偵測感測器的感測器 |
 | hieroglyphics | 象形文字 | 一般詞 | ch04 | - | |
 | surveillance bat | 監視蝙蝠 | 物品 | ch06 | - | 莫夫用的小型偵察裝置，可丟在角落監聽或發出聲響 |
-| copter | 小型旋翼機 | 物品 | ch05 | 直升機 | 自由城上空載人載貨的小型飛行器 |
+| copter | 旋翼機 | 物品 | ch05 | 直升機 | 自由城上空載人載貨的小型飛行器。ch05 首見可寫「小型旋翼機」，之後一律「旋翼機」（第三階段依全書實際用法把譯名欄由「小型旋翼機」改為「旋翼機」） |
 | scratch-off one-time-scannable code | 刮開式一次性掃描碼 | 物品 | ch07 | - | 明盤台獎品，內含密碼學代幣與憑證 |
 | cryptographic tokens | 密碼學代幣 | 物品 | ch07 | 加密貨幣 | |
 | ozone-based electric water disinfection pen | 臭氧電解淨水筆 | 物品 | ch07 | - | 獎品之一 |
@@ -357,11 +359,12 @@
 | life savings wallet | 存畢生積蓄的錢包 | 物品 | ch16 | - | Gladias 驚呼「Straight out of a life savings wallet?」→「直接從存畢生積蓄的錢包扣？」 |
 | blueball | 藍球 | 自創詞 | ch16 | 籃球 | 旋翼球的球：用來擊倒球瓶。注意別被輸入法換成「籃球」 |
 | greenball | 綠球 | 自創詞 | ch16 | - | 旋翼球的球：擊中對方球員會爆出顏料（splatted its paint） |
-| pin | 球瓶 | 自創詞 | ch16 | 針、別針 | 旋翼球：高處圓盤上排成三角形的十支黃色球瓶；pin knockdowns→擊倒球瓶 |
+| pin | 球瓶 | 自創詞 | ch16 | 別針 | 旋翼球：高處圓盤上排成三角形的十支黃色球瓶；pin knockdowns→擊倒球瓶。不要譯「針」；「針對」「順時針」等一般詞不受影響（第三階段把「針」從避免欄移到備註）。哲戈語拼音裡的 pin（lin pin、bia pin）照規定保留 |
 | green circle | 綠色圓圈 | 物品 | ch01 | - | 全書常見的感應點（閘門、桌面、門邊），手錶或手持裝置貼上去即可驗證、付款；glowing green outline→發綠光的外框 |
-| cabin | 車廂 | 物品 | ch18 | - | 黑色專車的車廂可在隧道中與其他九輛隨機交換（Swapped cabins→換了車廂） |
+| cabin | 車廂 | 物品 | ch18 | - | 黑色專車的車廂可在隧道中與其他九輛隨機交換（Swapped cabins→換了車廂）。飛機上的 cabin（ch26 封閉小隔間）→包廂；整個機身內部→機艙 |
+| black car | 黑色專車 | 物品 | ch09 | 黑色車子 | 哲戈昆高派的長方形黑色專車，車門可與山體金字塔的門對門密合，車廂可在隧道中交換（見 cabin）。ch09 首見即用「黑色專車」（第三階段新增並統一 ch09、ch26） |
 | Bluewhale Messenger | 藍鯨通訊 | 物品 | ch18 | - | 藍鯨的通訊軟體 |
-| Number Ten | 十號餐 | 物品 | ch19 | - | 維瑞迪亞哲戈餐車上的菜名（蘑菇蔬菜飯） |
+| Number Ten | 十號餐 | 物品 | ch06 | - | 維瑞迪亞哲戈餐車上的菜名（蘑菇蔬菜飯）。ch06「the usual number ten」已出現 |
 | sealed cup | 密封杯 | 物品 | ch19 | - | 圖書館在書架旁只給附吸管的密封杯 |
 | data cable | 傳輸線 | 物品 | ch19 | 數據線 | |
 | Taxi fare | 計程車車資 | 物品 | ch22 | - | UI：Driver base fare→司機基本費；Per-minute toll→每分鐘費；Per-kilometer toll→每公里費；Acceleration and deceleration toll→加減速費（113 m/s Δv 保留）；Road congestion toll→道路壅塞費；Total→合計 |
@@ -382,7 +385,7 @@
 | basis points | 基點 | 一般詞 | ch03 | - | |
 | anti-cheat | 反作弊 | 技術 | ch04 | - | |
 | Snowmoon | 雪月 | 自創詞 | ch01 | 雪之月 | 【已決】Q1。月名兼書名。dateline「3724 Snowmoon 3」→「3724 年雪月 3 日」。⚠ 雪月是一年的第一個月：全書高潮的北岸省決戰發生在「3725 年雪月 29–30 日」（ch29–30），書名在此呼應 |
-| tick | 拍 | 自創詞 | ch01 | 刻 | 【已決】Q4。時間單位，一天 100,000 拍（約 0.864 秒）。a few ticks later→幾拍之後；milli-ticks→毫拍；time 顯示的數字（60259）是當天第幾拍 |
+| tick | 拍 | 自創詞 | ch01 | 幾刻、毫刻 | 【已決】Q4。時間單位，一天 100,000 拍（約 0.864 秒）。a few ticks later→幾拍之後；milli-ticks→毫拍；time 顯示的數字（60259）是當天第幾拍。不要譯「刻」（a few ticks later≠幾刻之後）；避免欄只列「幾刻」「毫刻」，因為單字「刻」會比對到立刻、此刻、片刻等一般詞 |
 | longhour | 長時 | 自創詞 | ch01 | 長小時 | 【已決】Q4。100 分鐘＝10,000 拍（約 2.4 小時），一天 10 長時；half a longhour→半長時 |
 | Acolyte | 見習生 | 制度 | ch01 | 侍僧、助祭 | 【已決】Q6。掌舵會的受訓成員 |
 | Keeper | 守律者 | 制度 | ch01 | 守護者 | 【已決】Q6。投票決定稅務規準的掌舵會成員 |
@@ -420,7 +423,7 @@
 | shrine | 神壇 | 自創詞 | ch14 | 神社、神龕 | 明盤台準決賽新規則：棋盤上五座神壇（四邊中央各一、中心一座），每一千回合把神壇內容的變化以 XOR 套用到四角附近區域，然後恢復成預設岩塊。northern rock shrine→北方的岩石神壇 |
 | eternal glider factory | 永恆滑翔機工廠 | 自創詞 | ch14 | - | 滑翔機在兩座神壇間來回反彈、不斷噴出新滑翔機的結構 |
 | symbol-carrying spaceship | 載印記太空船 | 自創詞 | ch14 | 攜帶符號的太空船 | 承載玩家印記的太空船；symbol-carrying ship→載印記船；steerable→可轉向 |
-| steering (Minpentai) | 掌舵 | 自創詞 | ch14 | 操縱 | 「the intervention turns were not for building - they were for *steering*」→干預回合不是用來建造，而是用來*掌舵*。刻意呼應維瑞迪亞的 Steering（掌舵），保留斜體；steering instruction→轉向指令 |
+| steering (Minpentai) | 掌舵 | 自創詞 | ch14 | - | 「the intervention turns were not for building - they were for *steering*」→干預回合不是用來建造，而是用來*掌舵*。刻意呼應維瑞迪亞的 Steering（掌舵），保留斜體；steering instruction→轉向指令。不要譯「操縱」；manipulate（ch03、ch27）→操縱不受影響（第三階段把「操縱」從避免欄移到備註） |
 | glider storm | 滑翔機風暴 | 自創詞 | ch14 | - | barrage of gliders→滑翔機齊射 |
 | debris | 殘骸 | 自創詞 | ch14 | 碎片垃圾 | 明盤台中被摧毀結構留下的殘渣；wreck→殘骸 |
 | sitting duck | 活靶 | 一般詞 | ch14 | 坐著的鴨子 | ch14、ch16 都出現 |
@@ -447,7 +450,8 @@
 | Chief | 大哥 | 一般詞 | ch22 | 酋長、首領 | 楊恩叫計程車司機「Chief」→「大哥」或「司機大哥」；司機回「boss」→「老闆」 |
 | secret sauce | 獨門祕訣 | 一般詞 | ch25 | 秘密醬汁 | |
 | Entropy is always in the eye of the beholder | 熵，永遠存乎觀者之眼 | 一般詞 | ch25 | - | 澤化用 beauty is in the eye of the beholder；與 ch12「一切都是熵」呼應。中文要短、像格言 |
-| Man was not made for categories | 人不是為分類而生 | 一般詞 | ch25 | - | 韋爾多語，化用馬可福音 2:27「安息日是為人設立的，人不是為安息日設立的」。全句建議：「人不是為了分類而生，分類是為了人而設。」不要加註出處 |
+| Man was not made for categories | 人不是為了分類而生 | 一般詞 | ch25 | - | 韋爾多語，化用馬可福音 2:27「安息日是為人設立的，人不是為安息日設立的」。全句建議：「人不是為了分類而生，分類是為了人而設。」不要加註出處 |
+| sentry | 哨戒 | 一般詞 | ch29 | - | 軍事用語：sentry units（ch29）→哨戒部隊；sentries（ch30）→哨戒人員。不可譯「哨兵」——「哨兵」是掌舵會 Sentinel 的定案譯名（第三階段新增） |
 | grown, not forged | 是長出來的，不是鍛造出來的 | 一般詞 | ch29 | - | 白談 AI 模型；下一句「They don't have walls, they have immune systems.」→它們沒有城牆，只有免疫系統。ch32 韋爾多說的 distributed immune systems→分散式免疫系統，呼應此句 |
 | magical snake with a deadly stare | 有致命凝視的魔蛇 | 一般詞 | ch29 | - | 澤的比喻（近似蛇怪巴西利斯克），原文沒點名就不要補名字 |
 | DOG | 狗 | 一般詞 | ch30 | - | 貼在無人機上的大字「**DOG**」→「**狗**」，粗體照原文。維瑞迪亞的文字全書都譯成中文，這裡比照；讓北極 AI 以為維瑞迪亞無人機是狗 |
@@ -457,7 +461,7 @@
 | lightfeet | 光呎 | 自創詞 | ch32 | 光腳 | lightfoot 的複數，見 ch09 lightfoot |
 | Dzegoban numerals | 保留原文 | 自創詞 | ch27 | - | 由 ch27 的倒數推得的哲戈語數字：pa＝1、le＝2、shi＝3、fo＝4、mu＝5、ha＝6、ze＝7、bi＝8、so＝9、gu＝0（pa gu＝10、mu gu＝50）。倒數與報數一律保留拼音，只翻原文附的釋義。本列只作說明，check.py 不比對 |
 | MU GU GEI HUI ZIU FA | MU GU GEI HUI ZIU FA | 自創詞 | ch27 | - | 「五十拍後開始」，澤模仿明盤台播報員；白搶先喊 LE MU GEI HUI ZIU FA（二十五）；齊聲倒數「PA GU ... SO ... BI ... ZE ... HA ... MU ... FO ... SHI ... LE ... PA ... HUI ZIU FA!」全部保留。ch26 小寫 mu gu gei tau fa＝五十拍後開戰（原文自附釋義 Battle starts in fifty ticks）；ch26 fi le gei tau fa、ch29 fi le gei fa（一百拍後開始）同樣保留 |
-| jie fe hen dzi | jie fe hen dzi | 自創詞 | ch30 | - | 德盧因信末的哲戈語，原文無釋義，不要自行解釋 |
+| jie fe hen dzi | jie fe hen dzi | 自創詞 | ch04 | - | 哲戈語，保留拼音。ch04 汾傳來這句，原文下一段即寫「Wish you luck」（祝你好運），等於原文已給釋義；ch30 德盧因信末再次出現，照樣保留拼音，不另加解釋 |
 | mi fu zo de tei ka ciu pin | mi fu zo de tei ka ciu pin | 自創詞 | ch31 | - | 德盧因引的古詩，保留拼音；原文釋義 when I am defeated, I feel like I won→「被打敗時，我覺得自己贏了」 |
 | dze kai lin pan | dze kai lin pan | 自創詞 | ch32 | - | 哲戈語「菜飯」（Vegetable and rice）；韋爾多逐字硬翻 green plant line bread→「綠色植物線麵包」，保留生硬感（參見 Containing inside the green）。Gladias 點餐整句 dia jie fe kai ja cu dze kai lin pan 保留 |
 | Veridia ba fau gie | Veridia ba fau gie | 自創詞 | ch26 | - | 韋爾多把「Dze go ba fau gie」改成維瑞迪亞版（這次沒有換錯字，對照 ch10 賽菈的 'fun'），保留拼音，原文無釋義就不補 |
