@@ -459,6 +459,9 @@
 | critical governance studies | 批判治理研究 | 一般詞 | ch02 | - | 汾說要到大學才會教的科目 |
 | zui fia kun zun | zui fia kun zun | 自創詞 | ch02 | - | 洪民街招牌，保留拼音；英文釋義 Underground safe place→「地下安全處」 |
 | pa jan li sun zo zai gau fe pa jan | pa jan li sun zo zai gau fe pa jan | 自創詞 | ch02 | - | DU 校訓（含下半句 go li sun zo bai gau fe go），保留拼音；英文釋義→「一人學習，使一人自由。一國學習，使一國偉大。」 |
+| rotate one eighty if three | 逢三轉一百八十度 | 自創詞 | ch04 | - | 明盤台的規則變體名稱：「the 'rotate one eighty if three' rule」→「『逢三轉一百八十度』規則」 |
+| po so dze go ban de sia | po so dze go ban de sia | 自創詞 | ch04 | - | 汾那本班順派小冊子的標題，保留拼音；英文釋義 the conception of Dzegoban version nine→「哲戈語第九版構想」 |
+| team Zau | Zau 隊 | 自創詞 | ch04 | - | 明盤台分隊名，保留拼音：team Zau→Zau 隊（澤、白）、team Ja→Ja 隊（潘、札） |
 
 ## SVG 標籤建議譯法（ch17 圖譜募資圖，不列入比對）
 
