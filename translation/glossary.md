@@ -431,6 +431,7 @@
 | dun | dun | 自創詞 | ch15 | - | 哲戈語裝置畫面欄位（澤手持裝置的「收件人」欄），保留拼音；同理 be（送出按鈕）保留。參見 Dzegoban romanization |
 | jie mo kai tu jie hei ja ma | jie mo kai tu jie hei ja ma | 自創詞 | ch14 | - | 哲戈餐廳機器人的招呼語，保留拼音（小寫、問號照原文）；白用裝可愛的聲音模仿它 |
 | FI LE GEI TAU FA | FI LE GEI TAU FA | 自創詞 | ch14 | - | 明盤台開局倒數（全大寫哲戈語），連同 MU GU GEI TAU FA、PA GU、TAU FA 全部保留原文 |
+| jan jo san sia | jan jo san sia | 自創詞 | ch18 | - | 白給 Gladias 看的哲戈古詩（六行），保留拼音；英文釋義由白說出→「人應該做夢。一個人做夢，就不怕痛。十萬人做十萬個夢，痛就怕他們。」 |
 | kai ja | kai ja | 自創詞 | ch17 | - | 哲戈語「茶」，字面「植物水」（plant water）；ja＝水。保留拼音，照譯英文釋義 |
 | mo fan | mo fan | 自創詞 | ch19 | - | 哲戈語「吃飯的房間」＝餐廳；min＝機器、jan＝人、min jan＝機器人、kun gau＝保全（安全）。畫面上的哲戈語保留，Gladias 的猜測照譯 |
 | river horse | 河馬 | 一般詞 | ch19 | 河之馬 | 圖書館門邊的圖；中文「河馬」字面正好是 river horse |
