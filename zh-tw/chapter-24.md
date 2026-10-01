@@ -2,7 +2,7 @@
 
 <div class="dateline chapter-open"><hr class="rule"/><span class="txt"><span class="place">哲戈，帕佛蓋都</span><span class="sep">·</span><span class="date">3724 年霧季 27 日</span></span></div>
 
-格拉迪亞斯看了看手錶。時間剛到兩萬。跟賽菈通完電話後，他整夜都沒睡。他試著睡了兩次，每次躺了二十分鐘就放棄了。
+格拉迪亞斯看了看手錶。時間剛到 20,000。跟賽菈通完電話後，他整夜都沒睡。他試著睡了兩次，每次躺了二十分鐘就放棄了。
 
 他深愛的四個孩子裡，有三個現在都以這樣或那樣的方式落在北極人手裡。知道這件事，他怎麼也睡不著。
 

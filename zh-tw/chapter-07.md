@@ -29,7 +29,7 @@
 </div>
 </td>
 </tr><tr><td>
-<button> 確定 </button>
+<button> 選定 </button>
 </td></tr></tbody>
 </table></div>
 
