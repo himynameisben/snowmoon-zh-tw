@@ -183,8 +183,19 @@ Reviewer 必須看到同一份英文原文、原始初譯、editor 的完整輸�
 6. 更新 `translation/literary-edit/progress.md`，並在
    `translation/literary-edit/notes/chapter-NN.md` 記錄：範圍、重要裁決、已接受的 reviewer issue、
    所有補畫面的位置、尚待人工決定的問題與 check 結果。
+7. 把改寫幅度最大的段落、所有補畫面與待決事項，連同和 `zh-tw-v1/` 的對照交給使用者，進入人工校稿。
 
-一章只有在所有 chunk 與接縫修改都通過 reviewer、沒有未解決 flag，而且機械檢查通過後，才能標成「已完成」。
+一章只有在所有 chunk 與接縫修改都通過 reviewer、待決事項經使用者裁定，而且機械檢查通過後，
+「文學編輯」才能標成「已完成」；此時同步把 README 進度表的「版本」改成 **v2**。
+
+## 人工校稿
+
+v2 ＝ AI 文學編輯＋人工校稿，兩者同時進行：
+
+- 使用者裁定主 Agent 整理的待決事項，並通讀全章，直接修改 `zh-tw/`（裝置畫面改 `zh-tw/devices/` 再跑
+  `render_devices.py N`）；改完跑 `check.py chapter N`。
+- 人工修改是最終決定，不需送 reviewer；涉及譯名時仍依 CLAUDE.md 先改 bible 再全書替換。
+- `progress.md` 與 README 的「人工校稿」欄：開始校稿標 `進行中`，使用者確認通讀完標 `已完成`。
 
 ## 不能由 chunk editor 自行決定的事
 
