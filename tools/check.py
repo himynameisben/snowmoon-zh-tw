@@ -17,6 +17,9 @@
 - 段數不同時：改用「錨點對齊」（第二輪文學編輯允許在段群內拆段、合段）。
   錨點＝標題、HTML 區塊、分隔線、引言（>）、清單；錨點的種類、順序、HTML 標籤必須與原文一致。
   兩個錨點之間的散文段構成一個「段群」，段群內段數可以不同，但原文有內容的段群譯文不可為空。
+
+裝置畫面以圖片呈現的章節（tools/render_devices.py）：譯文裡是 <img>，HTML 原稿在 zh-tw/devices/；
+比對時改讀原稿。
 """
 
 import argparse
@@ -32,6 +35,8 @@ TR = ROOT / "translation"
 NOTES = TR / "notes"
 QA = TR / "qa"
 CONSISTENCY = TR / "consistency"
+DEVICES = ZH / "devices"
+ASSETS = ROOT / "assets"
 BIBLE = [TR / "glossary.md", TR / "characters.md", TR / "worldbuilding.md"]
 
 CJK = re.compile(r"[㐀-鿿豈-﫿]")
@@ -50,6 +55,7 @@ MAINLAND = [
     "服務器", "內存", "硬盤", "人工智能", "設置", "芯片", "激光", "短信", "打印",
     "水平線以上", "沖他", "沖她", "高鐵站台", "質量很好", "視屏",
 ]
+DEVICE_IMG = re.compile(r'<img src="\.\./assets/devices/(ch\d{2}-\d{2})\.png"')
 PLACEHOLDER = re.compile(r"TODO|TBD|待譯|<!--\s*CONTINUE|\[\[|\]\]|XXX")
 
 
@@ -84,6 +90,15 @@ def kind(b: str) -> str:
     if re.match(r"([-*+]|\d+\.)\s", s):
         return "list"
     return "prose"
+
+
+def resolve(b: str) -> str:
+    """裝置畫面圖片區塊 → 它的 HTML 原稿（zh-tw/devices/）；其他區塊原樣傳回。原稿不存在時傳回原區塊。"""
+    m = DEVICE_IMG.search(b)
+    if not m:
+        return b
+    src = DEVICES / f"{m.group(1)}.html"
+    return src.read_text(encoding="utf-8").strip() if src.exists() else b
 
 
 def plain(b: str) -> str:
@@ -174,9 +189,16 @@ def check_chapter(n: int) -> tuple[list[str], list[str], dict]:
                 break
         return errors, warns, stats
 
+    for m in DEVICE_IMG.finditer(zh_text):
+        did = m.group(1)
+        if not (DEVICES / f"{did}.html").exists():
+            errors.append(f"裝置畫面原稿不存在：zh-tw/devices/{did}.html")
+        if not (ASSETS / "devices" / f"{did}.png").exists():
+            errors.append(f"裝置畫面圖片不存在：assets/devices/{did}.png（跑 render_devices.py {n}）")
+
     total_en = total_zh = 0
     for u in units:
-        i, e, z = u["label"], u["en"], u["zh"]
+        i, e, z = u["label"], u["en"], resolve(u["zh"])
         ke, kz = u["kind"], u.get("zkind", u["kind"])
         if mode == "para":
             kz = kind(z)
@@ -294,7 +316,7 @@ def show_pair(n: int, label: str, e: str, z: str | None):
     print(f"[{n}] {label}{tag}")
     print(f"EN: {plain(e) if k == 'html' else e}")
     if z is not None:
-        print(f"ZH: {plain(z) if k == 'html' else z}")
+        print(f"ZH: {plain(resolve(z)) if k == 'html' else z}")
     print()
 
 

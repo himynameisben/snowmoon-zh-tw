@@ -119,7 +119,7 @@ def cmd_packet(a):
         parts.append("<draft>\n" + "\n".join(f"--- {u['id']} ---\n{u['zh']}" for u in ed) + "\n</draft>")
     if fixed:
         parts.append("<fixed_in_range>\n範圍內的 HTML 區塊、分隔線、標題；只供理解，不可改、不要輸出：\n" + "\n\n".join(
-            f"[{u['id']}]\nEN: {short(u['en'])}\nZH: {short(u['zh'])}" for u in fixed) + "\n</fixed_in_range>")
+            f"[{u['id']}]\nEN: {short(u['en'])}\nZH: {short(check.resolve(u['zh']))}" for u in fixed) + "\n</fixed_in_range>")
     def ctx(rng):
         return "\n\n".join(f"[ch{a.n:02d}-p{i:03d}]\nEN: {short(en_b[i - 1])}" for i in rng)
     parts.append("<context_before>\n只供理解，不可改（原文；譯文請看前一個 chunk）\n" + ctx(range(max(1, lo - 2), lo)) + "\n</context_before>")

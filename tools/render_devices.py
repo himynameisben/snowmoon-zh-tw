@@ -1,0 +1,94 @@
+# /// script
+# requires-python = ">=3.11"
+# dependencies = ["playwright"]
+# ///
+"""把譯文裡的裝置畫面（class="device-view" 的 HTML 區塊）轉成圖片，讓一般 Markdown viewer 也能看到原站的樣子。
+
+GitHub 等 Markdown viewer 會拿掉 <style>、<input>、<button>、inline SVG，裝置畫面因此和原站差很多。
+做法：
+- 譯好的 HTML 原稿存在 zh-tw/devices/chNN-KK.html（KK 為本章第幾個裝置畫面），這是唯一要編輯的地方。
+- 章節檔裡的區塊換成置中的 <img>，alt 是畫面的全部文字（可搜尋、可朗讀）。
+- 圖片用原站 original/html/chapter-1.html 的 CSS、以系統 Chrome 渲染，存在 assets/devices/chNN-KK.png（2 倍解析度）。
+- check.py 比對錨點時會改讀 devices/ 的原稿，所以 HTML 標籤仍須與原文一字不差。
+
+用法：
+  uv run tools/render_devices.py N [N ...]    第一次：抽出本章裝置畫面的 HTML、換成圖片；之後：依原稿重新產圖與 alt
+"""
+
+import html
+import importlib.util
+import re
+import sys
+from pathlib import Path
+
+from playwright.sync_api import sync_playwright
+
+ROOT = Path(__file__).resolve().parent.parent
+_spec = importlib.util.spec_from_file_location("check", ROOT / "tools" / "check.py")
+check = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(check)
+
+IMG_DIR = ROOT / "assets" / "devices"
+EXTRA_CSS = """
+.device-view, .device-view button { font-family: 'Courier New', 'PingFang TC', 'Noto Sans TC', 'Heiti TC', monospace; }
+body { background: transparent; display: block; }
+.document-page { background: transparent; box-shadow: none; padding: 0; min-height: 0; }
+"""
+
+
+def site_css() -> str:
+    text = (ROOT / "original" / "html" / "chapter-1.html").read_text(encoding="utf-8")
+    return re.search(r"<style>(.*?)</style>", text, re.S).group(1) + EXTRA_CSS
+
+
+def img_block(did: str, alt: str, width: int) -> str:
+    return (f'<p align="center"><img src="../assets/devices/{did}.png" '
+            f'alt="{html.escape(alt, quote=True)}" width="{width}"></p>')
+
+
+def render(n: int, page, css: str) -> int:
+    path = check.zh_path(n)
+    bs = check.blocks(path.read_text(encoding="utf-8"))
+    check.DEVICES.mkdir(parents=True, exist_ok=True)
+    IMG_DIR.mkdir(parents=True, exist_ok=True)
+    k = 0
+    for i, b in enumerate(bs):
+        m = check.DEVICE_IMG.search(b)
+        if m:
+            did = m.group(1)
+            src = (check.DEVICES / f"{did}.html").read_text(encoding="utf-8").strip()
+        elif check.kind(b) == "html" and 'class="device-view' in b:
+            did = f"ch{n:02d}-{k + 1:02d}"
+            src = b.strip()
+            (check.DEVICES / f"{did}.html").write_text(src + "\n", encoding="utf-8")
+        else:
+            continue
+        k += 1
+        page.set_content(f"<html><head><meta charset='utf-8'><style>{css}</style></head>"
+                         f"<body><div class='document-page'>{src}</div></body></html>")
+        el = page.locator(".device-view").first
+        el.screenshot(path=str(IMG_DIR / f"{did}.png"), omit_background=True)
+        width = round(el.bounding_box()["width"])
+        bs[i] = img_block(did, check.plain(src), width)
+    path.write_text("\n\n".join(bs) + "\n", encoding="utf-8")
+    return k
+
+
+def main() -> int:
+    ns = [int(x) for x in sys.argv[1:]]
+    if not ns:
+        print(__doc__)
+        return 1
+    css = site_css()
+    with sync_playwright() as p:
+        browser = p.chromium.launch(channel="chrome")
+        # 寬度 1200 才會套用原站桌面版規則（窄裝置畫面占版面一半）
+        page = browser.new_page(device_scale_factor=2, viewport={"width": 1200, "height": 800})
+        for n in ns:
+            print(f"第 {n} 章：{render(n, page, css)} 個裝置畫面")
+        browser.close()
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

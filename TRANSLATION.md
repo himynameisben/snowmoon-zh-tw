@@ -22,6 +22,7 @@ original/            原站下載的 HTML，保持原樣不修改
 source/en/           由 original/ 轉出的英文原文 Markdown，作為翻譯底稿
   chapter-01.md … chapter-32.md
 zh-tw/               台灣繁體中文譯文，永遠是每章目前最好的版本（與 source/en/ 依錨點對齊）
+zh-tw/devices/       裝置畫面的 HTML 原稿（已轉圖的章節；目前第 1 章），章節檔裡以圖片呈現
 zh-tw-v1/            v1：初譯定稿快照（commit 060e9ee、tag zh-tw-v1），凍結不修改，供對照
 translation/         翻譯基準文件與過程紀錄
   style-guide.md     翻譯風格指南（含正反例）
@@ -41,10 +42,12 @@ translation/         翻譯基準文件與過程紀錄
                      總指揮的流程 prompt
 assets/
   cover.webp         封面圖（AI 生成，PNG 原稿轉 WebP q90）
+  devices/           裝置畫面圖片（render_devices.py 產生，勿手改）
 tools/
   html2md.py         original/ → source/en/ 的轉檔腳本
   check.py           譯文結構檢查、進度、英中對照、術語掃描
   literary_edit.py   第二輪文學編輯：切 chunk、產生資料包、驗證 editor 輸出（含用詞差異表）、套用
+  render_devices.py  裝置畫面 HTML → 圖片（用原站 CSS 與系統 Chrome 渲染），讓 Markdown viewer 也看得到原站樣式
 ```
 
 ## 翻譯流程

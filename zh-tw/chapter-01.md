@@ -54,29 +54,7 @@
 
 沿著隔音牆走沒多久，他的手持裝置就震動了。
 
-<div class="device-view narrow-device-view"><table>
-<thead>
-<tr>
-<th>投票：巴德拉街 1103 號</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>翡翠 AI 摘要：五層樓公寓大樓。藍灰色。</td>
-</tr>
-<tr>
-<td>
-<input style="width:100%" type="range"/>
-<div style="display: flex; justify-content: space-between; width:100%">
-<span>-5</span>
-<span>0</span>
-<span>5</span>
-</div>
-</td>
-</tr><tr><td>
-<button> 選定 </button>
-</td></tr></tbody>
-</table></div>
+<p align="center"><img src="../assets/devices/ch01-01.png" alt="投票：巴德拉街 1103 號 翡翠 AI 摘要：五層樓公寓大樓。藍灰色。 -5 0 5 選定" width="318"></p>
 
 格拉迪亞斯馬上就明白要他做什麼。身為維瑞迪亞公民，他經由密碼學抽籤被隨機選中，要替這棟建築投票：他有多喜歡它？
 
@@ -90,31 +68,7 @@
 
 為了找點靈感，他揮了一下手持裝置，看看附近*其他*幾棟建築都繳多少土地稅率。先看他要投票的這一棟。
 
-<div class="device-view narrow-device-view"><table>
-<thead>
-<tr>
-<th colspan="2">巴德拉街 1103 號</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>基本土地稅：</td>
-<td>1.00%</td>
-</tr>
-<tr>
-<td>美觀稅：</td>
-<td>0.18%</td>
-</tr>
-<tr>
-<td>其他規準稅：</td>
-<td>0.33%</td>
-</tr>
-<tr>
-<td>土地稅合計：</td>
-<td>1.51%</td>
-</tr>
-</tbody>
-</table></div>
+<p align="center"><img src="../assets/devices/ch01-02.png" alt="巴德拉街 1103 號 基本土地稅： 1.00% 美觀稅： 0.18% 其他規準稅： 0.33% 土地稅合計： 1.51%" width="318"></p>
 
 接著他轉向左邊，用手持裝置拉近畫面，對準最先找到的幾棟真正與眾不同的建築。
 
@@ -130,31 +84,7 @@
 
 他查了一下它的稅。
 
-<div class="device-view narrow-device-view"><table>
-<thead>
-<tr>
-<th colspan="2">清丘大道 980 號</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>基本土地稅：</td>
-<td>1.00%</td>
-</tr>
-<tr>
-<td>美觀稅：</td>
-<td>0.59%</td>
-</tr>
-<tr>
-<td>其他規準稅：</td>
-<td>0.30%</td>
-</tr>
-<tr>
-<td>土地稅合計：</td>
-<td>1.89%</td>
-</tr>
-</tbody>
-</table></div>
+<p align="center"><img src="../assets/devices/ch01-03.png" alt="清丘大道 980 號 基本土地稅： 1.00% 美觀稅： 0.59% 其他規準稅： 0.30% 土地稅合計： 1.89%" width="318"></p>
 
 應得的，格拉迪亞斯心想。
 
@@ -162,29 +92,7 @@
 
 格拉迪亞斯猛然把心思拉回任務上。他要投票的，是正前方那棟藍灰相間的建築。他又看了一次介面。
 
-<div class="device-view narrow-device-view"><table>
-<thead>
-<tr>
-<th>投票：巴德拉街 1103 號</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>翡翠 AI 摘要：五層樓公寓大樓。藍灰色。</td>
-</tr>
-<tr>
-<td>
-<input style="width:100%" type="range"/>
-<div style="display: flex; justify-content: space-between; width:100%">
-<span>-5</span>
-<span>0</span>
-<span>5</span>
-</div>
-</td>
-</tr><tr><td>
-<button> 選定 </button>
-</td></tr></tbody>
-</table></div>
+<p align="center"><img src="../assets/devices/ch01-04.png" alt="投票：巴德拉街 1103 號 翡翠 AI 摘要：五層樓公寓大樓。藍灰色。 -5 0 5 選定" width="318"></p>
 
 他想起來了，這是平方投票。系統會自動校正他的評分尺度：他所有的票都會被平移、拉伸或壓縮，直到平均值是零、平方的平均值是一。
 
@@ -242,43 +150,7 @@
 
 不過說到底，他來這裡，為的是一件完全不同的事。他看了看手持裝置上的這條規準：
 
-<div class="device-view wide-device-view"><h3>基本摘要</h3>
-<table>
-<thead>
-<tr>
-<th>級別</th>
-<th>標準</th>
-<th>稅率</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><ul><li>內容強烈提倡下列兩項以上：個人成長、科學與技術教育、善待他人、健康的家庭關係、良好的衝突解決方式、公民責任</li><li>不符合任何第 4–5 級標準</li></ul></td> <td>0%</td>
-</tr>
-<tr>
-<td>2</td>
-<td><ul><li>內容輕度提倡下列一項以上：個人成長、科學與技術教育、善待他人、健康的家庭關係、良好的衝突解決方式、公民責任</li><li>不符合任何第 4–5 級標準</li></ul></td> <td>10%</td>
-</tr>
-<tr>
-<td>3</td>
-<td><ul><li>內容不符合任何第 4–5 級標準</li></ul></td> <td>20%</td>
-</tr>
-<tr>
-<td>4</td>
-<td><ul><li>內容輕度提倡下列一項以上：暴力、目無法紀的行為、使用不建議物質、賭博或高風險投資、過度炫富、不良的衝突解決方式、宗教或族群仇恨</li></ul></td> <td>30%</td>
-</tr>
-<tr>
-<td>5</td>
-<td><ul><li>內容強烈提倡下列兩項以上：暴力、目無法紀的行為、使用不建議物質、賭博或高風險投資、過度炫富、不良的衝突解決方式、宗教或族群仇恨</li></ul></td> <td>40%</td>
-</tr>
-</tbody>
-</table>
-<div><b> 來自維瑞迪亞國家平方募資與圖譜募資的收入，稅率提高為 2.5 倍。 </b></div><br/>
-<div>
-<button> 查看相關前例 </button>
-<button> 返回 </button>
-</div></div>
+<p align="center"><img src="../assets/devices/ch01-05.png" alt="基本摘要 級別 標準 稅率 1 內容強烈提倡下列兩項以上：個人成長、科學與技術教育、善待他人、健康的家庭關係、良好的衝突解決方式、公民責任 不符合任何第 4–5 級標準 0% 2 內容輕度提倡下列一項以上：個人成長、科學與技術教育、善待他人、健康的家庭關係、良好的衝突解決方式、公民責任 不符合任何第 4–5 級標準 10% 3 內容不符合任何第 4–5 級標準 20% 4 內容輕度提倡下列一項以上：暴力、目無法紀的行為、使用不建議物質、賭博或高風險投資、過度炫富、不良的衝突解決方式、宗教或族群仇恨 30% 5 內容強烈提倡下列兩項以上：暴力、目無法紀的行為、使用不建議物質、賭博或高風險投資、過度炫富、不良的衝突解決方式、宗教或族群仇恨 40% 來自維瑞迪亞國家平方募資與圖譜募資的收入，稅率提高為 2.5 倍。 查看相關前例 返回" width="635"></p>
 
 在維瑞迪亞，真正被嚴格*禁止*的事少之又少。
 
@@ -314,105 +186,7 @@ Dreadknot 想的話，大可讓每一首歌都高喊「北極皇帝萬歲」、�
 
 格拉迪亞斯低頭看向手持裝置。
 
-<div class="device-view wide-device-view"><svg height="214" viewbox="0 0 400 214" width="400" xmlns="http://www.w3.org/2000/svg">
-<rect fill="#348" height="214" width="400"></rect>
-<text fill="#cef" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" x="200" y="18">預測分數</text>
-<rect fill="none" height="156" stroke="#67e" stroke-width="1" width="300" x="40" y="30"></rect>
-<line opacity="0.45" stroke="#67e" stroke-width="0.4" x1="40" x2="340" y1="186" y2="186"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="end" x="35" y="189">50</text>
-<line opacity="0.45" stroke="#67e" stroke-width="0.4" x1="40" x2="340" y1="154.8" y2="154.8"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="end" x="35" y="157.8">60</text>
-<line opacity="0.45" stroke="#67e" stroke-width="0.4" x1="40" x2="340" y1="123.6" y2="123.6"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="end" x="35" y="126.6">70</text>
-<line opacity="0.45" stroke="#67e" stroke-width="0.4" x1="40" x2="340" y1="92.4" y2="92.4"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="end" x="35" y="95.4">80</text>
-<line opacity="0.45" stroke="#67e" stroke-width="0.4" x1="40" x2="340" y1="61.2" y2="61.2"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="end" x="35" y="64.2">90</text>
-<line opacity="0.45" stroke="#67e" stroke-width="0.4" x1="40" x2="340" y1="30" y2="30"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="end" x="35" y="33">100</text>
-<line opacity="0.9" stroke="#cef" stroke-dasharray="4 3" stroke-width="1" x1="40" x2="340" y1="61.2" y2="61.2"></line>
-<line stroke="#cef" stroke-width="1" x1="40.0" x2="40.0" y1="186" y2="191"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="40.0" y="202">3722</text>
-<line stroke="#cef" stroke-width="1" x1="167.1" x2="167.1" y1="186" y2="191"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="167.1" y="202">3723</text>
-<line stroke="#cef" stroke-width="1" x1="294.1" x2="294.1" y1="186" y2="191"></line>
-<text fill="#cef" font-family="sans-serif" font-size="9" text-anchor="middle" x="294.1" y="202">3724</text>
-<path d="M 40.0,95.3 L 67.4,95.3" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 67.4,95.3 L 67.4,97.6" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 67.4,97.6 L 98.8,97.6" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 98.8,97.6 L 98.8,89.6" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 98.8,89.6 L 122.4,89.6" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 122.4,89.6 L 122.4,78.4" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 122.4,78.4 L 123.4,78.4" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 123.4,78.4 L 123.4,73.6" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 123.4,73.6 L 132.9,73.6" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 132.9,73.6 L 132.9,71.9" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 132.9,71.9 L 138.7,71.9" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 138.7,71.9 L 138.7,67.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 138.7,67.2 L 146.7,67.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 146.7,67.2 L 146.7,70.7" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 146.7,70.7 L 148.2,70.7" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 148.2,70.7 L 148.2,72.7" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 148.2,72.7 L 150.4,72.7" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 150.4,72.7 L 150.4,71.4" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 150.4,71.4 L 156.7,71.4" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 156.7,71.4 L 156.7,62.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 156.7,62.2 L 159.3,62.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 159.3,62.2 L 159.3,66.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 159.3,66.2 L 165.7,66.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 165.7,66.2 L 165.7,69.1" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 165.7,69.1 L 166.0,69.1" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 166.0,69.1 L 166.0,71.0" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 166.0,71.0 L 166.9,71.0" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 166.9,71.0 L 166.9,73.0" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 166.9,73.0 L 180.0,73.0" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 180.0,73.0 L 180.0,69.1" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 180.0,69.1 L 185.8,69.1" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 185.8,69.1 L 185.8,61.5" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 185.8,61.5 L 193.4,61.5" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 193.4,61.5 L 193.4,61.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 193.4,61.2 L 193.4,50.4" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 193.4,50.4 L 207.5,50.4" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 207.5,50.4 L 207.5,55.0" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 207.5,55.0 L 212.2,55.0" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 212.2,55.0 L 212.2,54.6" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 212.2,54.6 L 212.8,54.6" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 212.8,54.6 L 212.8,55.4" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 212.8,55.4 L 229.0,55.4" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 229.0,55.4 L 229.0,55.2" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 229.0,55.2 L 238.4,55.2" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 238.4,55.2 L 238.4,50.8" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 238.4,50.8 L 249.8,50.8" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 249.8,50.8 L 249.8,52.9" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 249.8,52.9 L 260.0,52.9" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 260.0,52.9 L 260.0,55.7" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 260.0,55.7 L 266.1,55.7" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 266.1,55.7 L 266.1,61.2" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 266.1,61.2 L 266.1,64.3" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 266.1,64.3 L 267.8,64.3" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 267.8,64.3 L 267.8,61.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 267.8,61.2 L 267.8,57.1" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 267.8,57.1 L 297.4,57.1" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 297.4,57.1 L 297.4,50.7" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 297.4,50.7 L 298.0,50.7" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 298.0,50.7 L 298.0,61.2" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 298.0,61.2 L 298.0,66.8" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 298.0,66.8 L 302.2,66.8" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 302.2,66.8 L 302.2,66.8" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 302.2,66.8 L 308.6,66.8" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 308.6,66.8 L 308.6,61.2" fill="none" stroke="#67e" stroke-width="1.6"></path>
-<path d="M 308.6,61.2 L 308.6,51.5" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 308.6,51.5 L 317.3,51.5" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 317.3,51.5 L 317.3,50.3" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 317.3,50.3 L 322.2,50.3" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 322.2,50.3 L 322.2,55.9" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 322.2,55.9 L 331.2,55.9" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 331.2,55.9 L 331.2,53.0" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 331.2,53.0 L 340.0,53.0" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<path d="M 340.0,53.0 L 340.0,55.0" fill="none" stroke="#3fd" stroke-width="1.6"></path>
-<circle cx="340.0" cy="55" fill="#cef" r="4"></circle>
-<text fill="#cef" font-family="sans-serif" font-size="14" font-weight="bold" x="349.0" y="59">92</text>
-</svg></div>
+<p align="center"><img src="../assets/devices/ch01-06.png" alt="預測分數 50 60 70 80 90 100 3722 3723 3724 92" width="635"></p>
 
 見習生做過的稽核，有一成會交給哨兵再做一次。見習生的分數，看的就是這一成：他們的票能把哨兵的判斷預測得多準。
 
@@ -592,42 +366,8 @@ Dreadknot 想的話，大可讓每一首歌都高喊「北極皇帝萬歲」、�
 
 就在這時，格拉迪亞斯的手持裝置震了一下。他拿出來看，螢幕上只跳出一則通知。
 
-<div class="device-view wide-device-view"><table>
-<thead>
-<tr>
-<th>寄件者</th>
-<th></th>
-<th>訊息</th>
-<th>時間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="width: 25%"><center>匿名 <br/><br/> <div style="border: 1px solid; border-radius: 5px; padding: 5px">信譽分數 ≥ 200 已驗證 <b style="font-size: 150%; color: #8f8">✓</b></div></center></td>
-<td style="width: 6%; text-align:center">→</td>
-<td><span style="color:oklch(0.7 0.15 13.333333333333332)">我在演唱會上看到你了，我知道你是掌舵會的人。</span></td>
-<td>60259</td>
-</tr>
-</tbody>
-</table></div>
+<p align="center"><img src="../assets/devices/ch01-07.png" alt="寄件者 訊息 時間 匿名 信譽分數 ≥ 200 已驗證 ✓ → 我在演唱會上看到你了，我知道你是掌舵會的人。 60259" width="635"></p>
 
 幾拍之後，又來了一則：
 
-<div class="device-view wide-device-view"><table>
-<thead>
-<tr>
-<th>寄件者</th>
-<th></th>
-<th>訊息</th>
-<th>時間</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="width: 25%"><center>匿名 <br/><br/> <div style="border: 1px solid; border-radius: 5px; padding: 5px">信譽分數 ≥ 200 已驗證 <b style="font-size: 150%; color: #8f8">✓</b></div></center></td>
-<td style="width: 6%; text-align:center">→</td>
-<td><span style="color:oklch(0.7 0.15 13.333333333333332)">別擔心，我不打算為了賞金去檢舉你。不過，我確實有件事想拜託你。</span></td>
-<td>60266</td>
-</tr>
-</tbody>
-</table></div>
+<p align="center"><img src="../assets/devices/ch01-08.png" alt="寄件者 訊息 時間 匿名 信譽分數 ≥ 200 已驗證 ✓ → 別擔心，我不打算為了賞金去檢舉你。不過，我確實有件事想拜託你。 60266" width="635"></p>
