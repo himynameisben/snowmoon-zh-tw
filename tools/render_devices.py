@@ -33,6 +33,8 @@ EXTRA_CSS = """
 .device-view, .device-view button { font-family: 'Courier New', 'PingFang TC', 'Noto Sans TC', 'Heiti TC', monospace; }
 body { background: transparent; display: block; }
 .document-page { background: transparent; box-shadow: none; padding: 0; min-height: 0; }
+/* 原站的 overflow-wrap: anywhere 會讓表格自動排版把窄欄壓到一字寬，數字（60259、10%）被切斷；break-word 只在真的放不下時才斷 */
+.device-view th, .device-view td { overflow-wrap: break-word; }
 """
 
 
