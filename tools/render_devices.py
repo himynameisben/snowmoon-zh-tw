@@ -35,6 +35,10 @@ body { background: transparent; display: block; }
 .document-page { background: transparent; box-shadow: none; padding: 0; min-height: 0; }
 /* 原站的 overflow-wrap: anywhere 會讓表格自動排版把窄欄壓到一字寬，數字（60259、10%）被切斷；break-word 只在真的放不下時才斷 */
 .device-view th, .device-view td { overflow-wrap: break-word; }
+/* 中文表頭與按鈕字（寄件者、級別、了解更多）在窄欄會被拆成一字一行；英文原文是單字不會斷。
+   表頭用 keep-all：中文詞不從中間斷，有空格處（MUN GUI 1842）照樣可換行；按鈕字短，直接不換行 */
+.device-view th { word-break: keep-all; }
+.device-view button { white-space: nowrap; }
 """
 
 
