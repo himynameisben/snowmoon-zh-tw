@@ -43,7 +43,9 @@ translation/         翻譯基準文件與過程紀錄
 .claude/
   agents/            各階段 subagent 的完整 prompt
   skills/snowmoon-translate/SKILL.md
-                     總指揮的流程 prompt
+                     第一輪總指揮的流程 prompt
+  skills/snowmoon-literary-edit/SKILL.md
+                     第二輪逐章文學編輯（含裝置畫面轉圖）的流程 prompt
 assets/
   cover.webp         封面圖（AI 生成，PNG 原稿轉 WebP q90）
   devices/           裝置畫面圖片（render_devices.py 產生，勿手改）
@@ -79,13 +81,15 @@ tools/
 v1 讀得懂，但句子骨架、資訊順序與分段都照著英文走。第二輪的原則是「內容忠實 100%，句法與分段忠實 0%」：
 段落改以錨點對齊（標題、HTML 區塊、分隔線、引言、清單不動），錨點之間可以拆段、合段、重寫。
 
+在 Claude Code 裡打 `/snowmoon-literary-edit N`（不帶 N 就接著做下一章「待處理」的章節）開始一章。
 每一章的步驟（完整規格見 `translation/literary-edit/WORKFLOW.md`）：
 
 1. 主 Agent 建立本章 bible 摘錄，用 `tools/literary_edit.py` 切 chunk、產生資料包。
 2. Literary Editor（Opus）重寫，可補少量感官畫面；不同 chunk 平行。
 3. `literary_edit.py validate --report` 驗證結構並產生用詞差異表。
 4. Faithfulness Reviewer（Opus）對照英文逐項審查，只回 PASS 或 ISSUE；有實質修正就再審到 PASS。
-5. 主 Agent 套用、做 chunk 接縫通讀、跑 `check.py chapter N`，把 editor flag 與待決事項整理給使用者。
+5. 主 Agent 套用、做 chunk 接縫通讀、跑 `check.py chapter N`，再用 `render_devices.py N` 把本章裝置畫面轉成圖片並逐張檢查，
+   把 editor flag 與待決事項整理給使用者。
 6. **人工校稿**：使用者裁定待決事項並通讀全章，直接修改 `zh-tw/`；改完跑 `check.py chapter N`。
 7. 更新 `translation/literary-edit/progress.md` 與 README 的進度表。
 

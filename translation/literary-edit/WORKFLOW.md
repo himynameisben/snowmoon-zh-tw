@@ -179,6 +179,10 @@ Reviewer 必須看到同一份英文原文、原始初譯、editor 的完整輸�
 2. 不得以「全章更流暢」為由把資訊搬過錨點。
 3. 接縫通讀若造成任何實質修改，將受影響段落連同上下文重新送 Faithfulness Reviewer，直到 PASS。
 4. 執行 `uv run tools/check.py chapter N`；所有 ERROR 必須歸零，WARN 要逐項判斷。
+   本章若有裝置畫面（`class="device-view"`）且尚未轉圖：先對照正文與原文檢查畫面文字（數字、名稱、譯名），
+   再跑 `uv run tools/render_devices.py N` 轉成圖片，逐張看 `assets/devices/chNN-*.png` 有無斷字、數字被切、溢出
+   （排版問題改 `render_devices.py` 的 CSS，改了就重跑所有已轉圖章節），然後再跑一次 `check.py chapter N`，
+   並把 CLAUDE.md、AGENTS.md、TRANSLATION.md 的「已轉圖的章節（目前第 1–X 章）」更新。
 5. 執行相關術語搜尋；若動過 bible，再跑 `uv run tools/check.py terms` 並檢查全書影響。
 6. 更新 `translation/literary-edit/progress.md`，並在
    `translation/literary-edit/notes/chapter-NN.md` 記錄：範圍、重要裁決、已接受的 reviewer issue、
