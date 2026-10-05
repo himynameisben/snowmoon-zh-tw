@@ -58,7 +58,7 @@
 
 手錶一震。澤收到了一則通知。
 
-<p align="center"><img src="../assets/devices/ch02-01.png" alt="MUN GUI 1842 TEI 70000 ✓" width="318"></p>
+<p align="center"><img src="../assets/devices/ch02/ch02-01.png" alt="MUN GUI 1842 TEI 70000 ✓" width="318"></p>
 
 澤停下腳步，把手錶亮給汾看。
 
@@ -134,7 +134,7 @@
 
 講師按了一下手錶上的按鈕，前方牆面出現一張投影片：
 
-<p align="center"><img src="../assets/devices/ch02-02.png" alt="x 10 6 [0, 999999] x 10 6 [0, 99]" width="635"></p>
+<p align="center"><img src="../assets/devices/ch02/ch02-02.png" alt="x 10 6 [0, 999999] x 10 6 [0, 99]" width="635"></p>
 
 「想像我們有兩罐氣體，每罐都有一百萬個分子。不過，左邊那罐的分子跑得快得多。假設左邊那罐的速度可以用六位數來表示，從零到 999,999；右邊那罐的分子跑得很慢，所以速度可以用六位數表示，從零到 99。」
 
@@ -166,7 +166,7 @@
 
 講師又點了一下手錶。下一張投影片。
 
-<p align="center"><img src="../assets/devices/ch02-03.png" alt="x 2 * 10 6 [0, 499999]" width="635"></p>
+<p align="center"><img src="../assets/devices/ch02/ch02-03.png" alt="x 2 * 10 6 [0, 499999]" width="635"></p>
 
 「那麼，這個新系統裡我們不知道的資訊，要用幾位數字才寫得下？」
 

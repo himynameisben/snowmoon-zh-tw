@@ -48,7 +48,7 @@ translation/         翻譯基準文件與過程紀錄
                      第二輪逐章文學編輯（含裝置畫面轉圖）的流程 prompt
 assets/
   cover.webp         封面圖（AI 生成，PNG 原稿轉 WebP q90）
-  devices/           裝置畫面圖片（render_devices.py 產生，勿手改）
+  devices/chNN/      裝置畫面圖片，每章一個資料夾（render_devices.py 產生，勿手改）
 tools/
   html2md.py         original/ → source/en/ 的轉檔腳本
   check.py           譯文結構檢查、進度、英中對照、術語掃描

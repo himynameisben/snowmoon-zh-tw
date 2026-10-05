@@ -53,9 +53,9 @@ description: Snowmoon 第二輪（v2）逐章文學編輯的總指揮：照 tran
    不一致時先查英文原文：原文本身就不一致（例如第三章 55／61）是原文問題，列入待決事項，不自行修正；
    是譯文造成的就修裝置畫面的文字（只改文字，HTML 標籤一字不動）。
 3. `uv run tools/render_devices.py N`：第一次執行會把區塊抽成 `zh-tw/devices/chNN-KK.html`，章節檔裡換成
-   `<img>`（alt＝畫面全文），圖片寫到 `assets/devices/chNN-KK.png`（含 SVG `<animate>` 動畫的畫面寫成循環 GIF `chNN-KK.gif`，逐格固定截圖、重跑結果不變；發布平台只收圖片，GIF 也算圖片）。之後要改文字一律改 `zh-tw/devices/`，
+   `<img>`（alt＝畫面全文），圖片寫到 `assets/devices/chNN/chNN-KK.png`（含 SVG `<animate>` 動畫的畫面寫成循環 GIF `chNN-KK.gif`，逐格固定截圖、重跑結果不變；發布平台只收圖片，GIF 也算圖片）。之後要改文字一律改 `zh-tw/devices/`，
    再重跑同一指令，不要直接改章節檔裡的 `<img>`。
-4. 用 Read 工具逐張看 `assets/devices/chNN-*`，檢查（GIF 只會看到第一格；要看動畫內容，另外抽幾格出來看）：
+4. 用 Read 工具逐張看 `assets/devices/chNN/`，檢查（GIF 只會看到第一格；要看動畫內容，另外抽幾格出來看）：
    - 中文是否被拆成一字一行（表頭、按鈕、窄欄）
    - 數字或代碼是否被切斷（60259、10%、MUN GUI 1842）
    - 有沒有溢出、截掉、空白圖
@@ -75,7 +75,7 @@ description: Snowmoon 第二輪（v2）逐章文學編輯的總指揮：照 tran
 - 改寫幅度最大的幾個段群：v2 全文與 `zh-tw-v1/chapter-NN.md` 對應段落並列，附英文要點。
 - 所有補畫面：位置、補了什麼、reviewer 判定。
 - 待決事項：每項給出選項與你的建議，一項一項讓使用者裁定。
-- 裝置畫面：轉了幾張、有沒有改 CSS、有沒有影響舊圖；請使用者看過 `assets/devices/chNN-*`。
+- 裝置畫面：轉了幾張、有沒有改 CSS、有沒有影響舊圖；請使用者看過 `assets/devices/chNN/`。
 - `check.py chapter N` 結果（段數 v1 → v2）。
 
 ## 5. 使用者裁定之後

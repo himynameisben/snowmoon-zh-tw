@@ -49,7 +49,7 @@
 
 ## 裝置畫面轉圖
 
-- 3 個裝置畫面：`zh-tw/devices/ch05-01.html`～`ch05-03.html`，圖片 `assets/devices/ch05-01.png`～`ch05-03.png`。
+- 3 個裝置畫面：`zh-tw/devices/ch05-01.html`～`ch05-03.html`，圖片 `assets/devices/ch05/ch05-01.png`～`ch05-03.png`。
   01 飯店入住（信譽分數 ≥ 100、付款成功、房號 714、715、716）、02 共同治理地圖（SVG，15 個城市名與連線權重）、03 格拉迪亞斯來電（58130）。
 - 畫面文字和英文原文、正文、bible 地名表一致，未修改。03 表頭沿用第三章訊息畫面的「寄件者／訊息／時間」。
 - 排版修正（改 `tools/render_devices.py`）：

@@ -8,7 +8,7 @@ GitHub 等 Markdown viewer 會拿掉 <style>、<input>、<button>、inline SVG�
 做法：
 - 譯好的 HTML 原稿存在 zh-tw/devices/chNN-KK.html（KK 為本章第幾個裝置畫面），這是唯一要編輯的地方。
 - 章節檔裡的區塊換成置中的 <img>，alt 是畫面的全部文字（可搜尋、可朗讀）。
-- 圖片用原站 original/html/chapter-1.html 的 CSS、以系統 Chrome 渲染，存在 assets/devices/chNN-KK.png（2 倍解析度）。
+- 圖片用原站 original/html/chapter-1.html 的 CSS、以系統 Chrome 渲染，存在 assets/devices/chNN/chNN-KK.png（每章一個資料夾，2 倍解析度）。
 - 含 SVG 動畫（<animate>）的畫面輸出成循環 GIF（chNN-KK.gif）：在每個 keyTimes 變化點暫停截一格，
   所以重跑結果固定，不會隨截圖時機變動。發布平台只收圖片，動態 GIF 仍算圖片。
 - check.py 比對錨點時會改讀 devices/ 的原稿，所以 HTML 標籤仍須與原文一字不差。
@@ -56,7 +56,7 @@ def site_css() -> str:
 
 
 def img_block(did: str, ext: str, alt: str, width: int) -> str:
-    return (f'<p align="center"><img src="../assets/devices/{did}.{ext}" '
+    return (f'<p align="center"><img src="../assets/devices/{did[:4]}/{did}.{ext}" '
             f'alt="{html.escape(alt, quote=True)}" width="{width}"></p>')
 
 
@@ -96,7 +96,8 @@ def render(n: int, page, css: str) -> int:
     path = check.zh_path(n)
     bs = check.blocks(path.read_text(encoding="utf-8"))
     check.DEVICES.mkdir(parents=True, exist_ok=True)
-    IMG_DIR.mkdir(parents=True, exist_ok=True)
+    img_dir = IMG_DIR / f"ch{n:02d}"
+    img_dir.mkdir(parents=True, exist_ok=True)
     k = 0
     for i, b in enumerate(bs):
         m = check.DEVICE_IMG.search(b)
@@ -129,10 +130,10 @@ def render(n: int, page, css: str) -> int:
         }""")
         ext ="gif" if "<animate" in src else "png"
         if ext == "gif":
-            save_gif(el, src, IMG_DIR / f"{did}.gif")
+            save_gif(el, src, img_dir / f"{did}.gif")
         else:
-            el.screenshot(path=str(IMG_DIR / f"{did}.png"), omit_background=True)
-        (IMG_DIR / f"{did}.{'png' if ext == 'gif' else 'gif'}").unlink(missing_ok=True)
+            el.screenshot(path=str(img_dir / f"{did}.png"), omit_background=True)
+        (img_dir / f"{did}.{'png' if ext == 'gif' else 'gif'}").unlink(missing_ok=True)
         width = round(el.bounding_box()["width"])
         bs[i] = img_block(did, ext, check.plain(src), width)
     path.write_text("\n\n".join(bs) + "\n", encoding="utf-8")

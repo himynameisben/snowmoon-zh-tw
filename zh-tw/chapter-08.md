@@ -4,7 +4,7 @@
 
 走在街上時，格拉迪亞斯的手錶震了一下。
 
-<p align="center"><img src="../assets/devices/ch08-01.png" alt="寄件者 訊息 時間 賽菈 → ［5 張圖片］ 34125" width="334"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-01.png" alt="寄件者 訊息 時間 賽菈 → ［5 張圖片］ 34125" width="334"></p>
 
 他打開手持裝置，想把照片看清楚一點。
 
@@ -26,7 +26,7 @@
 
 手錶又震了一下，螢幕上跳出一則通知。
 
-<p align="center"><img src="../assets/devices/ch08-02.png" alt="寄件者 訊息 時間 莫夫 → 別忘了，你今天的考驗不只考知識，還要讓參議員們喜歡你。 34576" width="426"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-02.png" alt="寄件者 訊息 時間 莫夫 → 別忘了，你今天的考驗不只考知識，還要讓參議員們喜歡你。 34576" width="426"></p>
 
 格拉迪亞斯嘆了口氣，手臂垂回腰側。
 
@@ -214,7 +214,7 @@
 
 參議員們開始按下按鈕。每投一票，就響起一種不同的聲音。幾拍之內，所有的票都投完了。格拉迪亞斯望向房間上方的螢幕。
 
-<p align="center"><img src="../assets/devices/ch08-03.png" alt="認可投票：格拉迪亞斯" width="318"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-03.png" alt="認可投票：格拉迪亞斯" width="318"></p>
 
 「哇，」主席叫了一聲。「剛好十比十。照認可投票的規則，決定票由我來投。所以，我投……」
 
@@ -222,7 +222,7 @@
 
 「贊成。」
 
-<p align="center"><img src="../assets/devices/ch08-04.png" alt="認可投票：格拉迪亞斯" width="318"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-04.png" alt="認可投票：格拉迪亞斯" width="318"></p>
 
 「格拉迪亞斯，歡迎加入掌舵會。」
 
@@ -230,7 +230,7 @@
 
 一走出建築，格拉迪亞斯就看了手錶。入會聽證還在進行時，手錶就一直震個不停，聲音不小，他始終沒去理它。
 
-<p align="center"><img src="../assets/devices/ch08-05.png" alt="寄件者 訊息 時間 維爾 → 抱歉打擾你，是莉莉的事。她公民課的考試剛剛不及格。我想她見到你和賽菈會好一點。 45183" width="458"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-05.png" alt="寄件者 訊息 時間 維爾 → 抱歉打擾你，是莉莉的事。她公民課的考試剛剛不及格。我想她見到你和賽菈會好一點。 45183" width="458"></p>
 
 賽菈還在伊普塔克。格拉迪亞斯心想，只能自己去了。
 
@@ -240,7 +240,7 @@
 
 「我馬上到。」他對著頸帶低聲說。這一次同樣不是因為他當下多想保護隱私，只是到了這時候，低聲說話已經成了習慣。「幫我叫平常那份吃的。我剛結束入會聽證，等一下會很餓。」
 
-<p align="center"><img src="../assets/devices/ch08-06.png" alt="寄件者 訊息 時間 維爾 → 你至少有通過吧？ 45501" width="362"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-06.png" alt="寄件者 訊息 時間 維爾 → 你至少有通過吧？ 45501" width="362"></p>
 
 「過了。不過是驚險過關。」
 
@@ -276,7 +276,7 @@
 
 格拉迪亞斯的手錶震了一下。
 
-<p align="center"><img src="../assets/devices/ch08-07.png" alt="寄件者 訊息 時間 莫夫 → ［請求通話］ 59063" width="330"></p>
+<p align="center"><img src="../assets/devices/ch08/ch08-07.png" alt="寄件者 訊息 時間 莫夫 → ［請求通話］ 59063" width="330"></p>
 
 他接了起來。
 

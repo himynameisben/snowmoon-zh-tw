@@ -10,7 +10,7 @@
 
 機器人的螢幕換成了評分畫面。
 
-<p align="center"><img src="../assets/devices/ch07-01.png" alt="mo da cu ja li hen ma? 🙁 2 🙁 😐 😊 😊 2 選定" width="635"></p>
+<p align="center"><img src="../assets/devices/ch07/ch07-01.png" alt="mo da cu ja li hen ma? 🙁 2 🙁 😐 😊 😊 2 選定" width="635"></p>
 
 澤想了一會兒，把滑桿往右拉到大約四分之三的地方。
 
@@ -178,7 +178,7 @@ AI 已經造了四艘，但他打算完全自己做一艘。這樣白就看不�
 
 觀眾都在大螢幕上看著。
 
-<p align="center"><img src="../assets/devices/ch07-02.png" alt="" width="318"></p>
+<p align="center"><img src="../assets/devices/ch07/ch07-02.png" alt="" width="318"></p>
 
 第一個干預回合到了。前線附近的結構，澤交給 AI 去調整。反正那裡改了什麼，白馬上就看得到。
 
@@ -212,7 +212,7 @@ AI 已經造了四艘，但他打算完全自己做一艘。這樣白就看不�
 
 那是一個陷阱。澤不偏不倚，一頭栽了進去。
 
-<p align="center"><img src="../assets/devices/ch07-03.png" alt="" width="318"></p>
+<p align="center"><img src="../assets/devices/ch07/ch07-03.png" alt="" width="318"></p>
 
 澤讓穆一陣失望。十七個印記對二十二個，她想。他怎麼會掉進那種陷阱，自己又拿不出半點有意思的招？
 
@@ -248,7 +248,7 @@ AI 開始細細推演，著手實作那座工廠，還有那架滑翔機。
 
 再過五百回合，棋盤上已經大不相同。
 
-<p align="center"><img src="../assets/devices/ch07-04.png" alt="" width="318"></p>
+<p align="center"><img src="../assets/devices/ch07/ch07-04.png" alt="" width="318"></p>
 
 這時，穆凝重的搖頭和汾滿臉的恐懼，都已經變成了興奮的笑容。
 
@@ -262,7 +262,7 @@ AI 開始細細推演，著手實作那座工廠，還有那架滑翔機。
 
 五百回合後，雙方的攻擊都見了分曉：澤的成功了，白的失敗了。白唯一像樣的戰果，是摧毀了澤西南基地裡剩下的印記。
 
-<p align="center"><img src="../assets/devices/ch07-05.png" alt="" width="318"></p>
+<p align="center"><img src="../assets/devices/ch07/ch07-05.png" alt="" width="318"></p>
 
 十二比六。
 

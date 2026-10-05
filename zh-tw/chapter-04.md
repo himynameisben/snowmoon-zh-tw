@@ -10,7 +10,7 @@
 
 澤用手敲了敲桌子。汾的目光一下子收了回來，又專心盯著澤手持裝置上的一段動畫。
 
-<p align="center"><img src="../assets/devices/ch04-01.gif" alt="" width="318"></p>
+<p align="center"><img src="../assets/devices/ch04/ch04-01.gif" alt="" width="318"></p>
 
 「好，那我現在看的是什麼？」汾問。
 
@@ -44,11 +44,11 @@
 
 汾看向機器人身上的螢幕。
 
-<p align="center"><img src="../assets/devices/ch04-02.png" alt="ja kai bau lui" width="318"></p>
+<p align="center"><img src="../assets/devices/ch04/ch04-02.png" alt="ja kai bau lui" width="318"></p>
 
 他先點「kai」，再點一張沙拉的圖片。
 
-<p align="center"><img src="../assets/devices/ch04-03.png" alt="dze liu lei kai fun gai lie jau jin lie kai can jia dzu lie" width="318"></p>
+<p align="center"><img src="../assets/devices/ch04/ch04-03.png" alt="dze liu lei kai fun gai lie jau jin lie kai can jia dzu lie" width="318"></p>
 
 汾又點了一下，再按了幾個按鈕，點了茶。機器人嗶一聲表示收到，接著滑到澤那邊，靠近了些。
 
@@ -124,7 +124,7 @@
 
 澤的手錶震了一下。
 
-<p align="center"><img src="../assets/devices/ch04-04.png" alt="zan tie tei Fin → jie fe hen dzi 74160" width="318"></p>
+<p align="center"><img src="../assets/devices/ch04/ch04-04.png" alt="zan tie tei Fin → jie fe hen dzi 74160" width="318"></p>
 
 「祝你好運。」這是汾傳來的訊息。
 
@@ -264,7 +264,7 @@
 
 觀眾看的是螢幕上一張又大又詳細的全場地圖。汾在遠處用手持裝置看，看到的是摘要畫面，上面標出每位選手印記的位置：
 
-<p align="center"><img src="../assets/devices/ch04-05.png" alt="+ + + + + + + +" width="635"></p>
+<p align="center"><img src="../assets/devices/ch04/ch04-05.png" alt="+ + + + + + + +" width="635"></p>
 
 澤繼續攻擊札。只要徹底除掉兩名對手中的一個，他想，干預回合裡的動作就少了一半。干預回合向來是最大的變數。
 
@@ -324,7 +324,7 @@
 
 兩百回合後，札剩下的印記全數被消滅。
 
-<p align="center"><img src="../assets/devices/ch04-06.png" alt="" width="318"></p>
+<p align="center"><img src="../assets/devices/ch04/ch04-06.png" alt="" width="318"></p>
 
 論印記總數，十五比十五，剛好打平。可是札已經出局了。干預回合裡，澤和白聯手能做的事，是潘一個人的兩倍。
 
