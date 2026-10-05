@@ -82,7 +82,7 @@
 
 等走到聽不見他們說話的地方，沒多久，手錶就震動了。
 
-<p align="center"><img src="../assets/devices/ch03-02.png" alt="寄件者 訊息 時間 賽菈 → ［4 張圖片］ 44029" width="318"></p>
+<p align="center"><img src="../assets/devices/ch03-02.png" alt="寄件者 訊息 時間 賽菈 → ［4 張圖片］ 44029" width="334"></p>
 
 他看了看。
 

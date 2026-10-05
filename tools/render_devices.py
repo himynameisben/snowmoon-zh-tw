@@ -115,7 +115,12 @@ def render(n: int, page, css: str) -> int:
         el = page.locator(".device-view").first
         # 中文詞不斷字後，少數窄畫面的表格會比畫面寬（ch05-03：格拉迪亞斯＋［來電中］＋時間），
         # 原站會出現橫向捲軸、截圖則被切掉；只有真的溢出的畫面才放寬到剛好容得下，其他畫面不受影響
+        # 訊息欄整格只有一個［……］狀態標示時（［5 張圖片］、［請求通話］）不換行：
+        # keep-all 仍會在數字後的空格斷開，變成「［5」／「張圖片］」；放不下時交給下面的放寬處理
         el.evaluate("""e => {
+            for (const s of e.querySelectorAll('td > span')) {
+                if (/^［[^］]*］$/.test(s.textContent.trim())) s.style.whiteSpace = 'nowrap';
+            }
             for (let i = 0; i < 5; i++) {
                 const over = e.scrollWidth - e.clientWidth;
                 if (over <= 0) break;

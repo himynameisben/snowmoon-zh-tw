@@ -26,7 +26,7 @@ original/            原站下載的 HTML，保持原樣不修改
 source/en/           由 original/ 轉出的英文原文 Markdown，作為翻譯底稿
   chapter-01.md … chapter-32.md
 zh-tw/               台灣繁體中文譯文，永遠是每章目前最好的版本（與 source/en/ 依錨點對齊）
-zh-tw/devices/       裝置畫面的 HTML 原稿（已轉圖的章節；目前第 1–7 章），章節檔裡以圖片呈現
+zh-tw/devices/       裝置畫面的 HTML 原稿（已轉圖的章節；目前第 1–8 章），章節檔裡以圖片呈現
 zh-tw-v1/            v1：初譯定稿快照（commit 060e9ee、tag zh-tw-v1），凍結不修改，供對照
 translation/         翻譯基準文件與過程紀錄
   style-guide.md     翻譯風格指南（含正反例）
@@ -141,7 +141,7 @@ uv run tools/render_devices.py 1      # 第 1 章裝置畫面 HTML 原稿 → �
 - 一般內文（段落、強調、引言、清單、分隔線）轉為 GitHub Flavored Markdown。
 - 下列結構化區塊**原樣保留為 HTML**，翻譯時只改標籤內的文字，不要動標籤與屬性：
   - `<div class="dateline …">`：章節開頭或場景切換的地點與日期
-  - `<div class="device-view …">`：書中裝置畫面（表格、按鈕、選單等）。已轉圖的章節（目前第 1–7 章）
+  - `<div class="device-view …">`：書中裝置畫面（表格、按鈕、選單等）。已轉圖的章節（目前第 1–8 章）
     在譯文裡是 `<img>`，HTML 原稿放在 `zh-tw/devices/`
   - `<svg>`：圖表，其中 `<text>` 的內容需要翻譯
 - 原站的導覽列、深色模式按鈕與 script 已移除，之後重建網站時由模板補回。
