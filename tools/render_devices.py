@@ -43,6 +43,10 @@ body { background: transparent; display: block; }
    表頭用 keep-all：中文詞不從中間斷，有空格處（MUN GUI 1842）照樣可換行；按鈕字短，直接不換行 */
 .device-view th { word-break: keep-all; }
 .device-view button { white-space: nowrap; }
+/* 寄件者欄的人名（格拉迪亞斯）與訊息欄的短標示（［來電中］）同樣不從詞中間斷；有空格或標點處照樣可換行 */
+.device-view td > center, .device-view td > span { word-break: keep-all; }
+/* SVG 的 <text> 是照英文地名排的位置，中文字較寬，靠右的地名（伊普塔克）會超出 viewBox 被切掉 */
+.device-view svg { overflow: visible; }
 """
 
 
@@ -109,7 +113,16 @@ def render(n: int, page, css: str) -> int:
         page.set_content(f"<html><head><meta charset='utf-8'><style>{css}</style></head>"
                          f"<body><div class='document-page'>{src}</div></body></html>")
         el = page.locator(".device-view").first
-        ext = "gif" if "<animate" in src else "png"
+        # 中文詞不斷字後，少數窄畫面的表格會比畫面寬（ch05-03：格拉迪亞斯＋［來電中］＋時間），
+        # 原站會出現橫向捲軸、截圖則被切掉；只有真的溢出的畫面才放寬到剛好容得下，其他畫面不受影響
+        el.evaluate("""e => {
+            for (let i = 0; i < 5; i++) {
+                const over = e.scrollWidth - e.clientWidth;
+                if (over <= 0) break;
+                e.style.maxWidth = (e.getBoundingClientRect().width + over) + 'px';
+            }
+        }""")
+        ext ="gif" if "<animate" in src else "png"
         if ext == "gif":
             save_gif(el, src, IMG_DIR / f"{did}.gif")
         else:
