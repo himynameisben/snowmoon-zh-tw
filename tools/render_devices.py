@@ -146,9 +146,10 @@ def render(n: int, page, css: str) -> int:
         # 中文詞不斷字後，少數窄畫面的表格會比畫面寬（ch05-03：格拉迪亞斯＋［來電中］＋時間），
         # 原站會出現橫向捲軸、截圖則被切掉；只有真的溢出的畫面才放寬到剛好容得下，其他畫面不受影響
         # 訊息欄整格只有一個［……］狀態標示時（［5 張圖片］、［請求通話］）不換行：
-        # keep-all 仍會在數字後的空格斷開，變成「［5」／「張圖片］」；放不下時交給下面的放寬處理
+        # keep-all 仍會在數字後的空格斷開，變成「［5」／「張圖片］」；放不下時交給下面的放寬處理。
+        # 標示可能包在 <span> 裡（ch08-07），也可能直接寫在 <td> 裡（ch23-02，沒有 keep-all，會拆成「［請求通」／「話］」）
         el.evaluate("""e => {
-            for (const s of e.querySelectorAll('td > span')) {
+            for (const s of e.querySelectorAll('td, td > span')) {
                 if (/^［[^］]*］$/.test(s.textContent.trim())) s.style.whiteSpace = 'nowrap';
             }
             // SVG 只有在中文文字真的超出 viewBox 時才放開裁切（見 EXTRA_CSS）；其他 SVG 照原站裁切，
