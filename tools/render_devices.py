@@ -9,8 +9,9 @@ GitHub 等 Markdown viewer 會拿掉 <style>、<input>、<button>、inline SVG�
 - 譯好的 HTML 原稿存在 zh-tw/devices/chNN-KK.html（KK 為本章第幾個裝置畫面），這是唯一要編輯的地方。
 - 章節檔裡的區塊換成置中的 <img>，alt 是畫面的全部文字（可搜尋、可朗讀）。
 - 圖片用原站 original/html/chapter-1.html 的 CSS、以系統 Chrome 渲染，存在 assets/devices/chNN/chNN-KK.png（每章一個資料夾，2 倍解析度）。
-- 含 SVG 動畫（<animate>）的畫面輸出成循環 GIF（chNN-KK.gif）：在每個 keyTimes 變化點暫停截一格，
-  所以重跑結果固定，不會隨截圖時機變動。發布平台只收圖片，動態 GIF 仍算圖片。
+- 含 SVG 動畫（<animate>）或 CSS 動畫（style 裡的 animation:，例如 ch19-08 閃爍的游標）的畫面輸出成循環 GIF
+  （chNN-KK.gif）：在每個 keyTimes／keyframe 變化點暫停截一格，所以重跑結果固定，不會隨截圖時機變動。
+  發布平台只收圖片，動態 GIF 仍算圖片。
 - check.py 比對錨點時會改讀 devices/ 的原稿，所以 HTML 標籤仍須與原文一字不差。
 
 用法：
@@ -73,14 +74,41 @@ def change_times(src: str) -> tuple[list[float], float]:
     return sorted(k * dur for k in keys if k < 1), dur
 
 
+def css_change_times(el) -> tuple[list[float], float]:
+    """畫面內 CSS 動畫的所有 keyframe 時間點（秒）與循環長度。只支援全部動畫同一個 duration。"""
+    info = el.evaluate("""e => e.getAnimations({subtree: true}).map(a => ({
+        dur: a.effect.getTiming().duration, offsets: a.effect.getKeyframes().map(k => k.computedOffset)}))""")
+    durs = {a["dur"] for a in info}
+    if len(durs) != 1:
+        raise SystemExit(f"不支援的動畫：duration 不一致 {sorted(durs)}")
+    dur = durs.pop() / 1000
+    keys = {0.0} | {o for a in info for o in a["offsets"]}
+    times = sorted(k * dur for k in keys if k < 1)
+    # CSS keyframe 之間會補間：0%, 49% → 50% 那 10 毫秒是淡出過程，不是一個狀態；短於 50 毫秒的區間不截，時間併給前一格
+    return [t for t, nxt in zip(times, times[1:] + [dur]) if t == 0 or nxt - t >= 0.05], dur
+
+
 def save_gif(el, src: str, path: Path) -> None:
-    times, dur = change_times(src)
+    svg = "<animate" in src
+    times, dur = change_times(src) if svg else css_change_times(el)
     frames = []
     for t in times:
         # 停在變化點之後一點點，discrete 動畫才會顯示新的那一格
-        el.evaluate(f"e => {{ const s = e.querySelector('svg'); s.pauseAnimations(); s.setCurrentTime({t + 0.001}); }}")
+        if svg:
+            el.evaluate(f"e => {{ const s = e.querySelector('svg'); s.pauseAnimations(); s.setCurrentTime({t + 0.001}); }}")
+        else:
+            el.evaluate(f"e => e.getAnimations({{subtree: true}}).forEach(a => {{ a.pause(); a.currentTime = {(t + 0.001) * 1000}; }})")
         frames.append(Image.open(io.BytesIO(el.screenshot(omit_background=True))).convert("RGBA"))
     durations = [round((b - a) * 1000) for a, b in zip(times, times[1:] + [dur])]
+    # 相鄰兩格畫面一樣就併成一格（CSS 的 0%, 49% 這類 keyframe 會多截出一格不變的畫面）
+    merged, merged_d = [frames[0]], [durations[0]]
+    for f, d in zip(frames[1:], durations[1:]):
+        if f.tobytes() == merged[-1].tobytes():
+            merged_d[-1] += d
+        else:
+            merged.append(f)
+            merged_d.append(d)
+    frames, durations = merged, merged_d
     # 共用 32 色調色盤、不抖色：每格各自量化會讓檔案大好幾倍（2 MB → 約 0.3 MB），格線也會閃
     n = 32
     pal = frames[0].convert("RGB").quantize(colors=n, dither=Image.Dither.NONE)
@@ -150,7 +178,7 @@ def render(n: int, page, css: str) -> int:
                 widen();
             }
         }""")
-        ext ="gif" if "<animate" in src else "png"
+        ext = "gif" if "<animate" in src or "animation:" in src else "png"
         if ext == "gif":
             save_gif(el, src, img_dir / f"{did}.gif")
         else:
