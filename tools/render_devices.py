@@ -122,10 +122,21 @@ def render(n: int, page, css: str) -> int:
             for (const s of e.querySelectorAll('td > span')) {
                 if (/^［[^］]*］$/.test(s.textContent.trim())) s.style.whiteSpace = 'nowrap';
             }
-            for (let i = 0; i < 5; i++) {
-                const over = e.scrollWidth - e.clientWidth;
-                if (over <= 0) break;
-                e.style.maxWidth = (e.getBoundingClientRect().width + over) + 'px';
+            const widen = () => {
+                for (let i = 0; i < 5; i++) {
+                    const over = e.scrollWidth - e.clientWidth;
+                    if (over <= 0) break;
+                    e.style.maxWidth = (e.getBoundingClientRect().width + over) + 'px';
+                }
+            };
+            widen();
+            // 放寬到頁面寬度仍放不下（ch15-06：長訊息裡有一整句沒有標點），代表 keep-all 擋住了長句換行；
+            // 只對這種畫面的長訊息（超過 20 字）恢復一般中文斷行，短標示與人名照舊不斷
+            if (e.scrollWidth > e.clientWidth) {
+                for (const s of e.querySelectorAll('td > span')) {
+                    if (s.textContent.trim().length > 20) s.style.wordBreak = 'normal';
+                }
+                widen();
             }
         }""")
         ext ="gif" if "<animate" in src else "png"
