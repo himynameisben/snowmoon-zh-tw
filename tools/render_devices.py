@@ -45,7 +45,8 @@ body { background: transparent; display: block; }
 .device-view button { white-space: nowrap; }
 /* 寄件者欄的人名（格拉迪亞斯）與訊息欄的短標示（［來電中］）同樣不從詞中間斷；有空格或標點處照樣可換行 */
 .device-view td > center, .device-view td > span { word-break: keep-all; }
-/* SVG 的 <text> 是照英文地名排的位置，中文字較寬，靠右的地名（伊普塔克）會超出 viewBox 被切掉 */
+/* SVG 的 <text> 是照英文地名排的位置，中文字較寬，靠右的地名（伊普塔克）會超出 viewBox 被切掉；
+   render() 會把文字沒有超出的 SVG 改回 hidden，維持原站的裁切 */
 .device-view svg { overflow: visible; }
 """
 
@@ -121,6 +122,16 @@ def render(n: int, page, css: str) -> int:
         el.evaluate("""e => {
             for (const s of e.querySelectorAll('td > span')) {
                 if (/^［[^］]*］$/.test(s.textContent.trim())) s.style.whiteSpace = 'nowrap';
+            }
+            // SVG 只有在中文文字真的超出 viewBox 時才放開裁切（見 EXTRA_CSS）；其他 SVG 照原站裁切，
+            // 否則伸向畫面外的連線（ch17-02 圖譜募資的子圖）會穿出底板、一路畫到裝置邊框
+            for (const svg of e.querySelectorAll('svg')) {
+                const r = svg.getBoundingClientRect();
+                const out = [...svg.querySelectorAll('text')].some(t => {
+                    const b = t.getBoundingClientRect();
+                    return b.left < r.left - 0.5 || b.right > r.right + 0.5 || b.top < r.top - 0.5 || b.bottom > r.bottom + 0.5;
+                });
+                if (!out) svg.style.overflow = 'hidden';
             }
             const widen = () => {
                 for (let i = 0; i < 5; i++) {
