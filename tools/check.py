@@ -55,7 +55,7 @@ MAINLAND = [
     "服務器", "內存", "硬盤", "人工智能", "設置", "芯片", "激光", "短信", "打印",
     "水平線以上", "沖他", "沖她", "高鐵站台", "質量很好", "視屏",
 ]
-DEVICE_IMG = re.compile(r'<img src="\.\./assets/devices/(ch\d{2}-\d{2})\.png"')
+DEVICE_IMG = re.compile(r'<img src="\.\./assets/devices/ch\d{2}/(ch\d{2}-\d{2})\.(png|gif)"')
 PLACEHOLDER = re.compile(r"TODO|TBD|待譯|<!--\s*CONTINUE|\[\[|\]\]|XXX")
 
 
@@ -193,8 +193,9 @@ def check_chapter(n: int) -> tuple[list[str], list[str], dict]:
         did = m.group(1)
         if not (DEVICES / f"{did}.html").exists():
             errors.append(f"裝置畫面原稿不存在：zh-tw/devices/{did}.html")
-        if not (ASSETS / "devices" / f"{did}.png").exists():
-            errors.append(f"裝置畫面圖片不存在：assets/devices/{did}.png（跑 render_devices.py {n}）")
+        img = f"{did[:4]}/{did}.{m.group(2)}"
+        if not (ASSETS / "devices" / img).exists():
+            errors.append(f"裝置畫面圖片不存在：assets/devices/{img}（跑 render_devices.py {n}）")
 
     total_en = total_zh = 0
     for u in units:

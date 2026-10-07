@@ -162,8 +162,9 @@ def validate(n: int, path: str):
             errs.append(f"{uid}：引言錨點被拆成 {len(nb)} 段")
         if check.TAG.findall(new) != check.TAG.findall(u["zh"]):
             errs.append(f"{uid}：HTML 標籤改變")
-        if new.count("*") != u["zh"].count("*"):
-            errs.append(f"{uid}：*強調* 數量改變（{u['zh'].count('*')} → {new.count('*')}）")
+        # 和初譯或英文原文一致都算通過：editor 可以補回初譯漏掉的強調（ch07 p108 *that*）
+        if new.count("*") not in (u["zh"].count("*"), u["en"].count("*")):
+            errs.append(f"{uid}：*強調* 數量改變（初譯 {u['zh'].count('*')}、原文 {u['en'].count('*')} → {new.count('*')}）")
         if sorted(re.findall(r"\d+(?:[.,]\d+)?", new)) != sorted(re.findall(r"\d+(?:[.,]\d+)?", u["zh"])):
             errs.append(f"{uid}：阿拉伯數字改變（請人工確認）")
         extra = set(re.findall(r"[A-Za-z]{2,}", new)) - set(re.findall(r"[A-Za-z]{2,}", u["zh"]))

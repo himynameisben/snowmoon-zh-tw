@@ -26,7 +26,7 @@ original/            原站下載的 HTML，保持原樣不修改
 source/en/           由 original/ 轉出的英文原文 Markdown，作為翻譯底稿
   chapter-01.md … chapter-32.md
 zh-tw/               台灣繁體中文譯文，永遠是每章目前最好的版本（與 source/en/ 依錨點對齊）
-zh-tw/devices/       裝置畫面的 HTML 原稿（已轉圖的章節；目前第 1–3 章），章節檔裡以圖片呈現
+zh-tw/devices/       裝置畫面的 HTML 原稿（已轉圖的章節；目前第 1–20、22、23、25–27、29–31 章），章節檔裡以圖片呈現
 zh-tw-v1/            v1：初譯定稿快照（commit 060e9ee、tag zh-tw-v1），凍結不修改，供對照
 translation/         翻譯基準文件與過程紀錄
   style-guide.md     翻譯風格指南（含正反例）
@@ -43,10 +43,12 @@ translation/         翻譯基準文件與過程紀錄
 .claude/
   agents/            各階段 subagent 的完整 prompt
   skills/snowmoon-translate/SKILL.md
-                     總指揮的流程 prompt
+                     第一輪總指揮的流程 prompt
+  skills/snowmoon-literary-edit/SKILL.md
+                     第二輪逐章文學編輯（含裝置畫面轉圖）的流程 prompt
 assets/
   cover.webp         封面圖（AI 生成，PNG 原稿轉 WebP q90）
-  devices/           裝置畫面圖片（render_devices.py 產生，勿手改）
+  devices/chNN/      裝置畫面圖片，每章一個資料夾（render_devices.py 產生，勿手改）
 tools/
   html2md.py         original/ → source/en/ 的轉檔腳本
   check.py           譯文結構檢查、進度、英中對照、術語掃描
@@ -79,13 +81,15 @@ tools/
 v1 讀得懂，但句子骨架、資訊順序與分段都照著英文走。第二輪的原則是「內容忠實 100%，句法與分段忠實 0%」：
 段落改以錨點對齊（標題、HTML 區塊、分隔線、引言、清單不動），錨點之間可以拆段、合段、重寫。
 
+在 Claude Code 裡打 `/snowmoon-literary-edit N`（不帶 N 就接著做下一章「待處理」的章節）開始一章。
 每一章的步驟（完整規格見 `translation/literary-edit/WORKFLOW.md`）：
 
 1. 主 Agent 建立本章 bible 摘錄，用 `tools/literary_edit.py` 切 chunk、產生資料包。
 2. Literary Editor（Opus）重寫，可補少量感官畫面；不同 chunk 平行。
 3. `literary_edit.py validate --report` 驗證結構並產生用詞差異表。
 4. Faithfulness Reviewer（Opus）對照英文逐項審查，只回 PASS 或 ISSUE；有實質修正就再審到 PASS。
-5. 主 Agent 套用、做 chunk 接縫通讀、跑 `check.py chapter N`，把 editor flag 與待決事項整理給使用者。
+5. 主 Agent 套用、做 chunk 接縫通讀、跑 `check.py chapter N`，再用 `render_devices.py N` 把本章裝置畫面轉成圖片並逐張檢查，
+   把 editor flag 與待決事項整理給使用者。
 6. **人工校稿**：使用者裁定待決事項並通讀全章，直接修改 `zh-tw/`；改完跑 `check.py chapter N`。
 7. 更新 `translation/literary-edit/progress.md` 與 README 的進度表。
 
@@ -137,7 +141,7 @@ uv run tools/render_devices.py 1      # 第 1 章裝置畫面 HTML 原稿 → �
 - 一般內文（段落、強調、引言、清單、分隔線）轉為 GitHub Flavored Markdown。
 - 下列結構化區塊**原樣保留為 HTML**，翻譯時只改標籤內的文字，不要動標籤與屬性：
   - `<div class="dateline …">`：章節開頭或場景切換的地點與日期
-  - `<div class="device-view …">`：書中裝置畫面（表格、按鈕、選單等）。已轉圖的章節（目前第 1–3 章）
+  - `<div class="device-view …">`：書中裝置畫面（表格、按鈕、選單等）。已轉圖的章節（目前第 1–20、22、23、25–27、29–31 章）
     在譯文裡是 `<img>`，HTML 原稿放在 `zh-tw/devices/`
   - `<svg>`：圖表，其中 `<text>` 的內容需要翻譯
 - 原站的導覽列、深色模式按鈕與 script 已移除，之後重建網站時由模板補回。
