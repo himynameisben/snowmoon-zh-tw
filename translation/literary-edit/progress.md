@@ -35,7 +35,7 @@ v2 ＝ AI 文學編輯＋人工校稿。這份表是進度的唯一來源；章�
 | 26 | 已完成 | — | v2 正式設定（6 chunk 全 PASS（1 項 MAJOR、2 項 MINOR 修正）、2 處補畫面、1 項使用者裁定；裝置畫面 4 張），見 notes/chapter-26.md | PASS 195/203 |
 | 27 | 已完成 | — | v2 正式設定（4 chunk 全 PASS、無補畫面、無待決事項；裝置畫面 4 張，圓餅圖選項 B 統一為「由議會選出的新領導層」），見 notes/chapter-27.md | PASS 142/149 |
 | 28 | 已完成 | — | v2 正式設定（3 chunk 全 PASS（3 項 MINOR 修正）、無補畫面、無待決事項；無裝置畫面），見 notes/chapter-28.md | PASS 100/101 |
-| 29 | 待處理 | — | - | - |
+| 29 | 已完成 | — | v2 正式設定（5 chunk 全 PASS（3 項 MINOR 修正）、1 處補畫面、無待決事項；裝置畫面 8 張），見 notes/chapter-29.md | PASS 140/157 |
 | 30 | 已完成 | — | v2 正式設定（4 chunk 全 PASS、3 處補畫面、無待決事項；裝置畫面 5 張），見 notes/chapter-30.md | PASS 77/90 |
 | 31 | 已完成 | — | v2 正式設定（2 chunk 全 PASS、2 處補畫面、無待決事項；裝置畫面 1 張），見 notes/chapter-31.md | PASS 95/99 |
 | 32 | 已完成 | — | v2 正式設定（2 chunk 全 PASS、3 處補畫面、無待決事項；無裝置畫面），見 notes/chapter-32.md | PASS 112/117 |
